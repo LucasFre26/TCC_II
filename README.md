@@ -1,4 +1,4 @@
-# TCC Sourcecode
+# Previsão de Carga Computacional de Curto Prazo para Estimativa da Demanda Energética de TI em Datacenters: Um Estudo com o Alibaba Cluster Trace
 
 Aplicacao Python para experimentos de previsao de utilizacao de GPU (V1) e CPU (V2). O repositorio contem o codigo, configuracoes e testes. Os datasets e resultados nao sao versionados.
 
