@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.egg-info/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Datasets, caches and generated experiment outputs
+/data/
+/results/
