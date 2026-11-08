@@ -203,3 +203,9 @@ Reavalia a previsão de CPU do Alibaba v2018 num protocolo cronológico por dia 
 - não apresenta o dia 7 como confirmação independente;
 - não altera `results/v1`, `results/v2`, `results/v2-full` nem `results/v3` (a saída nesses caminhos é recusada);
 - não usa modelo pré-treinado nem `container_usage`.
+
+## Artigo principal
+
+O artigo LaTeX e seus arquivos necessários para compilação estão em [`paper/`](paper/).
+O pacote inclui o PDF atualizado e as figuras citadas no texto. Para regenerar as
+figuras a partir dos resultados, consulte [`paper/README.md`](paper/README.md).
