@@ -1,0 +1,212 @@
+[
+  {
+    "block": "day_3",
+    "horizon_steps": 1,
+    "best_params": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      3.304964176225329,
+      3.365207167431998
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_3",
+    "horizon_steps": 3,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      3.9261779523033433,
+      3.7942545488167605
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_3",
+    "horizon_steps": 6,
+    "best_params": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      3.9126345479249713,
+      3.9500723943508995
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_4",
+    "horizon_steps": 1,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      2.9974979394228414,
+      2.885575191028099
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_4",
+    "horizon_steps": 3,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      3.420998472567828,
+      3.3567993206519895
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_4",
+    "horizon_steps": 6,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      3.468556411792346,
+      3.4165099277356727
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_5",
+    "horizon_steps": 1,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      2.474546899712407,
+      2.4024832143224923
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_5",
+    "horizon_steps": 3,
+    "best_params": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      2.9824865010051513,
+      3.0793605190250375
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_5",
+    "horizon_steps": 6,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      3.53233240707967,
+      3.504390609686895
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_6",
+    "horizon_steps": 1,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      2.120217324439039,
+      2.11406000880113
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_6",
+    "horizon_steps": 3,
+    "best_params": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      2.6062331067460693,
+      2.654727883399053
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_6",
+    "horizon_steps": 6,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      2.9498464695327837,
+      2.8980146227015724
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_7",
+    "horizon_steps": 1,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      2.747534026112878,
+      2.723309824568462
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_7",
+    "horizon_steps": 3,
+    "best_params": {
+      "max_depth": 7,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      3.756483653464026,
+      3.7145347403617146
+    ],
+    "n_machines": 1024
+  },
+  {
+    "block": "day_7",
+    "horizon_steps": 6,
+    "best_params": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.05
+    },
+    "grid_scores": [
+      3.9068442937749044,
+      3.966093413961212
+    ],
+    "n_machines": 1024
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "rule": "soma do MAE interno do DLinear direto, configuração A, nos horizontes diretos",
+  "candidates": [
+    {
+      "window_steps": 36,
+      "feasible": true,
+      "inner_mae_by_horizon": {
+        "1": 2.7933525582874323,
+        "3": 3.5359696459296543,
+        "6": 3.913129422571713
+      },
+      "inner_mae_sum": 10.2424516267888
+    },
+    {
+      "window_steps": 72,
+      "feasible": true,
+      "inner_mae_by_horizon": {
+        "1": 3.102061311058951,
+        "3": 3.7185310184670315,
+        "6": 4.066325091355585
+      },
+      "inner_mae_sum": 10.886917420881568
+    },
+    {
+      "window_steps": 144,
+      "feasible": true,
+      "inner_mae_by_horizon": {
+        "1": 3.4856535395444537,
+        "3": 3.8572154964908023,
+        "6": 3.995826344242243
+      },
+      "inner_mae_sum": 11.3386953802775
+    }
+  ],
+  "chosen_window_steps": 36,
+  "elapsed_seconds": 34.830857425999966
+}

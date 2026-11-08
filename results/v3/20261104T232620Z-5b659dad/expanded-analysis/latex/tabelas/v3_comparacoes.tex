@@ -1,0 +1,29 @@
+\begin{table}[htb]
+\caption{Diferença de MAE no teste (modelo $-$ referência) e IC 95\% por \textit{block bootstrap} (blocos de 1 h, 5.000 reamostragens)}
+\label{tab:v3-comparacoes}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Comparação} & \textbf{5 min} & \textbf{15 min} & \textbf{30 min} \\
+\hline
+XGBoost incremento $\times$ XGBoost (V2) & $+$0{,}02 [$-$0{,}08; 0{,}11] & $+$0{,}09 [$-$0{,}18; 0{,}31] & $+$0{,}17 [$-$0{,}24; 0{,}54] \\
+Kalman (nível local) $\times$ XGBoost (V2) & $+$0{,}20 [$-$0{,}05; 0{,}40] & $+$0{,}55 [$-$0{,}28; 1{,}26] & $+$0{,}66 [$-$0{,}47; 1{,}51] \\
+Kalman + XGBoost $\times$ XGBoost (V2) & $-$0{,}04 [$-$0{,}15; 0{,}05] & $+$0{,}07 [$-$0{,}28; 0{,}37] & $-$0{,}01 [$-$0{,}43; 0{,}35] \\
+DLinear $\times$ XGBoost (V2) & $+$0{,}20 [0{,}01; 0{,}38]* & $+$0{,}61 [0{,}17; 1{,}07]* & $+$0{,}81 [0{,}33; 1{,}27]* \\
+TCN $\times$ XGBoost (V2) & $+$0{,}36 [0{,}12; 0{,}60]* & $+$0{,}86 [0{,}34; 1{,}35]* & $+$1{,}04 [0{,}46; 1{,}59]* \\
+N-BEATSx $\times$ XGBoost (V2) & $+$0{,}74 [0{,}23; 1{,}27]* & $+$1{,}34 [0{,}47; 2{,}13]* & $+$0{,}92 [0{,}24; 1{,}49]* \\
+XGBoost incremento $\times$ Persistência & $-$0{,}26 [$-$0{,}39; $-$0{,}10]* & $-$0{,}75 [$-$1{,}30; $-$0{,}13]* & $-$0{,}83 [$-$1{,}53; 0{,}07] \\
+Kalman (nível local) $\times$ Persistência & $-$0{,}09 [$-$0{,}23; 0{,}05] & $-$0{,}29 [$-$0{,}40; $-$0{,}18]* & $-$0{,}33 [$-$0{,}48; $-$0{,}20]* \\
+Kalman + XGBoost $\times$ Persistência & $-$0{,}33 [$-$0{,}47; $-$0{,}16]* & $-$0{,}78 [$-$1{,}22; $-$0{,}25]* & $-$1{,}01 [$-$1{,}69; $-$0{,}14]* \\
+DLinear $\times$ Persistência & $-$0{,}08 [$-$0{,}25; 0{,}13] & $-$0{,}24 [$-$0{,}70; 0{,}42] & $-$0{,}19 [$-$0{,}95; 0{,}80] \\
+TCN $\times$ Persistência & $+$0{,}08 [$-$0{,}17; 0{,}40] & $+$0{,}01 [$-$0{,}71; 0{,}94] & $+$0{,}05 [$-$1{,}02; 1{,}30] \\
+N-BEATSx $\times$ Persistência & $+$0{,}46 [$-$0{,}05; 1{,}06] & $+$0{,}50 [$-$0{,}70; 1{,}79] & $-$0{,}08 [$-$1{,}35; 1{,}28] \\
+\hline
+\end{tabular}}\\
+\footnotesize * IC 95\% sem zero. Valores negativos favorecem o primeiro modelo.\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{table}

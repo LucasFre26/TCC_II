@@ -1,0 +1,13 @@
+family,hypothesis,scope,horizon_steps,model_a,variant_a,model_b,variant_b,metric,day,n,loss_a,loss_b,mean_diff
+regimes,H3,primary,1,combination,candidate,xgboost_v2,A,erro absoluto,3,288,2.9147342734049104,2.9633732930508034,-0.04863901964589348
+regimes,H3,primary,1,combination,candidate,xgboost_v2,A,erro absoluto,4,288,2.9588926817457755,3.0269818577160814,-0.06808917597030578
+regimes,H3,primary,1,combination,candidate,xgboost_v2,A,erro absoluto,5,288,2.7360443844719793,2.7805915995672486,-0.04454721509526922
+regimes,H3,primary,1,combination,candidate,xgboost_v2,A,erro absoluto,6,288,3.069068663554273,2.9823086407555013,0.08676002279877129
+regimes,H3,primary,3,combination,candidate,xgboost_v2,A,erro absoluto,3,288,3.530355234722813,3.6756807205600888,-0.14532548583727578
+regimes,H3,primary,3,combination,candidate,xgboost_v2,A,erro absoluto,4,288,3.1716708909238367,3.5773405391454784,-0.4056696482216414
+regimes,H3,primary,3,combination,candidate,xgboost_v2,A,erro absoluto,5,288,3.5988505718975654,3.4821586236342337,0.1166919482633322
+regimes,H3,primary,3,combination,candidate,xgboost_v2,A,erro absoluto,6,288,3.7782683993259067,3.850599558044946,-0.07233115871903933
+regimes,H3,primary,6,combination,candidate,xgboost_v2,A,erro absoluto,3,288,3.9193047157679715,3.6802473032489664,0.2390574125190046
+regimes,H3,primary,6,combination,candidate,xgboost_v2,A,erro absoluto,4,288,3.798508943602864,4.198245445335199,-0.3997365017323351
+regimes,H3,primary,6,combination,candidate,xgboost_v2,A,erro absoluto,5,288,3.7882095770249,3.905610318399326,-0.11740074137442555
+regimes,H3,primary,6,combination,candidate,xgboost_v2,A,erro absoluto,6,288,4.165630789384919,4.049457509356805,0.11617328002811338

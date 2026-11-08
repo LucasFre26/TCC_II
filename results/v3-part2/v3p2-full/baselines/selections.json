@@ -1,0 +1,1307 @@
+[
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.1008789548036595,
+      3.121151468445736,
+      3.3164064872351684,
+      3.371874614161509,
+      3.096366598735084,
+      3.112160995015737,
+      3.2551426175084925,
+      3.294743657875279
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 6,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 5,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.633717955562636,
+      2.6998515983778706,
+      2.6444526332354243,
+      2.7226685909245747,
+      2.6593926226584252,
+      2.820994007035776,
+      2.5251108343184083,
+      2.5952085106611515
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.1958787668971818,
+      2.2845654002033715,
+      2.344978271409908,
+      2.438679879172961,
+      2.19833969914947,
+      2.3067082776852894,
+      2.4106787971079453,
+      2.4980264261619665
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.1959475839014324,
+      2.207320073056675,
+      2.2494918500696333,
+      2.2666223511881904,
+      2.169735793648103,
+      2.219285743815592,
+      2.224505279687564,
+      2.3346876832521515
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.5200952336155984,
+      2.5143485974361512,
+      2.5771094507360823,
+      2.631000349860033,
+      2.494300159587147,
+      2.553539483956767,
+      2.58746699339962,
+      2.622331881560984
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.0541106578140127,
+      3.2000718201624454,
+      3.132510105568412,
+      3.3236171157774517,
+      3.123005703756111,
+      3.2269231431597367,
+      3.3300183230918416,
+      3.4298057800931447
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 2,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.700323959194696,
+      2.718119270954462,
+      2.6233781764685387,
+      2.705194156306506,
+      2.6992245483191843,
+      2.751176676104806,
+      2.6801898996405358,
+      2.753899397003302
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.1671995838327427,
+      2.2831839855998957,
+      2.265458300479078,
+      2.4200530338902424,
+      2.250549936827861,
+      2.3656786659640736,
+      2.292733084504045,
+      2.425003805715356
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.1143694533905255,
+      2.2222679952861473,
+      2.288590242106455,
+      2.357388159078353,
+      2.1172863641035704,
+      2.294649197401197,
+      2.1945309157200317,
+      2.3843059997585403
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 1,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 300
+    },
+    "grid_scores": [
+      2.5334341880000792,
+      2.5151889802366685,
+      2.542372994810749,
+      2.6355178692630514,
+      2.5182544637287814,
+      2.575072537484452,
+      2.5591610879386897,
+      2.687386756360613
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      3.0886796626625204
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      2.7684677306760874
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      2.180715473864103
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      2.0674166876465025
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      2.6384379886320968
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.0625280921090314,
+      3.1250276628951323,
+      3.193216215941491,
+      3.403030230965332,
+      3.1371485598919744,
+      3.3589749723296687,
+      3.3829135697434243,
+      3.555174969678814
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 6,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 5,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.6746349010655974,
+      2.698070455692019,
+      2.607142219891082,
+      2.6171321287834384,
+      2.7073498108220897,
+      2.708802523550332,
+      2.6005509181685404,
+      2.6431361136094758
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.145175922419943,
+      2.330464832094755,
+      2.257271827130587,
+      2.4332792197032855,
+      2.271730068089186,
+      2.4593285752853116,
+      2.2681401568017323,
+      2.438995796356362
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 2,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.068013953710556,
+      2.086277409534561,
+      2.063990106775553,
+      2.1031862087678714,
+      2.0841858841866943,
+      2.1178926603897628,
+      2.155568038806205,
+      2.3134789444637827
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 1,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.573429270207786,
+      2.56024316347978,
+      2.5826150279988846,
+      2.59948000819088,
+      2.5591049356048967,
+      2.6154780111422973,
+      2.656646060054132,
+      2.6973578880676183
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.5665269932526065,
+      3.753744244376839,
+      3.6816497467460447,
+      3.724491674699949,
+      3.6924360716765534,
+      3.8120002480214046,
+      3.6679776865283977,
+      3.679638513175618
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.20598351290152,
+      3.2911197115344972,
+      3.2421885409183933,
+      3.3402005385265228,
+      3.2304839642034775,
+      3.3156221844165112,
+      3.2575265530304387,
+      3.314112470299859
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.101897361683017,
+      3.2607605864291713,
+      3.352754365224854,
+      3.5031779723074354,
+      3.0966674823003646,
+      3.3473644808657634,
+      3.332918944532391,
+      3.5170491488498303
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.7643745452654844,
+      2.756268593347382,
+      2.8787989704072308,
+      2.8689001240535856,
+      2.663756648770616,
+      2.8086167904401727,
+      2.7505809214981967,
+      2.88218753879637
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.5452690773011173,
+      3.5693865269644665,
+      3.6959774595309693,
+      3.7788157418849297,
+      3.5260530967347927,
+      3.74685100131407,
+      3.7518545460733272,
+      4.0291930043320106
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 1,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 300
+    },
+    "grid_scores": [
+      3.8024531453462345,
+      3.729043244647002,
+      3.7568801551967153,
+      3.8391802144871843,
+      3.8298840695063427,
+      3.891761307302188,
+      3.7858190417358566,
+      3.850262186153265
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.2077808225473223,
+      3.2194736267637363,
+      3.2163134841389134,
+      3.307344773011225,
+      3.2494654039045034,
+      3.3048375969320998,
+      3.3373034116850593,
+      3.3919268500373896
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.7452216851551197,
+      3.043169334577231,
+      2.8903157766850556,
+      3.297804454265979,
+      2.9314217965280656,
+      3.3265677965271263,
+      3.128197783587714,
+      3.4022126471833554
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.8103367278145615,
+      2.8897484975115058,
+      2.8433612294690978,
+      2.881380868829746,
+      2.8111333600281014,
+      2.9243717168181966,
+      2.917399543922297,
+      2.970251803165665
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.384495386892623,
+      3.5882964166278324,
+      3.538305127589629,
+      3.8680040270185945,
+      3.4910742524699034,
+      3.8646392439068102,
+      3.872080373595464,
+      4.095716888678208
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      4.113578405845825
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      3.4569768025481262
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      2.7610847823666287
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      2.7126244119065057
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      3.609116036080942
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.7426541687563084,
+      3.745095274227004,
+      3.8534745157446193,
+      3.928306719600636,
+      3.809380728918695,
+      3.9112361409886223,
+      3.812199902294244,
+      3.853832972224265
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.2500837890132663,
+      3.2524918693300346,
+      3.275124062803283,
+      3.4035934537177064,
+      3.2013924113054166,
+      3.3177922931395565,
+      3.3630446891293344,
+      3.422627496459144
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.6479626852351728,
+      2.853823847133226,
+      2.903494565574444,
+      3.2768460323181845,
+      2.7520753265774687,
+      3.122659027808324,
+      3.1848448920149637,
+      3.5152317436744736
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.666758337151662,
+      2.734365844939206,
+      2.7099311915818287,
+      2.7541309251370487,
+      2.6582569176691306,
+      2.766133797066777,
+      2.7933067481833342,
+      2.8136266317177507
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 3,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.308935362586513,
+      3.6055506504326353,
+      3.56732088376795,
+      3.845168635008411,
+      3.448181108319182,
+      3.8250875755022715,
+      3.7837643953128626,
+      4.001702399304372
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.713525491211941,
+      3.754228217562376,
+      3.996213629760353,
+      4.078891627652344,
+      3.7273846026052806,
+      3.78519356323997,
+      3.9677874420448864,
+      4.0448289628231215
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.269154204330104,
+      3.4013849561287888,
+      3.4865631717245247,
+      3.615133560722496,
+      3.319750509870761,
+      3.3893755865517687,
+      3.554795503803434,
+      3.6461324418776306
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.4424581614278806,
+      3.5975822921249065,
+      3.533268405819756,
+      3.6281264055176843,
+      3.507017714608309,
+      3.6589740393342964,
+      3.636002656579566,
+      3.7124752004637926
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.057771125612154,
+      2.918916846566452,
+      3.088655557209578,
+      3.02437588073659,
+      2.904108513832736,
+      2.9676255865131975,
+      3.0567916900588608,
+      3.0234576106124575
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.847836928810752,
+      3.956178742398251,
+      3.9065393170522693,
+      3.958194612219188,
+      3.9342923055439414,
+      4.0159858607886685,
+      3.891543002892528,
+      3.8633389040193213
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 1,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 300
+    },
+    "grid_scores": [
+      4.128586903695997,
+      3.8986214574171356,
+      3.9824544697205613,
+      3.978294849754303,
+      3.9490869010852827,
+      3.916778313767354,
+      3.9624288863346555,
+      3.9904004865365628
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 1,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 300
+    },
+    "grid_scores": [
+      3.579537133819978,
+      3.4981419466245125,
+      3.581512885366367,
+      3.7061243117643037,
+      3.5451626454012226,
+      3.51937142590479,
+      3.609577164318532,
+      3.794686773623839
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.307720817866466,
+      3.4599957168517745,
+      3.412378770467711,
+      3.615149738136689,
+      3.4252510843087185,
+      3.556281016986743,
+      3.5235714925097343,
+      3.7199671053270578
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 1,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 300
+    },
+    "grid_scores": [
+      2.8321317773186516,
+      2.790526969074838,
+      2.951618653596541,
+      3.082507211786316,
+      2.808426630120718,
+      2.9064810844366225,
+      3.174920489335326,
+      3.2834889783758263
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_delta",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.951768753077156,
+      3.9256330378645248,
+      3.8899164828162176,
+      3.9635700353646715,
+      3.883561353797197,
+      4.120931875167711,
+      3.88622994334664,
+      4.018500225924488
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      4.652546962122065
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      4.044406643218845
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      3.5610009524083717
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      2.8638057073573058
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "statespace",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "specification": "local_level"
+    },
+    "grid_scores": [
+      4.6276427389891905
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 2,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      4.096690238553094,
+      4.014349814987184,
+      3.9336774155618284,
+      3.9605908156559013,
+      3.9895574994677805,
+      3.950600706863573,
+      4.003277693002655,
+      4.0375418493796245
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 5,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 300
+    },
+    "grid_scores": [
+      3.6040542544604666,
+      3.5012598320177144,
+      3.5693356550065607,
+      3.59062411677092,
+      3.488010226317553,
+      3.4813176092598384,
+      3.5777271310675127,
+      3.6624642791001816
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.2549709525189616,
+      3.414850223536121,
+      3.3639060430751484,
+      3.6326923487686935,
+      3.3841727160312,
+      3.6560350532962866,
+      3.5884142755662887,
+      3.7379471464642524
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.7739779719516906,
+      2.8227340490751116,
+      2.951870069553197,
+      3.066972137031976,
+      2.8550235889476423,
+      2.982974387450323,
+      2.973813872519715,
+      3.216529379265338
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "hybrid",
+    "variant": "A",
+    "horizon_steps": 6,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.9284548730348425,
+      3.9707225032558444,
+      3.8684003731831393,
+      3.8769952072608067,
+      3.8451859557463783,
+      4.10186795788329,
+      4.0384586583327735,
+      4.082088026922305
+    ],
+    "best_epoch": null
+  }
+]

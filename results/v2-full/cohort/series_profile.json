@@ -1,0 +1,20 @@
+{
+  "n_points": 2304,
+  "period_seconds": [
+    0.0,
+    690900.0
+  ],
+  "cpu_missing_points": 61,
+  "coverage_min": 0.0,
+  "coverage_mean": 0.9051927722180785,
+  "aggregation": {
+    "machines_without_metadata_excluded": 0,
+    "machines_aggregated": 4022,
+    "total_weight": 386112.0,
+    "coverage_min": 0.0,
+    "coverage_mean": 0.9051927722180785,
+    "cpu_num_conflicts": 0,
+    "cohort_cpu_num": 96.0,
+    "cohort_size": 4022
+  }
+}

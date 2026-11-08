@@ -1,0 +1,113 @@
+% Ambientes de figura sugeridos (figuras em figuras/v3/)
+
+\begin{figure}[htb]
+\centering
+\caption[Distribuição e dependência]{Distribuição da CPU agregada no desenvolvimento e no teste, variações em 5, 15 e 30 min, autocorrelação e correlação defasada entre exógenas e CPU futura.}
+\label{fig:v3-distribuicao-dependencia}
+\includegraphics[width=\textwidth]{figuras/v3/02_distribuicao_dependencia.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Ranking por MAE e RMSE]{MAE e RMSE no teste final, configuração A, por horizonte; cor por família e linha tracejada na persistência.}
+\label{fig:v3-ranking-mae-rmse}
+\includegraphics[width=\textwidth]{figuras/v3/05_ranking_mae_rmse.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Validação × teste]{MAE na validação externa agregada (círculo vazio) e no teste final (círculo cheio) para modelos da V2 e da V3.}
+\label{fig:v3-validacao-vs-teste}
+\includegraphics[width=\textwidth]{figuras/v3/07_validacao_vs_teste.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Série de teste]{CPU observada e prevista no teste final para persistência, XGBoost da V2, Kalman + XGBoost e a rede com menor MAE interno, no instante previsto.}
+\label{fig:v3-series-teste}
+\includegraphics[width=\textwidth]{figuras/v3/10_series_teste.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Erro e variação]{MAE em 30 min por variação realizada, por variação recente e por regime, comparando previsão direta e residual.}
+\label{fig:v3-erro-variacao-regime}
+\includegraphics[width=\textwidth]{figuras/v3/14_erro_variacao_regime.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Subestimação nos picos]{Viés, frequência de subestimação e distribuição do erro nos instantes acima do P90 do desenvolvimento.}
+\label{fig:v3-subestimacao-picos}
+\includegraphics[width=\textwidth]{figuras/v3/16_subestimacao_picos.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Antecipação de picos]{Eventos de pico antecipados contra episódios de falso alarme para previsões pontuais e quantis.}
+\label{fig:v3-alertas-picos}
+\includegraphics[width=\textwidth]{figuras/v3/17_alertas_picos.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Forest plot pré-registrado]{Diferenças de MAE das comparações pré-registradas com IC 95\% por block bootstrap em blocos de 30 min, 1 h e 2 h.}
+\label{fig:v3-forest-preregistrado}
+\includegraphics[width=\textwidth]{figuras/v3/18_forest_preregistrado.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Generalização e janela]{MAE de seleção contra teste, razão de generalização normalizada pela persistência e efeito da janela de entrada.}
+\label{fig:v3-generalizacao-janela}
+\includegraphics[width=\textwidth]{figuras/v3/21_generalizacao_janela.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Ablação]{Variação percentual de MAE das configurações B, C e D contra A, só nas combinações executadas.}
+\label{fig:v3-ablacao}
+\includegraphics[width=\textwidth]{figuras/v3/23_ablacao.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Calibração dos quantis]{Cobertura empírica contra nominal, diferença de cobertura, margem unilateral e cobertura nos picos dos quantis do XGBoost.}
+\label{fig:v3-calibracao-quantis}
+\includegraphics[width=\textwidth]{figuras/v3/25_calibracao_quantis.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Potência e energia acumulada]{Potência de referência e projetada no passo de 30 min e diferença acumulada de energia com janelas sem sobreposição.}
+\label{fig:v3-potencia-energia-acumulada}
+\includegraphics[width=\textwidth]{figuras/v3/28_potencia_energia_acumulada.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Erro de energia e sensibilidade]{Erro relativo e viés de energia por modelo e horizonte e sensibilidade a r, P\_idle e P\_busy.}
+\label{fig:v3-erro-energia-sensibilidade}
+\includegraphics[width=\textwidth]{figuras/v3/29_erro_energia_sensibilidade.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\caption[Efeito de Jensen]{Diferença entre a média das potências por máquina e a potência da utilização média, por servidor e para a frota de servidores substitutos, e aproximação de segunda ordem.}
+\label{fig:v3-jensen}
+\includegraphics[width=\textwidth]{figuras/v3/31_jensen.pdf}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{figure}

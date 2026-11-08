@@ -1,0 +1,170 @@
+# V3 Parte 2: refinamento preditivo, previsão hierárquica, modelo global e energia da frota.
+# Protocolo por dia (dias 3-6 de desenvolvimento, exploratórios) e teste herdado no dia 7
+# (origens 2010-2297, quarta inspeção; nunca confirmação independente). Valores pré-registrados
+# em docs/v3p2-preregistro.md. Potência e energia são estimativas paramétricas; PUE não é calculado.
+seed: 42
+mode: full
+run_root: results/v3-part2
+device: auto
+preregistration: docs/v3p2-preregistro.md
+
+data:
+  source: alibaba
+  usage_archive: data/alibaba-v2018/machine_usage.tar.gz
+  meta_archive: data/alibaba-v2018/machine_meta.tar.gz
+  cache_dir: data/processed
+  chunk_rows: 2000000
+  window: {start_seconds: null, end_seconds: null}
+  machines: {ids: null, sample_size: null}
+  granularity: {sample_rows: 2000000, min_conformity: 0.8}
+  grid_step: 300
+  synthetic: null
+  persist_panel: true
+
+aggregation:
+  strategy: cluster_weighted_cpu_num
+  active_statuses: [USING]
+
+features:                    # idênticos à V3 (a tabela descarta origens incompletas em C, como na V2)
+  groups:
+    cpu: {columns: [cpu], lags: [5min, 10min, 15min, 30min, 60min], windows: [30min, 60min]}
+    mem: {columns: [mem], lags: [5min, 30min], windows: [30min]}
+    net: {columns: [net_in, net_out], lags: [5min, 30min], windows: [30min]}
+    disk: {columns: [disk], lags: [5min, 30min], windows: [30min]}
+  ablation:
+    A: [cpu]
+    B: [cpu, mem]
+    C: [cpu, mem, net, disk]
+
+horizons: [5min, 15min, 30min]
+trajectory_steps: 6
+
+protocol:
+  steps_per_day: 288
+  development_days: [3, 4, 5, 6]
+  inherited_test_day: 7
+  expected_inherited_range: [2010, 2297]
+  purge: 18
+  inner: {validation_size: 12h, purge: 18, min_train_size: 48h, infeasible_policy: fail}
+  min_favorable_days: 3
+
+reference:                   # somente leitura
+  v2_dir: results/v2-full/main
+  v3_run: results/v3/20261104T232620Z-5b659dad
+  reproduction_tolerance: 1.0e-6
+  check_hashes: true
+
+statistics:
+  n_boot: 5000
+  primary_block_steps: 12    # 1 h; 30 min e 2 h como sensibilidade
+  sensitivity_blocks: [6, 24]
+  practical_relevance: 0.05
+  alpha: 0.05
+
+panel:
+  tolerance_pp: 1.0e-4   # painel em float32: ~1e-6 p.p. de arredondamento
+  min_train_coverage: 0.5
+
+families:
+  baselines:
+    xgboost:                 # grade e atributos da V2
+      grid: {max_depth: [3, 5], n_estimators: [100, 300], learning_rate: [0.05, 0.1]}
+      fixed: {}
+      n_jobs: 1
+    statespace: {specification: local_level, maxiter: 200}
+
+  robustness:
+    networks: [dlinear, tcn, patchtst]
+    primary_network: dlinear
+    seeds: [42, 43, 44]
+    window: 36
+    loop: {max_epochs: 50, patience: 5, grad_clip_norm: 1.0, batch_size: 64, mixed_precision: auto, finite_check_epochs: 2}
+    dlinear: {linear: [shared, individual], learning_rate: [0.001, 0.0001], moving_average: 25}
+    tcn: {channels: [16, 32], dilations: [[1, 2, 4, 8], [1, 2, 4, 8, 16]], kernel_size: 3, dropout: 0.1, learning_rate: 0.001}
+    patchtst: {patch_length: 12, stride: 6, d_model: 32, heads: 2, layers: 2, dropout: 0.1, learning_rate: 0.001}
+    recency_half_lives: [144, 288, 576]
+
+  hierarchical:
+    criteria: [mean, volatility, profile, failure_domain]
+    k_values: [4, 8, 16]
+    reconciliation: [bottom_up, ols, mint_shrink]
+    min_group_size: 20
+    profile_n_init: 10
+    shrinkage: auto
+    n_jobs: 8
+
+  global_model:
+    enabled: true
+    n_machines: 1024
+    origin_stride: 2
+    scale_machines: [256, 1024, 4023]
+    scale_day: 6
+    grid:
+      - {max_depth: 5, n_estimators: 300, learning_rate: 0.05}
+      - {max_depth: 7, n_estimators: 300, learning_rate: 0.05}
+    n_jobs: 8
+    device: auto
+    tcn:
+      enabled: true
+      gate_ratio: 1.05
+      window: 36
+      channels: 16
+      dilations: [1, 2, 4, 8]
+      kernel_size: 3
+      dropout: 0.1
+      learning_rate: 0.001
+      batch_size: 512
+      examples_per_epoch: 200000
+      max_epochs: 20
+      patience: 3
+      seeds: [42, 43, 44]
+
+  regimes:
+    slope_steps: 6
+    volatility_steps: 12
+    volatility_quantile: 0.8
+    rise_quantile: 0.75
+    fall_quantile: 0.25
+    min_regime_origins: 20
+    experts: [persistence, xgboost_v2, xgboost_delta, hybrid]
+
+  peaks:
+    lambdas: [0, 1, 3]
+    max_mae_increase: 0.05
+    peak_quantile: 0.9
+    merge_gap: 1
+    tolerance: 1
+
+  calibration:
+    quantiles: [0.05, 0.5, 0.9, 0.95]
+    methods: [static, rolling, aci, spci]
+    primary_method: aci
+    rolling_windows: [288, 144]
+    aci_gammas: [0.005, 0.02]
+    window_hours: 6
+    spci: {enabled: true, budget_minutes: 30, lags: 12, n_estimators: 100}
+
+  energy:
+    substitutes: config/specpower_substitutes.yaml
+    exponents: [1.0, 1.4, 1.8]
+    models: [persistence, xgboost_v2, hybrid, hierarchical, global]
+    group_k_sensitivity: [4, 8, 16]
+    heterogeneous: true
+    bootstrap_window_steps: 6
+
+pretrained:                  # portão de proveniência (H7): desligado
+  enabled: false
+  model: null
+  version: null
+  corpus_source: null
+  excludes_alibaba_2018: null
+  assessment:
+    decision: não executado
+    reason: >-
+      Chronos-2 lista o Alibaba Cluster Trace 2018 (5 min) no corpus de treino (Tabela 6 do relatório
+      técnico, arXiv 2510.15821); o LOTSA, corpus do Moirai, contém alibaba_cluster_trace_2018; o
+      corpus do Chronos-Bolt não é público. Nenhum dos três satisfaz o portão de proveniência.
+    sources:
+      - https://arxiv.org/html/2510.15821
+      - https://huggingface.co/datasets/Salesforce/lotsa_data
+      - https://huggingface.co/datasets/autogluon/chronos_datasets/discussions/4

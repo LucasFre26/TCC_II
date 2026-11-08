@@ -1,0 +1,14 @@
+seed: 42
+gpu_archive: data/clusterdata-master/cluster-trace-v2026-GenAI/pod_gpu_duty_cycle_anon.tar.gz
+memory_archive: data/clusterdata-master/cluster-trace-v2026-GenAI/pod_memory_util_anon.tar.gz
+horizons: [1, 5, 15]
+gpu_lags: [1, 2, 3, 6, 12]
+memory_lags: [0, 1, 6]
+rolling_windows: [6, 12]
+moving_average_window: 12
+test_fraction: 0.2
+validation_fraction: 0.2
+purge_steps: 27
+expected_step_seconds: 57
+alphas: [0.1, 1.0, 10.0]
+output_dir: results/v1

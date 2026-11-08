@@ -1,0 +1,23 @@
+\begin{table}[htb]
+\caption{Redes neurais e referências em 30 min: tamanho, MAE de seleção e de teste, razão de generalização e custo}
+\label{tab:v3-redes}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{Modelo} & \textbf{Tamanho} & \textbf{MAE seleção} & \textbf{MAE teste} & \textbf{Razão norm.} & \textbf{Reajuste (s)} & \textbf{CUDA (MiB)} \\
+\hline
+DLinear & 78 & 3{,}91 & 5{,}14 & 1{,}16 & 0{,}813 & 65 \\
+TCN & 9793 & 3{,}81 & 5{,}38 & 1{,}24 & 0{,}501 & 68 \\
+N-BEATSx & 40576 & 3{,}93 & 5{,}25 & 1{,}18 & 0{,}269 & 66 \\
+N-HiTS & 31983 & 3{,}91 & 5{,}73 & 1{,}29 & 0{,}305 & 66 \\
+PatchTST & 18145 & 3{,}99 & 4{,}32 & 0{,}95 & 0{,}373 & 73 \\
+XGBoost (V2) & 2789 folhas & 3{,}80 & 4{,}33 & 0{,}98 & 0{,}075 & -- \\
+Kalman + XGBoost & 793 folhas & 3{,}88 & 4{,}32 & 0{,}98 & 0{,}118 & -- \\
+\hline
+\end{tabular}\\
+\footnotesize Razão norm. = (teste/seleção) dividido pela mesma razão da persistência. Redes: CUDA, corrida original; XGBoost e híbrido: CPU, medido na análise.\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{table}

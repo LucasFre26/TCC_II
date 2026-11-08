@@ -1,0 +1,26 @@
+\begin{table}[htb]
+\caption{MAE na validação externa agregada (720 origens) e no teste final (288 origens), configuração A}
+\label{tab:v3-validacao-teste}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{Modelo} & \textbf{Val. 5 min} & \textbf{Val. 15 min} & \textbf{Val. 30 min} & \textbf{Teste 5 min} & \textbf{Teste 15 min} & \textbf{Teste 30 min} \\
+\hline
+Persistência & 3{,}04 & 4{,}04 & 4{,}57 & 3{,}35 & 4{,}70 & 5{,}33 \\
+Ridge (V2) & 2{,}79 & 3{,}53 & 3{,}87 & 3{,}29 & 4{,}51 & 5{,}22 \\
+XGBoost (V2) & 2{,}76 & 3{,}49 & 3{,}80 & 3{,}06 & 3{,}86 & 4{,}33 \\
+XGBoost incremento & 2{,}78 & 3{,}54 & 3{,}80 & 3{,}09 & 3{,}95 & 4{,}50 \\
+Kalman (nível local) & 2{,}89 & 3{,}86 & 4{,}40 & 3{,}26 & 4{,}41 & 5{,}00 \\
+Kalman + XGBoost & 2{,}73 & 3{,}42 & 3{,}77 & 3{,}03 & 3{,}92 & 4{,}32 \\
+DLinear & 2{,}73 & 3{,}50 & 3{,}86 & 3{,}27 & 4{,}46 & 5{,}14 \\
+TCN & 3{,}03 & 3{,}64 & 3{,}94 & 3{,}43 & 4{,}71 & 5{,}38 \\
+N-BEATSx & 3{,}28 & 3{,}73 & 4{,}00 & 3{,}81 & 5{,}20 & 5{,}25 \\
+N-HiTS & 3{,}10 & 3{,}67 & 4{,}12 & 4{,}21 & 5{,}26 & 5{,}73 \\
+PatchTST & 3{,}31 & 3{,}87 & 4{,}27 & 3{,}27 & 4{,}30 & 4{,}32 \\
+\hline
+\end{tabular}\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{table}

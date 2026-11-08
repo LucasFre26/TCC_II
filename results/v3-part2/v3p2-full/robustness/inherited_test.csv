@@ -1,0 +1,16 @@
+model_a,variant_a,model_b,variant_b,horizon_steps,mae_a,mae_b,role,inspection_number,note,mae_diff
+xgboost_v2,recency,xgboost_v2,A,1,3.1361365036019553,3.039698827550568,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.0964376760513872
+xgboost_v2,recency,xgboost_v2,A,3,3.830235999263724,3.8562230457684317,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",-0.025987046504707845
+xgboost_v2,recency,xgboost_v2,A,6,4.488479758472198,4.347210475707771,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.1412692827644264
+xgboost_v2,no_calendar,xgboost_v2,A,1,3.172295941901533,3.039698827550568,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.13259711435096477
+xgboost_v2,no_calendar,xgboost_v2,A,3,4.072283144824768,3.8562230457684317,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.21606009905633616
+xgboost_v2,no_calendar,xgboost_v2,A,6,4.548644996933766,4.347210475707771,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.2014345212259947
+dlinear,window,dlinear,v3,1,3.220264432911255,3.2020789621336694,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.0181854707775857
+dlinear,window,dlinear,v3,3,4.323446777326554,4.403810896480012,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",-0.08036411915345809
+dlinear,window,dlinear,v3,6,4.854728055021458,5.238653961188465,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",-0.38392590616700684
+tcn,window,tcn,v3,1,3.1869887621899173,3.304283688100213,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",-0.11729492591029578
+tcn,window,tcn,v3,3,4.1507118479846286,4.6619388951430105,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",-0.511227047158382
+tcn,window,tcn,v3,6,4.735343120560503,5.353938222512746,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",-0.6185951019522431
+patchtst,window,patchtst,v3,1,3.2278213909282916,3.291132907146541,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",-0.0633115162182496
+patchtst,window,patchtst,v3,3,4.21066726627785,4.027460967482674,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.18320629879517636
+patchtst,window,patchtst,v3,6,4.928198547408395,4.418111335034783,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.5100872123736124

@@ -1,0 +1,21 @@
+\begin{table}[htb]
+\caption{Cobertura empírica $P(y \leq q)$ dos quantis do XGBoost no teste (configuração A)}
+\label{tab:v3-quantis}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+\textbf{Quantil} & \textbf{5 min} & \textbf{15 min} & \textbf{30 min} & \textbf{Picos 5 min} & \textbf{Picos 30 min} \\
+\hline
+Q50 bruto & 0{,}43 & 0{,}38 & 0{,}38 & 0{,}23 & 0{,}29 \\
+Q90 bruto & 0{,}85 & 0{,}84 & 0{,}80 & 0{,}54 & 0{,}54 \\
+Q95 bruto & 0{,}90 & 0{,}89 & 0{,}89 & 0{,}63 & 0{,}63 \\
+Q90 ajustado & 0{,}85 & 0{,}85 & 0{,}85 & 0{,}54 & 0{,}66 \\
+Q95 ajustado & 0{,}91 & 0{,}92 & 0{,}93 & 0{,}66 & 0{,}71 \\
+\hline
+\end{tabular}\\
+\footnotesize Cobertura empírica, sem garantia teórica sob dependência temporal; o ajuste conformal foi calibrado na validação externa.\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{table}

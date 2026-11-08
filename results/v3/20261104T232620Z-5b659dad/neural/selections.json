@@ -1,0 +1,2626 @@
+[
+  {
+    "model": "dlinear",
+    "config": "A",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 2.7933525582874323,
+    "grid_scores": [
+      2.7933525582874323,
+      3.891063374647858,
+      2.886116680946132,
+      3.192281856073436
+    ],
+    "fold_scores": [
+      [
+        2.8113279265934974,
+        2.2799576759801203,
+        3.3684971455022485,
+        1.9964594543023182,
+        3.5105205890589763
+      ],
+      [
+        4.770281724873825,
+        3.153182208913042,
+        4.861518567256494,
+        2.6401816955676067,
+        4.030152676628323
+      ],
+      [
+        2.9136061245126994,
+        2.3201358265319616,
+        3.494562779323525,
+        2.113227217629846,
+        3.5890514567326286
+      ],
+      [
+        3.584665354094577,
+        2.418686424652698,
+        3.798200832653999,
+        2.422509395021837,
+        3.737347273944069
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 44,
+      "1": 36,
+      "2": 23,
+      "3": 20,
+      "4": 24
+    },
+    "final_epochs": 24
+  },
+  {
+    "model": "dlinear",
+    "config": "A",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.5359696459296543,
+    "grid_scores": [
+      3.5359696459296543,
+      4.140750320239975,
+      3.616812615126038,
+      3.7538934774019617
+    ],
+    "fold_scores": [
+      [
+        3.8203944695707435,
+        2.7168949240217146,
+        4.363430591820819,
+        2.712008172573158,
+        4.0671200716618365
+      ],
+      [
+        5.044663937170856,
+        3.3292125768103964,
+        5.155898596401239,
+        2.8620709892671568,
+        4.311905501550226
+      ],
+      [
+        3.894916449290874,
+        2.688840197605741,
+        4.462825792256362,
+        2.847590085423013,
+        4.189890551054199
+      ],
+      [
+        4.213896721731754,
+        2.734421933576716,
+        4.494729562245885,
+        2.9929687893480788,
+        4.333450380107376
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 45,
+      "1": 47,
+      "2": 20,
+      "3": 7,
+      "4": 16
+    },
+    "final_epochs": 20
+  },
+  {
+    "model": "dlinear",
+    "config": "A",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.913129422571713,
+    "grid_scores": [
+      3.913129422571713,
+      4.310633312119804,
+      3.9960747092702604,
+      4.181475814345485
+    ],
+    "fold_scores": [
+      [
+        4.621629618772669,
+        3.061041541456623,
+        4.601164582278357,
+        2.9336045678464386,
+        4.348206802504477
+      ],
+      [
+        5.204264731916146,
+        3.302848695419953,
+        5.3286464920956815,
+        3.0048598764589016,
+        4.71254676470834
+      ],
+      [
+        4.816522707800841,
+        3.055716578030749,
+        4.5668573507806025,
+        3.1442681716928242,
+        4.397008738046288
+      ],
+      [
+        4.985747737681013,
+        3.1078275187489615,
+        4.918325665607204,
+        3.3444065276259027,
+        4.551071622064347
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 24,
+      "1": 37,
+      "2": 16,
+      "3": 7,
+      "4": 27
+    },
+    "final_epochs": 24
+  },
+  {
+    "model": "dlinear",
+    "config": "B",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 2.9003483854148504,
+    "grid_scores": [
+      2.9003483854148504,
+      4.223862413796124,
+      2.903198157763696,
+      3.45416997159203
+    ],
+    "fold_scores": [
+      [
+        2.914815648876387,
+        2.3732766926431847,
+        3.3507959684469983,
+        2.299151202241225,
+        3.563702414866455
+      ],
+      [
+        3.89250971104216,
+        4.57781727345917,
+        4.787739801570199,
+        3.739925200419549,
+        4.121320082489538
+      ],
+      [
+        2.9398635791129633,
+        2.3865692803525147,
+        3.468758231973025,
+        2.129747658097546,
+        3.59105203928243
+      ],
+      [
+        3.497939716786984,
+        3.0524325568398933,
+        4.00521728543021,
+        2.6279781184393074,
+        4.087282180463759
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 48,
+      "1": 50,
+      "2": 29,
+      "3": 38,
+      "4": 29
+    },
+    "final_epochs": 38
+  },
+  {
+    "model": "dlinear",
+    "config": "B",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.6969417916264873,
+    "grid_scores": [
+      3.7960327361518273,
+      4.572249393789094,
+      3.6969417916264873,
+      3.9921835874151155
+    ],
+    "fold_scores": [
+      [
+        3.957298632389143,
+        3.0433298676331373,
+        4.421392933180098,
+        3.374900868630255,
+        4.183241378926504
+      ],
+      [
+        4.312335588557106,
+        4.711869232424836,
+        5.273770336049166,
+        3.9738865380991992,
+        4.589385273815162
+      ],
+      [
+        3.7746184906514517,
+        3.0723849007683364,
+        4.4573078413516845,
+        3.0557733308733197,
+        4.124624394487646
+      ],
+      [
+        3.9487331247183297,
+        3.4235409747690695,
+        4.629833452026008,
+        3.3352409968704984,
+        4.6235693886916716
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 14,
+      "1": 11,
+      "2": 11,
+      "3": 6,
+      "4": 25
+    },
+    "final_epochs": 11
+  },
+  {
+    "model": "dlinear",
+    "config": "B",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 4.186810908262571,
+    "grid_scores": [
+      4.186810908262571,
+      4.883745730332664,
+      4.188906243570084,
+      4.363327759075119
+    ],
+    "fold_scores": [
+      [
+        4.4460650765560645,
+        3.626354298678772,
+        4.696846775601238,
+        3.760616170867008,
+        4.404172219609777
+      ],
+      [
+        4.765831302953101,
+        4.825179062903037,
+        5.7445429474573695,
+        4.24348342438329,
+        4.839691913966523
+      ],
+      [
+        4.584889970345486,
+        3.6258058392818375,
+        4.8856618820920135,
+        3.454324518537194,
+        4.393849007593889
+      ],
+      [
+        4.660232468826422,
+        3.851870958270109,
+        5.188700800013091,
+        3.6827411569207715,
+        4.433093411345205
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 13,
+      "1": 27,
+      "2": 30,
+      "3": 16,
+      "4": 16
+    },
+    "final_epochs": 16
+  },
+  {
+    "model": "dlinear",
+    "config": "C",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.023354484434397,
+    "grid_scores": [
+      4.800012449855421,
+      5.4697737985389425,
+      3.023354484434397,
+      4.732509788926235
+    ],
+    "fold_scores": [
+      [
+        4.813778591248717,
+        4.209491571710191,
+        4.767506242929159,
+        5.818348410462897,
+        4.39093743292614
+      ],
+      [
+        7.253617955654609,
+        4.646468998578267,
+        4.8097008941806365,
+        5.682042058489588,
+        4.957039085791612
+      ],
+      [
+        3.2265888673517313,
+        2.6146167504303115,
+        3.456662479939771,
+        2.215864319509125,
+        3.603040004941044
+      ],
+      [
+        4.766847481011698,
+        5.37423424169654,
+        3.9354889449533683,
+        5.393102279458607,
+        4.192875997510959
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 22,
+      "1": 23,
+      "2": 23,
+      "3": 16,
+      "4": 19
+    },
+    "final_epochs": 22
+  },
+  {
+    "model": "dlinear",
+    "config": "C",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.9911907351947646,
+    "grid_scores": [
+      4.813813139360591,
+      5.432046453199414,
+      3.9911907351947646,
+      5.013962157807105
+    ],
+    "fold_scores": [
+      [
+        4.882963675283719,
+        4.08303483678408,
+        4.877302918332486,
+        5.779216429579494,
+        4.446547836823175
+      ],
+      [
+        7.229998074840335,
+        4.458679173948433,
+        4.848449600371093,
+        5.740859050429548,
+        4.88224636640766
+      ],
+      [
+        4.169980663201922,
+        4.176900113689154,
+        4.47245403326148,
+        2.7018536626297527,
+        4.434765203191514
+      ],
+      [
+        5.061390637100463,
+        5.1537666485875,
+        4.647778794463068,
+        5.287394749843774,
+        4.919479959040722
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 20,
+      "1": 2,
+      "2": 12,
+      "3": 14,
+      "4": 15
+    },
+    "final_epochs": 14
+  },
+  {
+    "model": "dlinear",
+    "config": "C",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 4.35954524370104,
+    "grid_scores": [
+      4.873920101139548,
+      5.421114596934005,
+      4.35954524370104,
+      5.227334415704783
+    ],
+    "fold_scores": [
+      [
+        4.900414922608785,
+        4.134224010040435,
+        4.925536726104382,
+        5.669854371295315,
+        4.739570475648822
+      ],
+      [
+        7.334126916405789,
+        4.4720364396561285,
+        4.8243911561258175,
+        5.554985932956058,
+        4.920032539526229
+      ],
+      [
+        5.099140341821948,
+        4.269758017140139,
+        4.976302538915752,
+        2.983115441244603,
+        4.469409879382754
+      ],
+      [
+        5.435478724630093,
+        5.124532061109308,
+        5.515925692176214,
+        5.213996452676509,
+        4.846739147931796
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 12,
+      "1": 2,
+      "2": 8,
+      "3": 9,
+      "4": 8
+    },
+    "final_epochs": 8
+  },
+  {
+    "model": "dlinear",
+    "config": "A",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "core",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "rule": "inner_validation",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.5246843322276527,
+    "grid_scores": [
+      4.112538502209181,
+      7.151896788612587,
+      3.5246843322276527,
+      3.688604695586835
+    ],
+    "fold_scores": [
+      [
+        4.777111576162338,
+        3.084549760590464,
+        4.176281621316893,
+        4.432720894129004,
+        4.092028658847203
+      ],
+      [
+        7.294994005446488,
+        6.388418703954339,
+        6.765031139328812,
+        9.477703428969926,
+        5.833336665363369
+      ],
+      [
+        3.873543889539594,
+        2.668673135651705,
+        4.169107526193714,
+        2.767444456535553,
+        4.144652653217698
+      ],
+      [
+        4.282651263841379,
+        2.7651693727902455,
+        4.318331316384686,
+        2.9063690405793436,
+        4.17050248433852
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 22,
+      "1": 16,
+      "2": 26,
+      "3": 6,
+      "4": 8
+    },
+    "final_epochs": 16
+  },
+  {
+    "model": "tcn",
+    "config": "A",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 2.8687940916285326,
+    "grid_scores": [
+      2.8687940916285326,
+      2.90003696483953
+    ],
+    "fold_scores": [
+      [
+        2.9550491070078957,
+        2.2949134732549177,
+        3.3424790619018614,
+        2.13247071724727,
+        3.6190580987307164
+      ],
+      [
+        2.9892968036149434,
+        2.3874079655364024,
+        3.3846394877352024,
+        2.093092145184743,
+        3.64574842212636
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 14,
+      "1": 3,
+      "2": 12,
+      "3": 3,
+      "4": 9
+    },
+    "final_epochs": 9
+  },
+  {
+    "model": "tcn",
+    "config": "A",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.568541951517832,
+    "grid_scores": [
+      3.568541951517832,
+      3.5727921236086297
+    ],
+    "fold_scores": [
+      [
+        3.6680306389012176,
+        2.759165776223396,
+        4.385077850355549,
+        2.7492862205728463,
+        4.281149271536149
+      ],
+      [
+        3.6676499245251932,
+        2.9607323825949994,
+        4.52126246032253,
+        2.7044975805182285,
+        4.009818270082197
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 14,
+      "1": 2,
+      "2": 5,
+      "3": 3,
+      "4": 14
+    },
+    "final_epochs": 5
+  },
+  {
+    "model": "tcn",
+    "config": "A",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.8134824497986464,
+    "grid_scores": [
+      3.876569231139549,
+      3.8134824497986464
+    ],
+    "fold_scores": [
+      [
+        4.3320802823872135,
+        3.1189434634486557,
+        4.589455773540613,
+        2.948915849288,
+        4.393450787033263
+      ],
+      [
+        4.27293944858791,
+        3.1667781862992666,
+        4.570300657915403,
+        2.7577776260274174,
+        4.299616330163236
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 1,
+      "2": 7,
+      "3": 20,
+      "4": 26
+    },
+    "final_epochs": 7
+  },
+  {
+    "model": "tcn",
+    "config": "B",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 2.8828298114314883,
+    "grid_scores": [
+      3.0267011711916814,
+      2.8828298114314883
+    ],
+    "fold_scores": [
+      [
+        2.9458536067930132,
+        2.746016009106048,
+        3.3522029936235813,
+        2.5728603726326615,
+        3.5165728738031032
+      ],
+      [
+        2.8109985070721972,
+        2.4969787814404643,
+        3.3110168648352714,
+        2.1653366790045396,
+        3.629818224804968
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 17,
+      "1": 3,
+      "2": 8,
+      "3": 3,
+      "4": 17
+    },
+    "final_epochs": 8
+  },
+  {
+    "model": "tcn",
+    "config": "B",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.5903415567480836,
+    "grid_scores": [
+      3.7377936659765267,
+      3.5903415567480836
+    ],
+    "fold_scores": [
+      [
+        3.626560749785153,
+        3.034240633262213,
+        4.452401283511843,
+        3.550789083240264,
+        4.02497658008316
+      ],
+      [
+        3.5493376468260016,
+        3.0580927716601445,
+        4.461306100302666,
+        2.8598494239874515,
+        4.023121840964151
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 4,
+      "1": 7,
+      "2": 7,
+      "3": 3,
+      "4": 6
+    },
+    "final_epochs": 6
+  },
+  {
+    "model": "tcn",
+    "config": "B",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.9514745433343967,
+    "grid_scores": [
+      3.9514745433343967,
+      3.977089124726812
+    ],
+    "fold_scores": [
+      [
+        4.1680097306409145,
+        2.767973181604393,
+        4.374032871058603,
+        3.963820032534333,
+        4.48353690083374
+      ],
+      [
+        3.9934644753353603,
+        3.4405517462491604,
+        4.497033162190899,
+        3.619394056726119,
+        4.335002183132519
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 5,
+      "1": 44,
+      "2": 11,
+      "3": 4,
+      "4": 7
+    },
+    "final_epochs": 7
+  },
+  {
+    "model": "tcn",
+    "config": "C",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 2.984295915403321,
+    "grid_scores": [
+      2.984295915403321,
+      3.014220448908328
+    ],
+    "fold_scores": [
+      [
+        3.199155049685243,
+        2.355313673740781,
+        3.4181959716432644,
+        2.325874105945447,
+        3.622940776001871
+      ],
+      [
+        3.125898260215327,
+        2.3427833532295255,
+        3.458940237191401,
+        2.4823941689611915,
+        3.6610862249441984
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 21,
+      "1": 13,
+      "2": 20,
+      "3": 3,
+      "4": 24
+    },
+    "final_epochs": 20
+  },
+  {
+    "model": "tcn",
+    "config": "C",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.6787242796816115,
+    "grid_scores": [
+      3.6787242796816115,
+      3.7018582855290654
+    ],
+    "fold_scores": [
+      [
+        3.897927543032243,
+        2.9884176304957544,
+        4.414367960697733,
+        2.925603359195753,
+        4.167304904986575
+      ],
+      [
+        3.8457999441510253,
+        2.9746559223410483,
+        4.397786114929194,
+        3.005217483337431,
+        4.285831962886627
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 8,
+      "1": 11,
+      "2": 26,
+      "3": 5,
+      "4": 9
+    },
+    "final_epochs": 9
+  },
+  {
+    "model": "tcn",
+    "config": "C",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.92909290490224,
+    "grid_scores": [
+      4.1829933419605565,
+      3.92909290490224
+    ],
+    "fold_scores": [
+      [
+        4.531334664103934,
+        3.512041052481015,
+        4.69296467990073,
+        3.950202410627207,
+        4.228423902689897
+      ],
+      [
+        4.401312823048262,
+        3.052410915436792,
+        4.630746030550062,
+        3.126993837022922,
+        4.434000918453161
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 1,
+      "2": 5,
+      "3": 1,
+      "4": 8
+    },
+    "final_epochs": 3
+  },
+  {
+    "model": "tcn",
+    "config": "A",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "core",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.544876158584168,
+    "grid_scores": [
+      3.6244071164597913,
+      3.544876158584168
+    ],
+    "fold_scores": [
+      [
+        3.8810094943589584,
+        3.100141619525233,
+        4.262570843552884,
+        2.7582795092928465,
+        4.120034115569035
+      ],
+      [
+        3.9574963993893664,
+        2.9172314362528717,
+        4.218374486897461,
+        2.538261087755011,
+        4.09301738262613
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 7,
+      "1": 11,
+      "2": 13,
+      "3": 16,
+      "4": 18
+    },
+    "final_epochs": 13
+  },
+  {
+    "model": "nbeatsx",
+    "config": "A",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.147737013473394,
+    "grid_scores": [
+      3.147737013473394
+    ],
+    "fold_scores": [
+      [
+        3.2150862274461294,
+        2.5321610343547754,
+        3.36671316198299,
+        2.9274008517066514,
+        3.6973237918764266
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 8,
+      "1": 14,
+      "2": 15,
+      "3": 2,
+      "4": 6
+    },
+    "final_epochs": 8
+  },
+  {
+    "model": "nbeatsx",
+    "config": "A",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.727702104422671,
+    "grid_scores": [
+      3.727702104422671
+    ],
+    "fold_scores": [
+      [
+        4.101624145152832,
+        3.3590664783170148,
+        4.345076782979082,
+        2.9795058686708344,
+        3.8532372469935914
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 9,
+      "2": 7,
+      "3": 3,
+      "4": 7
+    },
+    "final_epochs": 7
+  },
+  {
+    "model": "nbeatsx",
+    "config": "A",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.9302744046009104,
+    "grid_scores": [
+      3.9302744046009104
+    ],
+    "fold_scores": [
+      [
+        4.477026401492417,
+        3.0358430525828815,
+        4.648813772443171,
+        3.3262198681327755,
+        4.163468928353307
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 4,
+      "1": 13,
+      "2": 4,
+      "3": 4,
+      "4": 7
+    },
+    "final_epochs": 4
+  },
+  {
+    "model": "nbeatsx",
+    "config": "B",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.4869112186428,
+    "grid_scores": [
+      3.4869112186428
+    ],
+    "fold_scores": [
+      [
+        3.560529862207823,
+        3.225307231563754,
+        3.571339959489512,
+        3.245084640941906,
+        3.8322943990110026
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 12,
+      "1": 3,
+      "2": 11,
+      "3": 3,
+      "4": 18
+    },
+    "final_epochs": 11
+  },
+  {
+    "model": "nbeatsx",
+    "config": "B",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.8908592097624934,
+    "grid_scores": [
+      3.8908592097624934
+    ],
+    "fold_scores": [
+      [
+        3.8386779309444625,
+        3.369593677915404,
+        4.360029072756813,
+        3.631689447373549,
+        4.254305919822236
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 2,
+      "1": 4,
+      "2": 4,
+      "3": 3,
+      "4": 3
+    },
+    "final_epochs": 3
+  },
+  {
+    "model": "nbeatsx",
+    "config": "B",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 4.031851857190526,
+    "grid_scores": [
+      4.031851857190526
+    ],
+    "fold_scores": [
+      [
+        4.1044923035809235,
+        3.3927050570539623,
+        4.53034478919711,
+        3.8335863709686597,
+        4.298130765151979
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 1,
+      "2": 4,
+      "3": 2,
+      "4": 8
+    },
+    "final_epochs": 3
+  },
+  {
+    "model": "nbeatsx",
+    "config": "C",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.472228042024375,
+    "grid_scores": [
+      3.472228042024375
+    ],
+    "fold_scores": [
+      [
+        3.7682874877470596,
+        3.307589687465184,
+        3.796937521787525,
+        2.9648929222882003,
+        3.523432590833904
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 10,
+      "1": 3,
+      "2": 5,
+      "3": 3,
+      "4": 19
+    },
+    "final_epochs": 5
+  },
+  {
+    "model": "nbeatsx",
+    "config": "C",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.875715555855963,
+    "grid_scores": [
+      3.875715555855963
+    ],
+    "fold_scores": [
+      [
+        4.462201793570994,
+        3.0861096157289123,
+        4.422885503742131,
+        3.3921213776680235,
+        4.015259488569756
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 3,
+      "2": 4,
+      "3": 1,
+      "4": 3
+    },
+    "final_epochs": 3
+  },
+  {
+    "model": "nbeatsx",
+    "config": "C",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 4.241803963566539,
+    "grid_scores": [
+      4.241803963566539
+    ],
+    "fold_scores": [
+      [
+        4.394717494095077,
+        3.8050762028080083,
+        4.836205000960045,
+        4.002393396656308,
+        4.170627723313257
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 2,
+      "2": 4,
+      "3": 1,
+      "4": 5
+    },
+    "final_epochs": 3
+  },
+  {
+    "model": "nbeatsx",
+    "config": "A",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "core",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.75793635540899,
+    "grid_scores": [
+      3.75793635540899
+    ],
+    "fold_scores": [
+      [
+        4.010708953245321,
+        3.326670438715445,
+        4.311752937693786,
+        3.2014675823307237,
+        3.9390818650596757
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 7,
+      "2": 7,
+      "3": 3,
+      "4": 12
+    },
+    "final_epochs": 7
+  },
+  {
+    "model": "dlinear",
+    "config": "B",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "extra_path",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "rule": "inner_validation",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.6390786843859857,
+    "grid_scores": [
+      5.198217804563652,
+      9.098288798564623,
+      3.6390786843859857,
+      4.012750248089384
+    ],
+    "fold_scores": [
+      [
+        6.0888151328521865,
+        4.991091980054999,
+        5.673158764997109,
+        4.942952590066322,
+        4.2950705548476416
+      ],
+      [
+        7.837326536083793,
+        9.00343245190789,
+        9.05274298739357,
+        12.34559426100408,
+        7.252347756433778
+      ],
+      [
+        3.781371158691942,
+        3.089781539485664,
+        4.302918464407228,
+        2.998274281824871,
+        4.023047977520222
+      ],
+      [
+        4.2104121414173,
+        3.4911081469120284,
+        4.611874130449006,
+        3.277184239598251,
+        4.473172582070333
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 21,
+      "1": 11,
+      "2": 10,
+      "3": 6,
+      "4": 24
+    },
+    "final_epochs": 11
+  },
+  {
+    "model": "dlinear",
+    "config": "C",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "extra_path",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.5143084344368027,
+    "grid_scores": [
+      3.5143084344368027,
+      5.584893386784424,
+      3.9407244266036914,
+      4.398420686306877
+    ],
+    "fold_scores": [
+      [
+        3.8231225955180506,
+        2.7224661339509755,
+        4.210477054630907,
+        2.7999934492626672,
+        4.015482938821415
+      ],
+      [
+        6.645747167409881,
+        5.55644906118554,
+        6.0849135748359195,
+        4.323780718769509,
+        5.313576411721268
+      ],
+      [
+        4.121800221556283,
+        3.6735416456019565,
+        4.446729266255244,
+        3.0857269234245734,
+        4.375824076180399
+      ],
+      [
+        4.838274025162089,
+        4.398479207862416,
+        4.7183856458081275,
+        3.499333683492749,
+        4.537630869209004
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 49,
+      "1": 41,
+      "2": 49,
+      "3": 18,
+      "4": 38
+    },
+    "final_epochs": 41
+  },
+  {
+    "model": "tcn",
+    "config": "B",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "extra_path",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.6356153540661005,
+    "grid_scores": [
+      3.6356153540661005,
+      3.657558525067728
+    ],
+    "fold_scores": [
+      [
+        3.6713977027958116,
+        2.960043321420272,
+        4.1227869174982095,
+        3.3340727767512903,
+        4.089776051864917
+      ],
+      [
+        3.6622357972763653,
+        3.049588267718015,
+        4.113606742498835,
+        3.3647704273039536,
+        4.097591390541471
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 14,
+      "1": 22,
+      "2": 11,
+      "3": 12,
+      "4": 40
+    },
+    "final_epochs": 14
+  },
+  {
+    "model": "tcn",
+    "config": "C",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "extra_path",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ],
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.7371921956504863,
+    "grid_scores": [
+      3.7371921956504863,
+      3.8723470863306657
+    ],
+    "fold_scores": [
+      [
+        3.802562912058282,
+        3.185524081446353,
+        4.1528568568616615,
+        3.4014369019620077,
+        4.143580225924129
+      ],
+      [
+        4.032778714588734,
+        3.116982451274801,
+        4.104770707494331,
+        4.0459040843344924,
+        4.061299473960973
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 8,
+      "1": 6,
+      "2": 15,
+      "3": 5,
+      "4": 23
+    },
+    "final_epochs": 8
+  },
+  {
+    "model": "nbeatsx",
+    "config": "B",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "extra_path",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.8694447936794973,
+    "grid_scores": [
+      3.8694447936794973
+    ],
+    "fold_scores": [
+      [
+        3.737474540619037,
+        3.5801440638452413,
+        4.096370817704604,
+        3.539376714117612,
+        4.3938578321109905
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 2,
+      "1": 3,
+      "2": 4,
+      "3": 1,
+      "4": 3
+    },
+    "final_epochs": 3
+  },
+  {
+    "model": "nbeatsx",
+    "config": "C",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "extra_path",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "width": 64,
+      "layers": 4,
+      "trend_degree": 3,
+      "harmonics": 4,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.9337539895816676,
+    "grid_scores": [
+      3.9337539895816676
+    ],
+    "fold_scores": [
+      [
+        4.421060537565782,
+        3.107826898825989,
+        4.426904274428936,
+        3.6061352822732182,
+        4.106842954814411
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 2,
+      "1": 9,
+      "2": 4,
+      "3": 1,
+      "4": 6
+    },
+    "final_epochs": 4
+  },
+  {
+    "model": "nhits",
+    "config": "A",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "optional",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "pool_sizes": [
+        4,
+        2,
+        1
+      ],
+      "width": 64,
+      "layers": 2,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.1579180709881784,
+    "grid_scores": [
+      3.1579180709881784
+    ],
+    "fold_scores": [
+      [
+        3.0041849154447693,
+        3.2225264338712987,
+        3.552200783471944,
+        2.5305911536869417,
+        3.4800870684659393
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 10,
+      "1": 4,
+      "2": 13,
+      "3": 3,
+      "4": 12
+    },
+    "final_epochs": 10
+  },
+  {
+    "model": "nhits",
+    "config": "A",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "optional",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "pool_sizes": [
+        4,
+        2,
+        1
+      ],
+      "width": 64,
+      "layers": 2,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.6384303745635633,
+    "grid_scores": [
+      3.6384303745635633
+    ],
+    "fold_scores": [
+      [
+        3.9375575209178555,
+        3.2390049625959008,
+        4.5555783080075,
+        2.607543733946119,
+        3.8524673473504407
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 4,
+      "2": 5,
+      "3": 3,
+      "4": 8
+    },
+    "final_epochs": 4
+  },
+  {
+    "model": "nhits",
+    "config": "A",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "optional",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "pool_sizes": [
+        4,
+        2,
+        1
+      ],
+      "width": 64,
+      "layers": 2,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.9124263505713586,
+    "grid_scores": [
+      3.9124263505713586
+    ],
+    "fold_scores": [
+      [
+        4.2484152122478935,
+        3.4548547814667208,
+        4.567471081598465,
+        3.2290979454676356,
+        4.062292732076077
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 4,
+      "2": 5,
+      "3": 2,
+      "4": 9
+    },
+    "final_epochs": 4
+  },
+  {
+    "model": "patchtst",
+    "config": "A",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "optional",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.136603218317493,
+    "grid_scores": [
+      3.136603218317493
+    ],
+    "fold_scores": [
+      [
+        3.581570724323102,
+        2.5442232803218334,
+        3.336851841966467,
+        2.6010737391281418,
+        3.619296505847921
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 4,
+      "2": 10,
+      "3": 7,
+      "4": 8
+    },
+    "final_epochs": 7
+  },
+  {
+    "model": "patchtst",
+    "config": "A",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "optional",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.610134296245961,
+    "grid_scores": [
+      3.610134296245961
+    ],
+    "fold_scores": [
+      [
+        3.9346324040910385,
+        3.0098277472537984,
+        4.488578400302322,
+        2.6787144118474564,
+        3.938918517735191
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 2,
+      "2": 4,
+      "3": 3,
+      "4": 6
+    },
+    "final_epochs": 3
+  },
+  {
+    "model": "patchtst",
+    "config": "A",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "optional",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "selection_score": 3.9907221484645716,
+    "grid_scores": [
+      3.9907221484645716
+    ],
+    "fold_scores": [
+      [
+        4.2498093311173255,
+        3.4151691735974095,
+        4.599982769713165,
+        3.438613324451035,
+        4.250036143443923
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 3,
+      "1": 2,
+      "2": 10,
+      "3": 3,
+      "4": 6
+    },
+    "final_epochs": 3
+  },
+  {
+    "model": "dlinear",
+    "config": "D",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 2.8436469162527853,
+    "grid_scores": [
+      2.8436469162527853,
+      3.910224452862427,
+      3.2335379914660933,
+      4.814049320378764
+    ],
+    "fold_scores": [
+      [
+        2.8923644234980177,
+        2.4617035198171764,
+        3.3206945384365434,
+        1.9968653565730297,
+        3.5466067429391597
+      ],
+      [
+        4.650603178435778,
+        3.776405041753307,
+        4.676971482150599,
+        2.457790583235264,
+        3.989351978737186
+      ],
+      [
+        3.8604023882361655,
+        2.820081181810524,
+        3.683951506215512,
+        2.3566215840616667,
+        3.446633297006596
+      ],
+      [
+        8.185215664069467,
+        3.6026175906918323,
+        5.09215521900326,
+        3.025023471231565,
+        4.165234656897697
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 29,
+      "1": 23,
+      "2": 22,
+      "3": 14,
+      "4": 29
+    },
+    "final_epochs": 23,
+    "contrast": "d_vs_a"
+  },
+  {
+    "model": "dlinear",
+    "config": "D",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.625950928472278,
+    "grid_scores": [
+      3.625950928472278,
+      4.366403972898934,
+      4.362569576102433,
+      5.6985036442364585
+    ],
+    "fold_scores": [
+      [
+        3.8421548933969394,
+        3.1060210863182345,
+        4.334210819612607,
+        2.7716472891743917,
+        4.075720553859217
+      ],
+      [
+        5.099363328721826,
+        4.140796877340429,
+        5.282319666273143,
+        2.980542838087243,
+        4.328997154072027
+      ],
+      [
+        5.444275944138734,
+        3.7409092309120218,
+        4.740796242209225,
+        2.898324352187416,
+        4.988542111064769
+      ],
+      [
+        8.992901140178349,
+        4.322290004343216,
+        6.038637142915619,
+        3.704463335778941,
+        5.434226597966167
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 50,
+      "1": 31,
+      "2": 22,
+      "3": 10,
+      "4": 20
+    },
+    "final_epochs": 22,
+    "contrast": "d_vs_a"
+  },
+  {
+    "model": "dlinear",
+    "config": "D",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 4.309805143194611,
+    "grid_scores": [
+      4.309805143194611,
+      4.757065839608124,
+      4.770946264260948,
+      5.986472947587643
+    ],
+    "fold_scores": [
+      [
+        5.580657149168432,
+        3.827866523652896,
+        4.679568972202069,
+        3.2145977984483247,
+        4.246335272501328
+      ],
+      [
+        5.631119110397557,
+        4.390340290845389,
+        5.755401494166974,
+        3.3708798851355617,
+        4.63758841749514
+      ],
+      [
+        6.874449814374731,
+        4.138758381521711,
+        5.00372961644624,
+        3.1629304556215447,
+        4.674863053340508
+      ],
+      [
+        9.68517562739817,
+        4.63215297739553,
+        6.416599134835203,
+        4.131232988243735,
+        5.067204010065576
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 4,
+      "1": 15,
+      "2": 25,
+      "3": 9,
+      "4": 25
+    },
+    "final_epochs": 15,
+    "contrast": "d_vs_a"
+  },
+  {
+    "model": "dlinear",
+    "config": "A",
+    "horizon_steps": 1,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 2.7933525582874323,
+    "grid_scores": [
+      2.7933525582874323,
+      3.891063374647858,
+      2.886116680946132,
+      3.192281856073436
+    ],
+    "fold_scores": [
+      [
+        2.8113279265934974,
+        2.2799576759801203,
+        3.3684971455022485,
+        1.9964594543023182,
+        3.5105205890589763
+      ],
+      [
+        4.770281724873825,
+        3.153182208913042,
+        4.861518567256494,
+        2.6401816955676067,
+        4.030152676628323
+      ],
+      [
+        2.9136061245126994,
+        2.3201358265319616,
+        3.494562779323525,
+        2.113227217629846,
+        3.5890514567326286
+      ],
+      [
+        3.584665354094577,
+        2.418686424652698,
+        3.798200832653999,
+        2.422509395021837,
+        3.737347273944069
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 44,
+      "1": 36,
+      "2": 23,
+      "3": 20,
+      "4": 24
+    },
+    "final_epochs": 24,
+    "contrast": "d_vs_a"
+  },
+  {
+    "model": "dlinear",
+    "config": "A",
+    "horizon_steps": 3,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.5359696459296543,
+    "grid_scores": [
+      3.5359696459296543,
+      4.140750320239975,
+      3.616812615126038,
+      3.7538934774019617
+    ],
+    "fold_scores": [
+      [
+        3.8203944695707435,
+        2.7168949240217146,
+        4.363430591820819,
+        2.712008172573158,
+        4.0671200716618365
+      ],
+      [
+        5.044663937170856,
+        3.3292125768103964,
+        5.155898596401239,
+        2.8620709892671568,
+        4.311905501550226
+      ],
+      [
+        3.894916449290874,
+        2.688840197605741,
+        4.462825792256362,
+        2.847590085423013,
+        4.189890551054199
+      ],
+      [
+        4.213896721731754,
+        2.734421933576716,
+        4.494729562245885,
+        2.9929687893480788,
+        4.333450380107376
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 45,
+      "1": 47,
+      "2": 20,
+      "3": 7,
+      "4": 16
+    },
+    "final_epochs": 20,
+    "contrast": "d_vs_a"
+  },
+  {
+    "model": "dlinear",
+    "config": "A",
+    "horizon_steps": 6,
+    "mode": "direct",
+    "window_steps": 36,
+    "role": "core",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.913129422571713,
+    "grid_scores": [
+      3.913129422571713,
+      4.310633312119804,
+      3.9960747092702604,
+      4.181475814345485
+    ],
+    "fold_scores": [
+      [
+        4.621629618772669,
+        3.061041541456623,
+        4.601164582278357,
+        2.9336045678464386,
+        4.348206802504477
+      ],
+      [
+        5.204264731916146,
+        3.302848695419953,
+        5.3286464920956815,
+        3.0048598764589016,
+        4.71254676470834
+      ],
+      [
+        4.816522707800841,
+        3.055716578030749,
+        4.5668573507806025,
+        3.1442681716928242,
+        4.397008738046288
+      ],
+      [
+        4.985747737681013,
+        3.1078275187489615,
+        4.918325665607204,
+        3.3444065276259027,
+        4.551071622064347
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 24,
+      "1": 37,
+      "2": 16,
+      "3": 7,
+      "4": 27
+    },
+    "final_epochs": 24,
+    "contrast": "d_vs_a"
+  },
+  {
+    "model": "dlinear",
+    "config": "D",
+    "horizon_steps": 0,
+    "mode": "path",
+    "window_steps": 36,
+    "role": "extra_path",
+    "selection_metric": "média do MAE interno nos passos 1, 3 e 6",
+    "rule": "inner_validation",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "selection_score": 3.66406347783225,
+    "grid_scores": [
+      3.66406347783225,
+      5.137940706888536,
+      4.3053580757765975,
+      5.659664600019374
+    ],
+    "fold_scores": [
+      [
+        3.9429154012073973,
+        3.1963257735988013,
+        4.098227879358819,
+        2.9471754249859194,
+        4.135672910010311
+      ],
+      [
+        5.219044896745873,
+        4.591850969134978,
+        5.878030631947994,
+        5.481672411135494,
+        4.519104625478338
+      ],
+      [
+        5.836637507961645,
+        3.6544662007271747,
+        4.387445090610494,
+        2.994860412825917,
+        4.653381166757756
+      ],
+      [
+        9.07025709584005,
+        4.1043774438179845,
+        6.3108561879485405,
+        3.760218785187682,
+        5.052613487302614
+      ]
+    ],
+    "best_epochs_by_fold": {
+      "0": 48,
+      "1": 40,
+      "2": 37,
+      "3": 30,
+      "4": 21
+    },
+    "final_epochs": 37,
+    "contrast": "d_vs_a"
+  }
+]

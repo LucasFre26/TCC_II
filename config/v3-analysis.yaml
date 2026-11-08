@@ -1,0 +1,85 @@
+# Análise expandida de uma corrida da V3. Só lê artefatos; grava em <run_dir>/expanded-analysis/.
+run_dir: results/v3/20261104T232620Z-5b659dad
+v2_dir: results/v2-full
+output_subdir: expanded-analysis
+substitute: config/specpower_substitute.yaml
+
+# Camada 2 (opcional): cache de grade lido com a configuração gravada no manifesto da corrida.
+dataset:
+  enabled: true
+
+tolerances:
+  metric: 1.0e-9          # MAE/RMSE recalculados contra metrics.csv
+  bootstrap: 1.0e-12      # média e limites do bootstrap pré-registrado
+  energy_j: 1.0e-6        # energia recalculada contra energy_by_origin.csv
+  refit_pp: 1.0e-6        # reajuste do XGBoost contra previsões gravadas
+  series_pp: 1.0e-9       # série reconstruída contra y_true
+
+models:
+  # Ordem de exibição e rótulos. Modelos da V2 recebem o sufixo _v2.
+  order: [persistence, ridge_v2, xgboost_v2, xgboost_delta, statespace, hybrid, dlinear, tcn, nbeatsx, nhits, patchtst]
+  labels:
+    persistence: Persistência
+    ridge_v2: Ridge (V2)
+    xgboost_v2: XGBoost (V2)
+    xgboost_delta: XGBoost incremento
+    statespace: Kalman (nível local)
+    hybrid: Kalman + XGBoost
+    dlinear: DLinear
+    tcn: TCN
+    nbeatsx: N-BEATSx
+    nhits: N-HiTS
+    patchtst: PatchTST
+    xgboost_quantile: XGBoost quantílico
+  families:
+    persistence: referência
+    ridge_v2: V2
+    xgboost_v2: V2
+    xgboost_delta: V3 residual
+    statespace: V3 residual
+    hybrid: V3 residual
+    dlinear: V3 neural
+    tcn: V3 neural
+    nbeatsx: V3 neural
+    nhits: V3 neural
+    patchtst: V3 neural
+  # Destaque nas figuras temporais; a melhor rede é escolhida pelo menor MAE interno (A, 5 min), não pelo teste.
+  highlight: [persistence, xgboost_v2, hybrid]
+  best_neural_rule: inner_selection_mae_h1
+  neural: [dlinear, tcn, nbeatsx, nhits, patchtst]
+
+diagnostics:
+  window_steps: 36             # janelas de 3 h
+  change_steps: 6              # subida/queda medida em 30 min
+  acf_max_lag: 36
+  cpu_bands: 5                 # quintis da CPU observada no desenvolvimento
+  recent_change_bins: [-1.0e+9, -4, -2, -1, 1, 2, 4, 1.0e+9]
+
+peaks:
+  quantiles: [0.9, 0.95]
+  merge_gap_steps: 1
+  tolerance_steps: 1
+
+statistics:
+  n_boot: 5000
+  seed: 42
+  blocks: [6, 12, 24]
+  primary_block: 12
+  practical_relative_threshold: 0.05
+  exploratory_config: A
+
+energy:
+  exponents: [1.0, 1.4, 1.8]
+  reference_exponent: 1.4
+  sensitivity:
+    p_idle_factors: [0.5, 0.75, 1.0, 1.25, 1.5]
+    p_busy_factors: [0.8, 0.9, 1.0, 1.1, 1.2]
+    horizon_steps: 6
+
+computational:
+  timing_repeats: 3
+
+figures:
+  dpi: 300
+  formats: [png, svg, pdf]
+  dark_variant: false

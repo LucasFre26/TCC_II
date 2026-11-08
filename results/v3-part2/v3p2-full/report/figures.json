@@ -1,0 +1,32 @@
+[
+  {
+    "name": "01_comparacoes_primarias",
+    "caption": "Comparações primárias nos dias de desenvolvimento (IC de 95%, bootstrap estratificado por dia).",
+    "data": "figures/data/01_comparacoes_primarias.csv"
+  },
+  {
+    "name": "02_deslocamento_vies",
+    "caption": "Viés por bloco contra o deslocamento de nível em relação ao treino (30 min).",
+    "data": "figures/data/02_deslocamento_vies.csv"
+  },
+  {
+    "name": "03_escala_global",
+    "caption": "Diagnóstico de escala do XGBoost global num único bloco (descritivo).",
+    "data": "figures/data/03_escala_global.csv"
+  },
+  {
+    "name": "04_cobertura_calibracao",
+    "caption": "Cobertura empírica do limite superior por método nos dias de desenvolvimento.",
+    "data": "figures/data/04_cobertura_calibracao.csv"
+  },
+  {
+    "name": "05_decomposicao_energia",
+    "caption": "Decomposição da diferença de energia de TI modelada (servidor substituto, r = 1,4).",
+    "data": "figures/data/05_decomposicao_energia.csv"
+  },
+  {
+    "name": "06_compromisso_picos",
+    "caption": "Compromisso entre erro médio e subestimação nos picos por λ (dias de desenvolvimento).",
+    "data": "figures/data/06_compromisso_picos.csv"
+  }
+]

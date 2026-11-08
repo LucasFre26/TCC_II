@@ -1,0 +1,21 @@
+{
+  "experts": [
+    "persistence",
+    "xgboost_v2",
+    "xgboost_delta",
+    "hybrid"
+  ],
+  "detector": {
+    "slope_steps": 6,
+    "volatility_steps": 12,
+    "volatility_quantile": 0.8,
+    "rise_quantile": 0.75,
+    "fall_quantile": 0.25
+  },
+  "cost_seconds": {
+    "detector": 0.0006142820056993514,
+    "combination": 0.3054323980031768,
+    "note": "sem o custo de ajuste dos especialistas (família baselines)"
+  },
+  "statement": "O regime realizado (com o alvo) aparece só na matriz de confusão; nenhum combinador o usa."
+}

@@ -1,0 +1,194 @@
+{
+  "quantity": "energia de TI modelada (estimativa paramétrica, servidor substituto SPECpower_ssj2008)",
+  "statement": "O trace não fornece potência nem energia medidas. A potência obtida da CPU agregada é a de um servidor substituto, não a potência total da frota; a soma das máquinas presentes está em aggregate_effect.csv como coluna separada.",
+  "propagation_statement": "Diferença entre energia de TI modelada com a trajetória prevista e com a trajetória observada, no mesmo servidor substituto. Não é erro contra medidor.",
+  "substitute": {
+    "result_id": "power_ssj2008-20170621-00759",
+    "source": "https://www.spec.org/power_ssj2008/results/res2017q3/power_ssj2008-20170621-00759.html",
+    "system": "Huawei Technologies Co., Ltd Fusion Server 2288H V5",
+    "published": "2017-07-11",
+    "test_date": "2017-06-18",
+    "sockets": 2,
+    "nodes": 1,
+    "processor": "Intel Xeon Platinum 8176 (2 chips, 56 núcleos)",
+    "p_idle_w": 49.6,
+    "p_busy_w": 461,
+    "selection_tiebreak_extra": "menor identificador do resultado (00759 < 00763), empate residual não previsto no critério",
+    "limitation": "Servidor substituto: a carga do benchmark SPECpower_ssj2008 (ssj_ops) não é a utilização de CPU do trace do Alibaba, e o hardware não é o do cluster; potência e energia são estimativas paramétricas, não medições."
+  },
+  "model": "P(u) = P_idle + (P_busy - P_idle)(2u - u^r)",
+  "exponents": [
+    1.0,
+    1.4,
+    1.8
+  ],
+  "exponent_rule": "os três valores de r são reportados; nenhum é escolhido pelo erro no teste",
+  "integration": {
+    "rule": "trapézio",
+    "step_seconds": 300.0,
+    "left_endpoint": "P(u(t)) observado"
+  },
+  "inheritance": {
+    "map_step_to_scored_horizon": {
+      "1": 1,
+      "2": 3,
+      "3": 3,
+      "4": 6,
+      "5": 6,
+      "6": 6
+    },
+    "inherited_steps": [
+      2,
+      4,
+      5
+    ],
+    "applies_to": [
+      "ridge_v2",
+      "xgboost_v2",
+      "xgboost_delta",
+      "hybrid",
+      "statespace (especificação)"
+    ],
+    "note": "Herdeiros ajustados uma vez na região de desenvolvimento; não é uma busca nova."
+  },
+  "availability": {
+    "persistence": {
+      "available": true,
+      "consistency": null
+    },
+    "statespace": {
+      "available": true,
+      "consistency": {
+        "max_abs_difference_vs_stored_test_predictions": {
+          "1": 7.105427357601002e-15,
+          "3": 7.105427357601002e-15,
+          "6": 7.105427357601002e-15
+        }
+      }
+    },
+    "ridge_v2": {
+      "available": true,
+      "consistency": {
+        "max_abs_difference_vs_stored_test_predictions": {
+          "1": 1.4210854715202004e-13,
+          "3": 1.3500311979441904e-13,
+          "6": 1.9895196601282805e-13
+        }
+      }
+    },
+    "xgboost_v2": {
+      "available": true,
+      "consistency": {
+        "max_abs_difference_vs_stored_test_predictions": {
+          "1": 7.105427357601002e-15,
+          "3": 7.105427357601002e-15,
+          "6": 7.105427357601002e-15
+        }
+      }
+    },
+    "xgboost_delta": {
+      "available": true,
+      "consistency": {
+        "max_abs_difference_vs_stored_test_predictions": {
+          "1": 7.105427357601002e-15,
+          "3": 7.105427357601002e-15,
+          "6": 7.105427357601002e-15
+        }
+      }
+    },
+    "hybrid": {
+      "available": true,
+      "consistency": {
+        "max_abs_difference_vs_stored_test_predictions": {
+          "1": 7.105427357601002e-15,
+          "3": 7.105427357601002e-15,
+          "6": 7.105427357601002e-15
+        }
+      }
+    },
+    "dlinear": {
+      "available": true,
+      "consistency": null
+    },
+    "tcn": {
+      "available": true,
+      "consistency": null
+    },
+    "nbeatsx": {
+      "available": true,
+      "consistency": null
+    }
+  },
+  "invalid_utilization_counts": {
+    "persistence/r=1": 0,
+    "statespace/r=1": 0,
+    "ridge_v2/r=1": 0,
+    "xgboost_v2/r=1": 0,
+    "xgboost_delta/r=1": 0,
+    "hybrid/r=1": 0,
+    "dlinear/r=1": 0,
+    "tcn/r=1": 0,
+    "nbeatsx/r=1": 0,
+    "observado/r=1": 0,
+    "persistence/r=1.4": 0,
+    "statespace/r=1.4": 0,
+    "ridge_v2/r=1.4": 0,
+    "xgboost_v2/r=1.4": 0,
+    "xgboost_delta/r=1.4": 0,
+    "hybrid/r=1.4": 0,
+    "dlinear/r=1.4": 0,
+    "tcn/r=1.4": 0,
+    "nbeatsx/r=1.4": 0,
+    "observado/r=1.4": 0,
+    "persistence/r=1.8": 0,
+    "statespace/r=1.8": 0,
+    "ridge_v2/r=1.8": 0,
+    "xgboost_v2/r=1.8": 0,
+    "xgboost_delta/r=1.8": 0,
+    "hybrid/r=1.8": 0,
+    "dlinear/r=1.8": 0,
+    "tcn/r=1.8": 0,
+    "nbeatsx/r=1.8": 0,
+    "observado/r=1.8": 0
+  },
+  "aggregate_effect": {
+    "quantity": "potência de TI modelada no servidor substituto (estimativa paramétrica)",
+    "invalid_cpu_values": 0,
+    "n_bins": 2243,
+    "population_weight": 386208.0,
+    "per_exponent": [
+      {
+        "r": 1.0,
+        "mean_p_of_mean_w": 205.90299347791782,
+        "mean_mean_of_p_w": 205.90299347791782,
+        "mean_jensen_gap_w": 2.2681613856630927e-15,
+        "max_abs_jensen_gap_w": 5.684341886080802e-14,
+        "mean_sum_of_p_w": 772609.3251858153,
+        "unstable_bins": 0
+      },
+      {
+        "r": 1.4,
+        "mean_p_of_mean_w": 254.32516798269808,
+        "mean_mean_of_p_w": 251.16393757778954,
+        "mean_jensen_gap_w": -3.161230404908521,
+        "max_abs_jensen_gap_w": 15.235813835715646,
+        "mean_sum_of_p_w": 941934.0125162179,
+        "unstable_bins": 0
+      },
+      {
+        "r": 1.8,
+        "mean_p_of_mean_w": 287.0488370754351,
+        "mean_mean_of_p_w": 282.00976185358564,
+        "mean_jensen_gap_w": -5.039075221849362,
+        "max_abs_jensen_gap_w": 27.807982071130738,
+        "mean_sum_of_p_w": 1057493.1330964835,
+        "unstable_bins": 0
+      }
+    ]
+  },
+  "figure_point_model": {
+    "model": "tcn",
+    "inner_mae": 3.8134824497986464,
+    "rule": "menor MAE interno na configuração A, horizonte 6 passos"
+  }
+}

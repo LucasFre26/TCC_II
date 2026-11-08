@@ -1,0 +1,20 @@
+{
+  "models": [
+    "persistence",
+    "xgboost_v2",
+    "xgboost_delta",
+    "statespace",
+    "hybrid"
+  ],
+  "variant": "A",
+  "statespace_specification": "local_level",
+  "selection_rule": "MAE da validação interna de cada bloco",
+  "level_shift_by_block": {
+    "day_3": 0.5732566304215894,
+    "day_4": 1.4903523471169677,
+    "day_5": -2.9282499709677623,
+    "day_6": 2.9415692780940788,
+    "day_7": 4.509080390938124
+  },
+  "statement": "Referências reajustadas no protocolo por dia com as especificações da V2 e da V3."
+}

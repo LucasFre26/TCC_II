@@ -1,0 +1,46 @@
+signal,signal_kind,horizon_steps,horizon_min,threshold_kind,threshold_cpu_pct,low_index,high_index,n_events,n_events_evaluable,n_anticipated,anticipation_rate,n_alert_points,n_alert_episodes,n_false_alarm_episodes,false_alarm_episode_fraction,mean_lead_steps,label
+dlinear,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,0,0,25,4,0,0,,DLinear
+dlinear,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,25,2,0,0,4,DLinear
+dlinear,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,18,3,0,0,7,DLinear
+hybrid,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,28,3,0,0,2,Kalman + XGBoost
+hybrid,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,25,4,1,0.25,3,Kalman + XGBoost
+hybrid,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,30,2,0,0,7,Kalman + XGBoost
+nbeatsx,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,24,6,1,0.166666666667,2,N-BEATSx
+nbeatsx,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,30,1,0,0,4,N-BEATSx
+nbeatsx,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,25,2,0,0,7,N-BEATSx
+nhits,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,29,3,0,0,2,N-HiTS
+nhits,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,22,3,0,0,4,N-HiTS
+nhits,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,28,2,0,0,7,N-HiTS
+patchtst,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,29,4,0,0,2,PatchTST
+patchtst,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,30,2,1,0.5,3.5,PatchTST
+patchtst,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,29,3,0,0,7,PatchTST
+persistence,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,0,0,35,12,0,0,,Persistência
+persistence,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,35,12,10,0.833333333333,3.5,Persistência
+persistence,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,3,0.25,35,12,9,0.75,6,Persistência
+ridge_v2,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,0,0,26,3,0,0,,Ridge (V2)
+ridge_v2,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,25,2,1,0.5,4,Ridge (V2)
+ridge_v2,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,20,2,0,0,7,Ridge (V2)
+statespace,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,0,0,31,6,0,0,,Kalman (nível local)
+statespace,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,31,6,5,0.833333333333,4,Kalman (nível local)
+statespace,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,3,0.25,31,6,3,0.5,6,Kalman (nível local)
+tcn,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,0,0,23,3,0,0,,TCN
+tcn,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,0,0,19,3,0,0,,TCN
+tcn,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,14,2,0,0,7,TCN
+xgboost_delta,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,27,6,0,0,2,XGBoost incremento
+xgboost_delta,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,26,2,0,0,3.5,XGBoost incremento
+xgboost_delta,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,3,0.25,28,5,1,0.2,6.33333333333,XGBoost incremento
+xgboost_v2,previsão pontual,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,1,0.0833333333333,27,2,0,0,2,XGBoost (V2)
+xgboost_v2,previsão pontual,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,26,2,0,0,4,XGBoost (V2)
+xgboost_v2,previsão pontual,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,2,0.166666666667,31,2,0,0,7,XGBoost (V2)
+xgboost_quantile Q90 bruto,quantil,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,3,0.25,50,13,3,0.230769230769,1.66666666667,XGBoost Q90 bruto
+xgboost_quantile Q90 bruto,quantil,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,6,0.5,64,12,7,0.583333333333,3.5,XGBoost Q90 bruto
+xgboost_quantile Q90 bruto,quantil,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,5,0.416666666667,55,8,5,0.625,6.2,XGBoost Q90 bruto
+xgboost_quantile Q95 bruto,quantil,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,8,0.666666666667,109,13,6,0.461538461538,1.875,XGBoost Q95 bruto
+xgboost_quantile Q95 bruto,quantil,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,9,0.75,119,14,8,0.571428571429,3.88888888889,XGBoost Q95 bruto
+xgboost_quantile Q95 bruto,quantil,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,9,0.75,92,17,9,0.529411764706,6.88888888889,XGBoost Q95 bruto
+xgboost_quantile Q90 ajustado,quantil,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,4,0.333333333333,53,15,5,0.333333333333,1.5,XGBoost Q90 ajustado
+xgboost_quantile Q90 ajustado,quantil,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,9,0.75,79,16,9,0.5625,3.66666666667,XGBoost Q90 ajustado
+xgboost_quantile Q90 ajustado,quantil,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,7,0.583333333333,72,12,7,0.583333333333,6.71428571429,XGBoost Q90 ajustado
+xgboost_quantile Q95 ajustado,quantil,1,5,desenvolvimento_p90,50.3981290195,2016,2298,12,12,9,0.75,118,12,5,0.416666666667,1.77777777778,XGBoost Q95 ajustado
+xgboost_quantile Q95 ajustado,quantil,3,15,desenvolvimento_p90,50.3981290195,2016,2298,12,12,10,0.833333333333,149,9,6,0.666666666667,4,XGBoost Q95 ajustado
+xgboost_quantile Q95 ajustado,quantil,6,30,desenvolvimento_p90,50.3981290195,2016,2298,12,12,10,0.833333333333,115,16,9,0.5625,6.9,XGBoost Q95 ajustado

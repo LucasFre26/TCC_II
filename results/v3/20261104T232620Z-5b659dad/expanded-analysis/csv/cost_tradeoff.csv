@@ -1,0 +1,34 @@
+model,horizon_steps,test_mae_pp,size_measure,size_kind,train_seconds_test_refit,device,peak_cuda_memory_mib,measurement_source,pareto_time_mae
+dlinear,1,3.26873146386,78,parâmetros treináveis,0.756464116,cuda,64.9213867188,corrida original (training_profile.csv),False
+dlinear,3,4.46283442773,78,parâmetros treináveis,0.623623862,cuda,64.9213867188,corrida original (training_profile.csv),False
+dlinear,6,5.14405377129,78,parâmetros treináveis,0.812845874,cuda,64.9213867188,corrida original (training_profile.csv),False
+hybrid,1,3.0253793705,760,árvores e folhas,0.105609195998,cpu,0,reajuste de teste medido na análise expandida,True
+hybrid,3,3.92326193691,796,árvores e folhas,0.113185123002,cpu,0,reajuste de teste medido na análise expandida,False
+hybrid,6,4.31867433129,793,árvores e folhas,0.117675146001,cpu,0,reajuste de teste medido na análise expandida,True
+nbeatsx,1,3.8064501645,40576,parâmetros treináveis,0.543982089,cuda,65.9189453125,corrida original (training_profile.csv),False
+nbeatsx,3,5.19901911753,40576,parâmetros treináveis,0.471508494,cuda,65.9189453125,corrida original (training_profile.csv),False
+nbeatsx,6,5.25456354667,40576,parâmetros treináveis,0.269484409,cuda,65.9189453125,corrida original (training_profile.csv),False
+nhits,1,4.20578548529,31983,parâmetros treináveis,0.752647434,cuda,65.7426757812,corrida original (training_profile.csv),False
+nhits,3,5.25659614247,31983,parâmetros treináveis,0.306153042,cuda,65.7426757812,corrida original (training_profile.csv),False
+nhits,6,5.72524404602,31983,parâmetros treináveis,0.304625978,cuda,65.7426757812,corrida original (training_profile.csv),False
+patchtst,1,3.27234731476,18145,parâmetros treináveis,0.756641277,cuda,73.1904296875,corrida original (training_profile.csv),False
+patchtst,3,4.30410596491,18145,parâmetros treináveis,0.331492009,cuda,73.1904296875,corrida original (training_profile.csv),False
+patchtst,6,4.32075567451,18145,parâmetros treináveis,0.37332576,cuda,73.1904296875,corrida original (training_profile.csv),False
+persistence,1,3.3512744114,0,sem parâmetros,0,cpu,0,sem ajuste,True
+persistence,3,4.70177401181,0,sem parâmetros,0,cpu,0,sem ajuste,True
+persistence,6,5.33021890981,0,sem parâmetros,0,cpu,0,sem ajuste,True
+ridge_v2,1,3.28580229378,13,coeficientes,0.00123720600095,cpu,0,reajuste de teste medido na análise expandida,True
+ridge_v2,3,4.50598197469,13,coeficientes,0.00109133599835,cpu,0,reajuste de teste medido na análise expandida,True
+ridge_v2,6,5.21954667333,13,coeficientes,0.00109322400021,cpu,0,reajuste de teste medido na análise expandida,True
+statespace,1,3.25942184621,2,parâmetros do modelo de estados,0.0376650639992,cpu,0,reajuste de teste medido na análise expandida,False
+statespace,3,4.41039162979,2,parâmetros do modelo de estados,0.0382622710022,cpu,0,reajuste de teste medido na análise expandida,False
+statespace,6,4.99730980243,2,parâmetros do modelo de estados,0.038573681999,cpu,0,reajuste de teste medido na análise expandida,False
+tcn,1,3.42701691199,2593,parâmetros treináveis,0.555117516,cuda,67.4243164062,corrida original (training_profile.csv),False
+tcn,3,4.71257874392,2593,parâmetros treináveis,0.308649041,cuda,67.4243164062,corrida original (training_profile.csv),False
+tcn,6,5.37771736601,9793,parâmetros treináveis,0.500508313,cuda,67.5004882812,corrida original (training_profile.csv),False
+xgboost_delta,1,3.08798098266,752,árvores e folhas,0.0324936309989,cpu,0,reajuste de teste medido na análise expandida,True
+xgboost_delta,3,3.94810005551,2371,árvores e folhas,0.0785144850015,cpu,0,reajuste de teste medido na análise expandida,False
+xgboost_delta,6,4.50388556108,794,árvores e folhas,0.0312705040014,cpu,0,reajuste de teste medido na análise expandida,True
+xgboost_v2,1,3.06407102804,793,árvores e folhas,0.0601657680018,cpu,0,reajuste de teste medido na análise expandida,True
+xgboost_v2,3,3.85622304577,794,árvores e folhas,0.0327241279992,cpu,0,reajuste de teste medido na análise expandida,True
+xgboost_v2,6,4.33358136309,2789,árvores e folhas,0.0753419799985,cpu,0,reajuste de teste medido na análise expandida,True

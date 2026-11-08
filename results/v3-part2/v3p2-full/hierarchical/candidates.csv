@@ -1,0 +1,16 @@
+block,day,role,horizon_steps,criterion,k,method,inner_aggregate_mae
+day_3,3,development,1,profile,4,bottom_up,3.019561418373562
+day_3,3,development,3,failure_domain,natural,bottom_up,3.4755347319448413
+day_3,3,development,6,mean,8,mint_shrink,3.5634629696097573
+day_4,4,development,1,profile,8,mint_shrink,2.5061168844648463
+day_4,4,development,3,volatility,16,mint_shrink,3.0338895421563996
+day_4,4,development,6,volatility,16,bottom_up,3.208332301658412
+day_5,5,development,1,mean,4,bottom_up,2.1441250595078887
+day_5,5,development,3,mean,8,mint_shrink,2.84863161802654
+day_5,5,development,6,mean,8,bottom_up,3.350447770288635
+day_6,6,development,1,volatility,8,mint_shrink,2.075574687331396
+day_6,6,development,3,profile,16,mint_shrink,2.569445963694562
+day_6,6,development,6,mean,8,bottom_up,2.7482354870939307
+day_7,7,inherited_test,1,volatility,4,ols,2.4867365803962986
+day_7,7,inherited_test,3,mean,8,mint_shrink,3.4015691503845296
+day_7,7,inherited_test,6,mean,4,bottom_up,3.742207662831777

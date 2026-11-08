@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "fitted": [
+    "nhits",
+    "patchtst"
+  ],
+  "gate": {
+    "criterion": "três redes obrigatórias com A direto concluído e ao menos uma com MAE interno (A, 5 min) menor que a persistência na mesma validação interna; o teste final não entra",
+    "direct_A_completed": {
+      "dlinear": true,
+      "tcn": true,
+      "nbeatsx": true
+    },
+    "persistence_inner_mae_h1": 3.109467359714374,
+    "network_inner_mae_h1": {
+      "dlinear": 2.7933525582874323,
+      "tcn": 2.8687940916285326,
+      "nbeatsx": 3.147737013473394
+    },
+    "passed": true
+  }
+}

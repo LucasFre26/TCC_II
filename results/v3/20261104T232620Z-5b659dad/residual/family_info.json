@@ -1,0 +1,24 @@
+{
+  "models": [
+    "persistence",
+    "xgboost_delta",
+    "statespace",
+    "hybrid"
+  ],
+  "configs": [
+    "A",
+    "B",
+    "C"
+  ],
+  "statespace_specification_by_horizon": {
+    "1": "local_level",
+    "3": "local_level",
+    "6": "local_level"
+  },
+  "selection_rule": "inner_validation",
+  "skipped_comparisons": [],
+  "statement": "Perder para o XGBoost da V2 é resultado válido; nenhum modelo foi descartado pelo teste.",
+  "limitations": [
+    "Variâncias do modelo de estados estimadas por máxima verossimilhança no segmento de treino; o estado na origem é sempre filtrado (sem suavização)."
+  ]
+}

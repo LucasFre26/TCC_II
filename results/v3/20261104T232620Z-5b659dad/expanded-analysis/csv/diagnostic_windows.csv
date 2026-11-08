@@ -1,0 +1,5 @@
+window,rule,criterion_value_pp,start_index,end_index,start_time_h,end_time_h,length_steps,selection_order
+volatilidade,maior desvio-padrão da primeira diferença na janela,6.64324994459,2055,2090,171.25,174.166666667,36,1
+subida,maior subida em 6 passos dentro da janela,16.3782725125,2203,2238,183.583333333,186.5,36,2
+queda,maior queda em 6 passos dentro da janela,-15.1861695518,2091,2126,174.25,177.166666667,36,3
+estabilidade,menor desvio-padrão da primeira diferença na janela,2.81473503265,2159,2194,179.916666667,182.833333333,36,4

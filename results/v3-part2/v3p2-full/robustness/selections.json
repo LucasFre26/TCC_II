@@ -1,0 +1,8087 @@
+[
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 1,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 2,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      3.1065504839426117,
+      3.0756073834781126,
+      3.0366806719996386,
+      3.25956786531422,
+      3.1472841621731735,
+      3.0521624122893525,
+      3.1738893895676523,
+      3.216547584882252,
+      3.312926230852966,
+      3.238366849902922,
+      3.231879152992662,
+      3.399038941761693,
+      3.1765263740345926,
+      3.1207335176106286,
+      3.0689093400024783,
+      3.379204191047773,
+      3.211687298698853,
+      3.104491204389577,
+      3.218355841694996,
+      3.2647206625754768,
+      3.2730843242875847,
+      3.3528066358703135,
+      3.2955260968717712,
+      3.362814738412284
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 1,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 5,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 300,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      2.6747881430639384,
+      2.62703885415325,
+      2.604023892555962,
+      2.694506267961808,
+      2.631765515342915,
+      2.6013807547039134,
+      2.711221682557904,
+      2.698166897953382,
+      2.6869055729263858,
+      2.8144589222992753,
+      2.6919730799243657,
+      2.7111705465011164,
+      2.6960254093048244,
+      2.6105376997470833,
+      2.6104122523747577,
+      2.7567598182892854,
+      2.6450760224918324,
+      2.6502944253569907,
+      2.709506592669756,
+      2.752816771632975,
+      2.6476820356485007,
+      2.790062002439124,
+      2.8020440429570264,
+      2.6497747344292626
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 1,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 2,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      2.207263550545541,
+      2.1699804112939227,
+      2.1526496868174076,
+      2.3210271935251168,
+      2.2476884980265868,
+      2.175638842513908,
+      2.3428609060816794,
+      2.3663638269397316,
+      2.3985358301440622,
+      2.3438291377614067,
+      2.405586938641145,
+      2.4875254879425674,
+      2.2528709728544833,
+      2.179453104536834,
+      2.1697069115077787,
+      2.3854831361332876,
+      2.3294518982635606,
+      2.2488903030958363,
+      2.4243000553867997,
+      2.4396440845190677,
+      2.3829950052179183,
+      2.4577614572530444,
+      2.5212098082060432,
+      2.4419832704961735
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 1,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 14,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      2.4592498522099953,
+      2.2716630999276806,
+      2.2239467365828256,
+      2.4590383076224516,
+      2.2884160951060144,
+      2.2402204240816723,
+      2.5728956378053436,
+      2.3368502648661114,
+      2.30114783264415,
+      2.6507203459888253,
+      2.3949540711775614,
+      2.327149017929999,
+      2.4950620662650715,
+      2.2618829229530673,
+      2.1858193566418374,
+      2.6582617123173353,
+      2.376285938352901,
+      2.2253972211270994,
+      2.6401781462855816,
+      2.351413624432361,
+      2.338540586609201,
+      2.6538715248256475,
+      2.35898373375697,
+      2.381771879370272
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 1,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 20,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 5,
+      "n_estimators": 100,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      2.773130692755748,
+      2.668495070164658,
+      2.5460369254580524,
+      2.764552355316873,
+      2.6631090757402607,
+      2.569347342452277,
+      2.632856916137744,
+      2.546571236319702,
+      2.484270394955989,
+      2.602174953810175,
+      2.476808902861048,
+      2.468737841113599,
+      2.7383890004548608,
+      2.709016230527175,
+      2.5599261302613168,
+      2.7057871256777744,
+      2.703002788165888,
+      2.548350586633317,
+      2.589731921554769,
+      2.558431315805393,
+      2.456794070711881,
+      2.602001095295737,
+      2.547320976745903,
+      2.53077864200043
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 1,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.0892293162531397,
+      3.1606752347962623,
+      3.3913527630466453,
+      3.431566877150732,
+      3.1583658265537213,
+      3.2981846762557834,
+      3.3967440470029278,
+      3.4394259693370266
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 1,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.693008828227786,
+      2.7151264219442703,
+      2.8290033663018486,
+      2.823697488130208,
+      2.6908181824209927,
+      2.731895608766368,
+      2.853490856823067,
+      2.9294691715511445
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 1,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.1195141090332497,
+      2.250114226655827,
+      2.2173772539061036,
+      2.4647478627658437,
+      2.1757131345307545,
+      2.3854724944665517,
+      2.386301817747712,
+      2.5556459497923454
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 1,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 4,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.204460035477217,
+      2.1818344328831025,
+      2.239734757210939,
+      2.3218818142332163,
+      2.167026341108242,
+      2.253235934308771,
+      2.2572475722472762,
+      2.4161918334428893
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 1,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.5159642821269057,
+      2.6145228121731967,
+      2.637877605551184,
+      2.8438123892127822,
+      2.5627866125001098,
+      2.7264277187048287,
+      2.7478472523220256,
+      2.902585740728476
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 3,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 6,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "n_estimators": 100,
+      "_half_life": 144
+    },
+    "grid_scores": [
+      3.563331896725526,
+      3.5661370908674033,
+      3.544954037163027,
+      3.710546807785715,
+      3.6904957831871723,
+      3.6401195972076477,
+      3.5437514045429253,
+      3.6736562193425675,
+      3.7557939527678568,
+      3.6250247341343567,
+      3.6904375277661723,
+      3.758765556447879,
+      3.5802766443525957,
+      3.589215007652796,
+      3.689967433446924,
+      3.686132657623822,
+      3.7512689148703604,
+      3.841791302644509,
+      3.6029578959259347,
+      3.692680534822746,
+      3.7823715186783784,
+      3.7521889301496665,
+      3.708042651848333,
+      3.8317244893362012
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 3,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 2,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      3.2935229111289113,
+      3.24940469109883,
+      3.1460195272010116,
+      3.374240596225173,
+      3.2961764424154794,
+      3.1661610164881515,
+      3.1616810515325406,
+      3.159181045528944,
+      3.158256974701162,
+      3.2388312871352136,
+      3.2484648797795237,
+      3.287217765878844,
+      3.346829817078267,
+      3.244548525841598,
+      3.156324772369251,
+      3.480672084096942,
+      3.366287008620783,
+      3.2759303272449114,
+      3.3210138437017234,
+      3.242676572064296,
+      3.3332070518266055,
+      3.334677882516694,
+      3.4053601970565763,
+      3.395112262801464
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 3,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 12,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 144
+    },
+    "grid_scores": [
+      3.124610667355234,
+      3.0382221221146,
+      3.1022020667369525,
+      3.098412785142693,
+      3.0691432516650687,
+      3.1855995162431885,
+      3.104982614813692,
+      3.314773320274066,
+      3.277051551794107,
+      3.1081704072309213,
+      3.41112933712357,
+      3.3546127474454965,
+      3.029727216227996,
+      3.06695023835238,
+      3.240610660983092,
+      3.139342241825853,
+      3.172899009118637,
+      3.487053479320815,
+      3.2351108360836065,
+      3.278469218161556,
+      3.350404629178321,
+      3.343290940537522,
+      3.4174416016814706,
+      3.56609774687742
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 3,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 14,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      2.936814196803137,
+      2.896166136039757,
+      2.7845717728484023,
+      3.1744487325211144,
+      3.0110910886636173,
+      2.8021029201114964,
+      3.2307780618680577,
+      3.1359849610860095,
+      2.8762477368572967,
+      3.385671719547503,
+      3.1594681795035444,
+      2.9380009291871314,
+      2.9933392566578805,
+      2.9780672254900904,
+      2.6957273620367115,
+      3.2986714626963343,
+      3.083103010693434,
+      2.769509866691644,
+      3.3072437422944376,
+      3.232335692781615,
+      2.963327461736192,
+      3.3949011001625653,
+      3.173474826064372,
+      3.103560371367268
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 3,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 2,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      3.745208892659596,
+      3.728278772120776,
+      3.5418994391201277,
+      3.7993342107032695,
+      3.6599364746191774,
+      3.6102328066699525,
+      3.7036782844445764,
+      3.768192385693499,
+      3.7035950082821745,
+      3.7283747376852805,
+      3.8449804882624963,
+      3.7580398907235613,
+      3.7994990203130135,
+      3.645901739787261,
+      3.6513179953241703,
+      3.768485754390711,
+      3.775163722934257,
+      3.832809775333718,
+      3.8481777491530917,
+      3.758159816909684,
+      3.742152983327483,
+      3.8553893763710474,
+      3.9521159913398733,
+      4.012419178811527
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 3,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      4.15076674644554,
+      4.193412230240561,
+      4.348464126236788,
+      4.35209361443569,
+      4.182052837056244,
+      4.2055167503199815,
+      4.434035733109389,
+      4.416078970393514
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 3,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.350972323190889,
+      3.3911810724224134,
+      3.5435294932176893,
+      3.5795701041079573,
+      3.3789640852728873,
+      3.539167898603655,
+      3.6079795127983862,
+      3.732095544145807
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 3,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.063688900625177,
+      3.205734687363053,
+      3.403660355534823,
+      3.716334227581717,
+      3.135573522399026,
+      3.4194780237659006,
+      3.546446662917337,
+      3.8004777619620476
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 3,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      2.961279399290263,
+      3.035349542926965,
+      3.0780588325077787,
+      3.210431731222975,
+      3.013346036209816,
+      3.259884960545765,
+      3.204509851710181,
+      3.3541215952346355
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 3,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.6172709082721246,
+      3.8179200920004694,
+      4.006808629166806,
+      4.166876893586643,
+      3.7423424969637327,
+      4.0138649371744854,
+      4.0365360442207106,
+      4.196446520464643
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 6,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 144
+    },
+    "grid_scores": [
+      3.6295925057375817,
+      3.6703855643314873,
+      3.6533436347033947,
+      3.7496082047447103,
+      3.6797804098582523,
+      3.6819748782223645,
+      3.904915962106808,
+      3.911377882334937,
+      3.847515783492006,
+      3.9685272408019157,
+      4.002510838920901,
+      3.8987754909692054,
+      3.680399935640411,
+      3.8063626528136285,
+      3.752218210900465,
+      3.86137359097965,
+      3.8237431852551955,
+      3.809218119967445,
+      3.972368438459474,
+      4.090045399485319,
+      3.878478960578371,
+      4.071304295178131,
+      4.179422109225598,
+      3.9662675643752183
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 6,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 19,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 5,
+      "n_estimators": 100,
+      "_half_life": 288
+    },
+    "grid_scores": [
+      3.37587708107019,
+      3.3572834809512964,
+      3.3013010415614583,
+      3.583516322993423,
+      3.4122668142373462,
+      3.318697672436308,
+      3.461029250374193,
+      3.342227798393439,
+      3.453853227846748,
+      3.5649450820741118,
+      3.4978559123365747,
+      3.5432378294560802,
+      3.5350917319174116,
+      3.337382592845443,
+      3.3295003327539905,
+      3.7518832311422474,
+      3.5075334034822307,
+      3.4788960542485095,
+      3.5439913249817208,
+      3.289381945728621,
+      3.432223725631985,
+      3.603011989442651,
+      3.368868042197124,
+      3.533170562045056
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 6,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 12,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "_half_life": 144
+    },
+    "grid_scores": [
+      3.4633789732435654,
+      3.505967575673485,
+      3.4887357526431235,
+      3.4072379216398967,
+      3.590015462415176,
+      3.5506328946757,
+      3.6421464609836627,
+      3.6399993519894442,
+      3.67011554843636,
+      3.6774891792851117,
+      3.8511596272469046,
+      3.8384331239939136,
+      3.4020756727849024,
+      3.4973291481459725,
+      3.537309996916691,
+      3.5895955330961695,
+      3.815167282099999,
+      3.733397236070055,
+      3.5376559868322945,
+      3.631840356064343,
+      3.746279925624945,
+      3.662334676040883,
+      3.9052335141420653,
+      3.977777240693325
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 6,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 5,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 300,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      3.038903972000331,
+      3.1386638315203825,
+      3.0538228712724274,
+      3.25222332513812,
+      3.2286175883827424,
+      2.9735524010922663,
+      3.425008119252111,
+      3.2150501822057667,
+      3.0409832590156665,
+      3.4943835791949494,
+      3.1211717568128834,
+      2.9784631574619844,
+      3.1883743115520153,
+      3.151812525965145,
+      3.0278876094452065,
+      3.4437071573865827,
+      3.220706802004168,
+      3.1236777129899593,
+      3.4312165245814805,
+      3.318748005361895,
+      3.0387559892947684,
+      3.5456963228432574,
+      3.2227156477091268,
+      3.1121379991357094
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "recency",
+    "horizon_steps": 6,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 8,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "n_estimators": 100,
+      "_half_life": 576
+    },
+    "grid_scores": [
+      4.494464530595434,
+      4.2732874402554195,
+      4.130757512344982,
+      4.509845784121897,
+      4.3796626240024175,
+      4.183642792982694,
+      4.154325001399207,
+      4.0943506102283,
+      3.929470773053271,
+      4.229980637360624,
+      4.154408569176599,
+      4.016414573343653,
+      4.572463564749183,
+      4.3078626278940755,
+      4.1815175890201965,
+      4.70247825898994,
+      4.418467967223189,
+      4.228766984155109,
+      4.230992814188061,
+      3.997887869176457,
+      4.07193808438099,
+      4.3700776174298674,
+      4.042357576721829,
+      4.137091500957725
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 6,
+    "block": "day_3",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      4.483266191567321,
+      4.81302540660766,
+      4.887445726295697,
+      5.074983287766685,
+      4.907051702307067,
+      5.167673691458923,
+      4.758905872017643,
+      4.9150434555935005
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 6,
+    "block": "day_4",
+    "rule": "inner_validation_mae",
+    "best_index": 2,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      4.026054655715196,
+      4.039561987618096,
+      3.951701794461087,
+      3.9599881981806178,
+      4.058059134695509,
+      4.169586043587315,
+      4.022632567300259,
+      4.036922626054139
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 6,
+    "block": "day_5",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.864872276867083,
+      4.066343728493717,
+      3.9397200006846966,
+      4.382418047286284,
+      3.9287610713671026,
+      4.317241840086272,
+      4.294833397391273,
+      4.5629775907498145
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 6,
+    "block": "day_6",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      3.160390432680296,
+      3.1839037290339203,
+      3.2784614859908925,
+      3.435654581139214,
+      3.2305048357278414,
+      3.355341663114682,
+      3.261657234901037,
+      3.4384922530198243
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "xgboost_v2",
+    "variant": "no_calendar",
+    "horizon_steps": 6,
+    "block": "day_7",
+    "rule": "inner_validation_mae",
+    "best_index": 0,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "grid_scores": [
+      4.314511779232419,
+      4.491512715173814,
+      4.867487117711917,
+      5.155910708074149,
+      4.477044031213226,
+      4.872085378623781,
+      4.988467088151937,
+      5.315520407773041
+    ],
+    "best_epoch": null
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      4.136503046964017,
+      4.0667448063381,
+      3.018007617546992,
+      4.036558943257228
+    ],
+    "best_epoch": 22
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.42099548625762,
+      3.319988263726998,
+      2.5504119362825697,
+      2.761917610517152
+    ],
+    "best_epoch": 14
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.0341293009718027,
+      3.0442769158621146,
+      2.1216357868893585,
+      2.328187037127167
+    ],
+    "best_epoch": 32
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      1.9192026420229327,
+      2.242700741117821,
+      2.0999712937370245,
+      2.233835216782477
+    ],
+    "best_epoch": 14
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.492699470194092,
+      4.3076287917917275,
+      2.598945536841924,
+      3.521912425800821
+    ],
+    "best_epoch": 32
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      4.122734400228063,
+      4.0630029945695725,
+      3.7183007206536667,
+      4.156173970986389
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.397574410177509,
+      3.32702997872036,
+      3.0242683435087496,
+      3.078571446873327
+    ],
+    "best_epoch": 11
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.561860498649716,
+      3.273289088717001,
+      2.591716328427198,
+      2.7047776856552845
+    ],
+    "best_epoch": 48
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.393637746388805,
+      2.4591424507868465,
+      2.8109149944021325,
+      2.804436073072761
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.287510587420498,
+      4.279232167404754,
+      3.2753272675447107,
+      3.7661638102725927
+    ],
+    "best_epoch": 16
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.0001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.9723078306800903,
+      3.9334859970417426,
+      4.011608891735737,
+      4.273520446345214
+    ],
+    "best_epoch": 48
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.0001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.262950381060328,
+      3.2321436176251797,
+      3.337346283463002,
+      3.3458904644715712
+    ],
+    "best_epoch": 29
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.091683855329616,
+      3.341821345686638,
+      3.0775312269193935,
+      3.114346571750829
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.589711651753294,
+      2.6032494983482186,
+      2.9104119804585045,
+      3.000842118990359
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.888089267906545,
+      4.158611670436482,
+      3.9146487438843636,
+      3.975317746916488
+    ],
+    "best_epoch": 23
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.101344790845828,
+      6.3377865875636985,
+      2.9879077708272974,
+      3.4486958520786057
+    ],
+    "best_epoch": 22
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.570536515259503,
+      4.337387775327397,
+      2.614553964069314,
+      2.8693189697151116
+    ],
+    "best_epoch": 49
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.0460869131556216,
+      5.036225506314405,
+      2.1113827089393413,
+      2.2876311868110113
+    ],
+    "best_epoch": 35
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.80683314056094,
+      6.897454784250211,
+      2.0131975050430295,
+      2.222501599802254
+    ],
+    "best_epoch": 19
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.516120565958774,
+      5.826643121017437,
+      2.5312215847997583,
+      2.758751890314701
+    ],
+    "best_epoch": 42
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.724843568294484,
+      6.213842730141489,
+      3.831352494239427,
+      3.768330824350536
+    ],
+    "best_epoch": 45
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.043600107276172,
+      4.180809852331717,
+      3.106155112190453,
+      3.287503375531292
+    ],
+    "best_epoch": 50
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.5679002254786303,
+      4.7219850719016785,
+      2.6174046686455767,
+      2.823134902729291
+    ],
+    "best_epoch": 44
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 3,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.0001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.169111917145253,
+      6.936055899779008,
+      2.733766014228696,
+      2.6853211689549354
+    ],
+    "best_epoch": 15
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.3487811714030147,
+      5.717348186772432,
+      3.36670089321721,
+      3.8086615809436606
+    ],
+    "best_epoch": 34
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.7500078885681662,
+      6.082972202472905,
+      4.038140688930233,
+      3.9806226360341554
+    ],
+    "best_epoch": 45
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.30398562561088,
+      4.071879864820145,
+      3.414041640786612,
+      3.465465761498365
+    ],
+    "best_epoch": 23
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.037744310474817,
+      4.444607831827475,
+      3.0402763594306554,
+      3.0816933284454393
+    ],
+    "best_epoch": 48
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 3,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.0001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.0254844503508465,
+      3.0149551610853678,
+      2.766852865563792,
+      2.675457514848695
+    ],
+    "best_epoch": 15
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.9041172142902334,
+      5.733572851533871,
+      3.9909736783299774,
+      4.139624436482578
+    ],
+    "best_epoch": 23
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.522404499704183,
+      5.341014495377822,
+      2.928859790315917,
+      5.532741785832759
+    ],
+    "best_epoch": 27
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.567059041695836,
+      6.213904900815378,
+      2.5647091672165394,
+      3.668759746882808
+    ],
+    "best_epoch": 24
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.196188955592911,
+      5.8031444676172015,
+      2.063075115270277,
+      2.7940676252464005
+    ],
+    "best_epoch": 22
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      4.353702585869207,
+      10.660773259441733,
+      2.0856925155446038,
+      2.6402360262362574
+    ],
+    "best_epoch": 12
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.1545178042728717,
+      3.145773695833805,
+      2.5012856520451807,
+      5.219577113776101
+    ],
+    "best_epoch": 15
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.7164733128968654,
+      5.353846661268427,
+      3.7348486085235586,
+      5.288672592659332
+    ],
+    "best_epoch": 17
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.1212491576571444,
+      6.222274654194613,
+      3.0068637996174137,
+      3.753989888604054
+    ],
+    "best_epoch": 28
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.640656277640516,
+      5.983733180165441,
+      2.5368789005773085,
+      3.064255205030798
+    ],
+    "best_epoch": 29
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      4.600707544999083,
+      10.81594777099,
+      2.767784260626727,
+      2.956911261448538
+    ],
+    "best_epoch": 8
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.4781914240924854,
+      3.4108871283930533,
+      3.241332360215673,
+      5.080590973407585
+    ],
+    "best_epoch": 15
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.688522616008871,
+      5.368682038479543,
+      3.9361559983224623,
+      5.019608366608007
+    ],
+    "best_epoch": 17
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.118952010968841,
+      6.311195943669058,
+      3.3894198841786256,
+      3.5606531712227016
+    ],
+    "best_epoch": 15
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.934851896450682,
+      6.158845778358221,
+      2.9794964404282323,
+      3.166174940233089
+    ],
+    "best_epoch": 32
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      4.416587639668361,
+      11.049791626678516,
+      2.8858194277412377,
+      3.185405763013091
+    ],
+    "best_epoch": 7
+  },
+  {
+    "model": "dlinear",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.0001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.5020989559131572,
+      3.4956823979459912,
+      3.794070981000369,
+      4.677453402972828
+    ],
+    "best_epoch": 44
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.915901212375572,
+      3.199063173274041,
+      2.9446307350576912,
+      3.557247972495114
+    ],
+    "best_epoch": 35
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.591727745583613,
+      2.7587428481563427,
+      2.5433677686008656,
+      2.7002392322141286
+    ],
+    "best_epoch": 43
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.1133027299823386,
+      2.3116628061063853,
+      2.1672429939114455,
+      2.3358863450102083
+    ],
+    "best_epoch": 20
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      1.9434726468110064,
+      2.0100287478038776,
+      2.0058242735908456,
+      2.162563954122854
+    ],
+    "best_epoch": 21
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.4693018556124398,
+      2.6002978156396566,
+      2.513135774952202,
+      2.6494781840818207
+    ],
+    "best_epoch": 40
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.5673526633602353,
+      3.9272717204581298,
+      3.5278811925658378,
+      4.289130700434098
+    ],
+    "best_epoch": 15
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.092045063663959,
+      3.1996883322007985,
+      3.0367311744780614,
+      3.1314720970055205
+    ],
+    "best_epoch": 19
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.6377382137907626,
+      2.7400304872661674,
+      2.694491728992913,
+      2.826516912837463
+    ],
+    "best_epoch": 19
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.4974973656558563,
+      2.5345459774395334,
+      2.4941050637757387,
+      2.5246774154993514
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.2328479923478577,
+      3.213677612223065,
+      3.1852271249830824,
+      3.3574604036918494
+    ],
+    "best_epoch": 20
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.686902200832034,
+      4.265673855744776,
+      3.7211998556982135,
+      4.762357595414773
+    ],
+    "best_epoch": 23
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.4375624726883,
+      3.5495125387409185,
+      3.3646515110627164,
+      3.404465106737888
+    ],
+    "best_epoch": 6
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.204186162210459,
+      3.3639154862746636,
+      3.2078090644013093,
+      3.3126281399769173
+    ],
+    "best_epoch": 21
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 3,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.0001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.6566907498184347,
+      2.6768427869267435,
+      2.6402658811380872,
+      2.6008370666148632
+    ],
+    "best_epoch": 39
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.6949136687535287,
+      3.7298816542233046,
+      3.8356515283804558,
+      3.9968758254954304
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.892315030550219,
+      3.3167610594856223,
+      2.940949974488864,
+      3.156994654866926
+    ],
+    "best_epoch": 31
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.579966657209932,
+      2.8524732110542255,
+      2.558704162952718,
+      2.6691775001181175
+    ],
+    "best_epoch": 22
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.1435970077185793,
+      2.285978392919647,
+      2.1338635031548936,
+      2.2424090852081724
+    ],
+    "best_epoch": 35
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      1.9809329494501289,
+      2.213889851787921,
+      1.9857985131477531,
+      2.0601384548838175
+    ],
+    "best_epoch": 35
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.489236151568948,
+      2.7500934646923474,
+      2.4788741509883687,
+      2.6091384247627842
+    ],
+    "best_epoch": 29
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.402587638442746,
+      4.3051306777809195,
+      3.529589835192123,
+      3.8085043020406806
+    ],
+    "best_epoch": 50
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.0276211464238263,
+      3.4840763053187094,
+      3.0527991587512733,
+      3.255483839576346
+    ],
+    "best_epoch": 24
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.7827822690487274,
+      2.7757427772740795,
+      2.6427605059658563,
+      2.788297080852334
+    ],
+    "best_epoch": 31
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.481725485990628,
+      2.7530158506182527,
+      2.5266120137762296,
+      2.574338675869294
+    ],
+    "best_epoch": 25
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.2392606971682794,
+      3.509489401658181,
+      3.174567804700032,
+      3.3514214575218535
+    ],
+    "best_epoch": 29
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.6455714843603997,
+      4.670771810841127,
+      3.7077497836533104,
+      4.2012380298882634
+    ],
+    "best_epoch": 50
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.2886499094359714,
+      4.090252136492656,
+      3.4381906748344306,
+      3.5046646152249505
+    ],
+    "best_epoch": 34
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.3027269129342773,
+      3.496719432859953,
+      3.213147261539929,
+      3.221104646759935
+    ],
+    "best_epoch": 20
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.550447547652973,
+      2.8781253827506164,
+      2.5915631263632344,
+      2.585047868931534
+    ],
+    "best_epoch": 12
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.8563817447465016,
+      4.479285985521906,
+      3.7844315154517543,
+      3.971513860916827
+    ],
+    "best_epoch": 22
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.6234307163416517,
+      3.4978867847237107,
+      2.827331167094951,
+      3.305707173883382
+    ],
+    "best_epoch": 33
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.6181415087178928,
+      3.1820158917457046,
+      2.5506339045337025,
+      2.7938042369817797
+    ],
+    "best_epoch": 43
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.170363345816807,
+      2.6350961731725255,
+      2.1203537553604184,
+      2.2413121882057845
+    ],
+    "best_epoch": 20
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.0171185850644346,
+      2.525975308604492,
+      1.9753518559575909,
+      2.238732157551849
+    ],
+    "best_epoch": 23
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.585198907636788,
+      3.3167764527383903,
+      2.544828835925412,
+      2.7307866701997545
+    ],
+    "best_epoch": 15
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      4.649181758111356,
+      4.599007850246565,
+      3.4405892467511405,
+      4.013821386189971
+    ],
+    "best_epoch": 27
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.162098353914258,
+      3.8472672086138493,
+      3.0330829281232976,
+      3.2677096687107965
+    ],
+    "best_epoch": 28
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.7738626827532626,
+      3.1579013512463465,
+      2.6763980533029916,
+      2.772652641639063
+    ],
+    "best_epoch": 16
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.5776880582867534,
+      3.097639027948964,
+      2.4579696520650933,
+      2.478335246679785
+    ],
+    "best_epoch": 23
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.2901335233524103,
+      4.219320465912443,
+      3.202553307837328,
+      3.34172557290613
+    ],
+    "best_epoch": 18
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.9606967693040454,
+      5.258713919957897,
+      3.641427401471872,
+      3.9047716839182334
+    ],
+    "best_epoch": 17
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "linear": "shared",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.4426841495298564,
+      4.405668940873448,
+      3.4665752416231688,
+      3.6459572843615202
+    ],
+    "best_epoch": 50
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 3,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.0001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.3405830000637713,
+      3.9768238584117737,
+      3.187760317739444,
+      3.1822114491507083
+    ],
+    "best_epoch": 44
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      2.6448869125970487,
+      3.2548364937623133,
+      2.6297179807129933,
+      2.68771638967424
+    ],
+    "best_epoch": 8
+  },
+  {
+    "model": "dlinear",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 2,
+    "best_params": {
+      "linear": "individual",
+      "learning_rate": 0.001,
+      "moving_average": 25
+    },
+    "grid_scores": [
+      3.9089195011096143,
+      5.321785990498956,
+      3.795429259117049,
+      3.8966026179137874
+    ],
+    "best_epoch": 13
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.9526771030819545,
+      3.2742066771486535
+    ],
+    "best_epoch": 6,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.57839076424263,
+      2.6027381346524967
+    ],
+    "best_epoch": 6,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.13482428040075,
+      2.1006173947507594
+    ],
+    "best_epoch": 8,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.0108715774966552,
+      2.0392236187027346
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.645706636405839,
+      2.5677430966766317
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.701617212318988,
+      3.8899062601777814
+    ],
+    "best_epoch": 6,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.112101130364401,
+      3.1925253457496705
+    ],
+    "best_epoch": 5,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6681434779826367,
+      2.8123736755113717
+    ],
+    "best_epoch": 3,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.7720388236280815,
+      2.5475630532144704
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.387087621081107,
+      3.3630069196593384
+    ],
+    "best_epoch": 6,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.739046313249391,
+      3.898907204840117
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.409092609146907,
+      3.3692820136597263
+    ],
+    "best_epoch": 10,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.1235940932292503,
+      3.1485615790452965
+    ],
+    "best_epoch": 4,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.9016475254050684,
+      2.746832685651089
+    ],
+    "best_epoch": 9,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.7707685624403187,
+      3.7365409712893944
+    ],
+    "best_epoch": 4,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.6273125597730265,
+      3.2783052100315495
+    ],
+    "best_epoch": 8,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6250786582592136,
+      2.6239587802368014
+    ],
+    "best_epoch": 14,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.2548520035591464,
+      2.202393827233654
+    ],
+    "best_epoch": 8,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.0659988344495397,
+      2.1344437346172227
+    ],
+    "best_epoch": 11,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.593848356785924,
+      2.6025503257215843
+    ],
+    "best_epoch": 25,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.9027452569893026,
+      4.024962339399811
+    ],
+    "best_epoch": 3,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.2056670139071297,
+      3.1058772966974977
+    ],
+    "best_epoch": 8,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.9945101857323664,
+      2.823699317217206
+    ],
+    "best_epoch": 5,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.500668587638797,
+      2.6919438394428012
+    ],
+    "best_epoch": 11,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.343569497299222,
+      3.357105358544904
+    ],
+    "best_epoch": 9,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.7663091150356363,
+      4.200731744372052
+    ],
+    "best_epoch": 4,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3225062285082636,
+      3.29930642251523
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3623158198512653,
+      3.1856428258118807
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.096097469055638,
+      2.7779761474335825
+    ],
+    "best_epoch": 3,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.652119270731372,
+      3.7117097804443144
+    ],
+    "best_epoch": 25,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.329839483396615,
+      3.2184775707807223
+    ],
+    "best_epoch": 10,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.664974740366482,
+      2.6929510225624194
+    ],
+    "best_epoch": 15,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.453241547241062,
+      2.1411485192413817
+    ],
+    "best_epoch": 6,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.3662505482329417,
+      2.0094884479278243
+    ],
+    "best_epoch": 12,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.5463720728046755,
+      2.59689567553416
+    ],
+    "best_epoch": 13,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.9625714127899547,
+      4.19299345074778
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.245562219051088,
+      3.1848913454249246
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.2866378179676974,
+      2.7818154001493776
+    ],
+    "best_epoch": 8,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.811912842596004,
+      2.451299006845049
+    ],
+    "best_epoch": 5,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3457594767202417,
+      3.2852491151638565
+    ],
+    "best_epoch": 10,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.756818803673181,
+      4.332916531251696
+    ],
+    "best_epoch": 5,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.4676405294743353,
+      3.26119490863499
+    ],
+    "best_epoch": 1,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.651202291087406,
+      3.2551503216841784
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.9537565792797693,
+      2.610693805362969
+    ],
+    "best_epoch": 12,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.821875540322632,
+      3.5556468183328005
+    ],
+    "best_epoch": 8,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.953465518236174,
+      2.986522015173056
+    ],
+    "best_epoch": 21,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.595580435803927,
+      2.6467958204238307
+    ],
+    "best_epoch": 8,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.182891122297893,
+      2.1720638876221776
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.0177974195077417,
+      1.9832547955079147
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.619518099950358,
+      2.602173283810164
+    ],
+    "best_epoch": 4,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.607417646029749,
+      3.5604949934320667
+    ],
+    "best_epoch": 24,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.1687437443315494,
+      3.2035487680302004
+    ],
+    "best_epoch": 3,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.7578548838033266,
+      2.7462862354784567
+    ],
+    "best_epoch": 1,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.5838718725055907,
+      2.524871106956162
+    ],
+    "best_epoch": 1,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.389836112526057,
+      3.3903723795515677
+    ],
+    "best_epoch": 9,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.804420132427298,
+      3.8054692797698286
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3983685978906157,
+      3.4128069842822417
+    ],
+    "best_epoch": 4,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3524077200604623,
+      3.4880527467713094
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.7764014561250825,
+      2.5827155301217606
+    ],
+    "best_epoch": 1,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.934400174219241,
+      3.9497157023079996
+    ],
+    "best_epoch": 9,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.022699799678088,
+      2.9610828706819152
+    ],
+    "best_epoch": 5,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6009465724954137,
+      2.6474525871078143
+    ],
+    "best_epoch": 9,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.1585218149823953,
+      2.2396458900245118
+    ],
+    "best_epoch": 4,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      1.9541942612495664,
+      1.9411857398262282
+    ],
+    "best_epoch": 20,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6013918528811883,
+      2.613657915827274
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.672967779208248,
+      3.538779469749615
+    ],
+    "best_epoch": 13,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.181439967779308,
+      3.1892866172893317
+    ],
+    "best_epoch": 4,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6686968379246014,
+      2.8736106312585283
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.573566560195319,
+      2.5448020161277616
+    ],
+    "best_epoch": 5,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.387255509837678,
+      3.260939086091895
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.881855073362374,
+      3.86708663622535
+    ],
+    "best_epoch": 13,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.406138211977016,
+      3.320965260267707
+    ],
+    "best_epoch": 3,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.32524307576366,
+      3.302180313453046
+    ],
+    "best_epoch": 1,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.723577647055799,
+      2.6612505816623555
+    ],
+    "best_epoch": 12,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.937094038028582,
+      3.8325907705931948
+    ],
+    "best_epoch": 12,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.8930354318120983,
+      2.9602186890456803
+    ],
+    "best_epoch": 21,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.5898689949376648,
+      2.62184436493818
+    ],
+    "best_epoch": 14,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.170957581919264,
+      2.2023405756130305
+    ],
+    "best_epoch": 6,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      1.947544956600269,
+      1.9654852594594874
+    ],
+    "best_epoch": 26,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.555487052221372,
+      2.5614625701339566
+    ],
+    "best_epoch": 13,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.6176356074035616,
+      3.598560190552776
+    ],
+    "best_epoch": 11,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.178605247004297,
+      3.147531443627506
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.8280706189397415,
+      2.820842207500683
+    ],
+    "best_epoch": 2,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.4501740673885997,
+      2.393867229342823
+    ],
+    "best_epoch": 14,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3419247725267685,
+      3.360904061362061
+    ],
+    "best_epoch": 7,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.88364021773396,
+      3.7310580621043545
+    ],
+    "best_epoch": 5,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.41096916978234,
+      3.2994313128848223
+    ],
+    "best_epoch": 3,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.4520198399986475,
+      3.3914950939539374
+    ],
+    "best_epoch": 1,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 1,
+    "best_params": {
+      "channels": 32,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.8496453254355476,
+      2.6245907443676417
+    ],
+    "best_epoch": 13,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "tcn",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel_size": 3,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.828790783263024,
+      3.883811657905995
+    ],
+    "best_epoch": 10,
+    "removed_dilation_stacks": [
+      {
+        "dilations": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "receptive_field": 63,
+        "window": 36
+      }
+    ]
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.2407146596982446
+    ],
+    "best_epoch": 12
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6967064463726538
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6902336477485784
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.081056190252619
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6625405898464645
+    ],
+    "best_epoch": 8
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.9089101311002517
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3556294119354755
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.124437577333687
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.8887190782452126
+    ],
+    "best_epoch": 6
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.4935642153649695
+    ],
+    "best_epoch": 8
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.861706309483093
+    ],
+    "best_epoch": 26
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.2412044709786616
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3959081672530997
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.6503823682228846
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.82512503077644
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.262889223495915
+    ],
+    "best_epoch": 21
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.7476262400520897
+    ],
+    "best_epoch": 15
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.2671631443116613
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.3405916729737095
+    ],
+    "best_epoch": 11
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.51797192054513
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      4.103036211356805
+    ],
+    "best_epoch": 6
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3118216076048017
+    ],
+    "best_epoch": 3
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.8457262559800722
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.660630339442678
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.5668435841237045
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      4.049556109215596
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.174387115577651
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.9250762198464035
+    ],
+    "best_epoch": 3
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.743189847994682
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.8659273892997796
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3281584806931033
+    ],
+    "best_epoch": 10
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.0927989375758074
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.1894247702512066
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.5274741496548345
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.640191262639893
+    ],
+    "best_epoch": 11
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.7389990994831757
+    ],
+    "best_epoch": 6
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.253028607608149
+    ],
+    "best_epoch": 6
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.7740266455433438
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.822269597698332
+    ],
+    "best_epoch": 11
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.602338340199763
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.8303181208663535
+    ],
+    "best_epoch": 10
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.2879690981984884
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.127101788082608
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.91146367010541
+    ],
+    "best_epoch": 8
+  },
+  {
+    "model": "patchtst",
+    "variant": "v3",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.909307902882079
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.767613076145277
+    ],
+    "best_epoch": 14
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.5364143016529956
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.313895936461082
+    ],
+    "best_epoch": 3
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      1.9771125536660443
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.519204010669616
+    ],
+    "best_epoch": 7
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3194396991778614
+    ],
+    "best_epoch": 17
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.0808166450970043
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.7185293456621547
+    ],
+    "best_epoch": 7
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.483820288326683
+    ],
+    "best_epoch": 3
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.2679587726518173
+    ],
+    "best_epoch": 7
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.2811179167635953
+    ],
+    "best_epoch": 16
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.131199060192412
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.2957913303704665
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.632020542106735
+    ],
+    "best_epoch": 12
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 42,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.7239198021196294
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.780043949184801
+    ],
+    "best_epoch": 11
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.5747424743392457
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.21155003636074
+    ],
+    "best_epoch": 10
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      1.993291435109837
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.558808469265343
+    ],
+    "best_epoch": 9
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.408462721375431
+    ],
+    "best_epoch": 16
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.0513653175729942
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.750921420640532
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.4707019341523035
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3244236624157124
+    ],
+    "best_epoch": 3
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3950366650730954
+    ],
+    "best_epoch": 16
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3578532382688433
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.3558152929967684
+    ],
+    "best_epoch": 5
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.602613988712596
+    ],
+    "best_epoch": 8
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 43,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.675066919278654
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.7816059136385376
+    ],
+    "best_epoch": 17
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.5769961416545653
+    ],
+    "best_epoch": 7
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.261382351110152
+    ],
+    "best_epoch": 4
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      1.9974858971409608
+    ],
+    "best_epoch": 8
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 1,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.495678708267987
+    ],
+    "best_epoch": 12
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.4070608277991785
+    ],
+    "best_epoch": 18
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.0082352145617537
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.785361986198078
+    ],
+    "best_epoch": 6
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.5605729503122014
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 3,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.201465424570592
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_3",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.295530044214143
+    ],
+    "best_epoch": 22
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_4",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.201420056744726
+    ],
+    "best_epoch": 1
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_5",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.184011732305
+    ],
+    "best_epoch": 8
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_6",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      2.554527111280785
+    ],
+    "best_epoch": 2
+  },
+  {
+    "model": "patchtst",
+    "variant": "window",
+    "seed": 44,
+    "horizon_steps": 6,
+    "block": "day_7",
+    "best_index": 0,
+    "best_params": {
+      "patch_length": 12,
+      "stride": 6,
+      "d_model": 32,
+      "heads": 2,
+      "layers": 2,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "grid_scores": [
+      3.557810429417788
+    ],
+    "best_epoch": 2
+  }
+]

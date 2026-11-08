@@ -1,0 +1,27 @@
+# Servidor substituto para o modelo de potência de Fan (P_idle em 0% e P_busy em 100% de carga).
+# Fonte obrigatória: um resultado publicado do SPECpower_ssj2008. Sem estes campos a família
+# de energia termina com erro e não grava energia.
+# Critério de escolha (nesta ordem): resultado público com potência em 0% e 100%; servidor de
+# dois soquetes publicado em 2017 ou 2018; empate pelo mais antigo e, persistindo, pelo nome do
+# sistema em ordem alfabética. Níveis intermediários do benchmark não calibram r nem substituem u.
+#
+# Aplicação do critério à lista "All SPECpower_ssj2008 Results" (consultada em 2026-11-04,
+# https://www.spec.org/power_ssj2008/results/power_ssj2008.html), filtrando 1 nó e 2 chips:
+# a publicação mais antiga de 2017-2018 é 2017-07-11, com quatro resultados; pela ordem alfabética
+# do sistema vence "Fusion Server 2288H V5", que tem dois resultados nessa data (00759 e 00763).
+# O empate residual, não previsto no critério, foi resolvido pelo menor identificador do resultado.
+result_id: power_ssj2008-20170621-00759
+source: https://www.spec.org/power_ssj2008/results/res2017q3/power_ssj2008-20170621-00759.html
+system: Huawei Technologies Co., Ltd Fusion Server 2288H V5
+published: "2017-07-11"
+test_date: "2017-06-18"
+sockets: 2
+nodes: 1
+processor: Intel Xeon Platinum 8176 (2 chips, 56 núcleos)
+p_idle_w: 49.6           # avg. watts em active idle (0% de carga)
+p_busy_w: 461            # avg. watts em 100% da carga-alvo
+selection_tiebreak_extra: "menor identificador do resultado (00759 < 00763), empate residual não previsto no critério"
+limitation: >-
+  Servidor substituto: a carga do benchmark SPECpower_ssj2008 (ssj_ops) não é a utilização de CPU
+  do trace do Alibaba, e o hardware não é o do cluster; potência e energia são estimativas
+  paramétricas, não medições.

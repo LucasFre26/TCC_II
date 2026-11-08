@@ -1,0 +1,22 @@
+\begin{table}[htb]
+\caption{Variação percentual do MAE de teste contra a configuração A (positivo = piora)}
+\label{tab:v3-ablacao}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{Modelo} & \textbf{B 5 min} & \textbf{B 30 min} & \textbf{C 5 min} & \textbf{C 30 min} & \textbf{D 5 min} & \textbf{D 30 min} \\
+\hline
+XGBoost (V2) & $+$0{,}5 & $+$1{,}5 & $+$1{,}0 & $-$2{,}8 & -- & -- \\
+XGBoost incremento & $+$3{,}1 & $+$2{,}1 & $+$0{,}4 & $-$0{,}1 & $+$5{,}7 & $+$16{,}1 \\
+Kalman + XGBoost & $+$0{,}7 & $+$2{,}2 & $+$5{,}2 & $+$0{,}7 & -- & -- \\
+DLinear & $-$0{,}2 & $-$1{,}8 & $+$14{,}3 & $+$12{,}1 & $-$0{,}6 & $+$30{,}4 \\
+TCN & $+$6{,}5 & $+$13{,}8 & $+$19{,}1 & $+$16{,}3 & -- & -- \\
+N-BEATSx & $+$7{,}3 & $+$21{,}7 & $+$13{,}5 & $-$12{,}5 & -- & -- \\
+\hline
+\end{tabular}\\
+\footnotesize B: + memória; C: + rede e disco; D: + distribuição da CPU entre máquinas, contra A nas mesmas origens. -- = não executado.\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{table}

@@ -1,0 +1,192 @@
+# V3: experimentos finais na frota inteira do Alibaba Cluster Trace v2018.
+# Mesmas origens, horizontes, folds e purga da análise principal da V2 (config/v2-full.yaml).
+# A seleção de hiperparâmetros passa a usar validação interna (validation.nested).
+# O teste final de 24 h é o mesmo já inspecionado na V2; não é um teste novo.
+seed: 42
+run_root: results/v3
+device: auto                 # auto | cuda | cpu; só as redes usam CUDA
+
+data:
+  source: alibaba
+  usage_archive: data/alibaba-v2018/machine_usage.tar.gz
+  meta_archive: data/alibaba-v2018/machine_meta.tar.gz
+  cache_dir: data/processed
+  chunk_rows: 2000000
+  window:
+    start_seconds: null
+    end_seconds: null
+  machines:
+    ids: null
+    sample_size: null        # frota inteira, como na V2 completa
+  granularity:
+    sample_rows: 2000000
+    min_conformity: 0.8
+  grid_step: 300
+  synthetic: null
+
+aggregation:
+  strategy: cluster_weighted_cpu_num
+  active_statuses: [USING]
+
+cohort:
+  enabled: true
+  cpu_num: null
+  min_machines: 10
+
+features:
+  groups:
+    cpu:
+      columns: [cpu]
+      lags: [5min, 10min, 15min, 30min, 60min]
+      windows: [30min, 60min]
+    mem:
+      columns: [mem]
+      lags: [5min, 30min]
+      windows: [30min]
+    net:
+      columns: [net_in, net_out]
+      lags: [5min, 30min]
+      windows: [30min]
+    disk:
+      columns: [disk]
+      lags: [5min, 30min]
+      windows: [30min]
+  ablation:
+    A: [cpu]
+    B: [cpu, mem]
+    C: [cpu, mem, net, disk]
+  distribution:              # configuração D = C + estatísticas transversais na origem
+    enabled: true
+    elevated_cpu_threshold: 80
+    dispersion_change_steps: 6
+    skewness: true
+    skewness_max_undefined_fraction: 0.5
+
+horizons: [5min, 15min, 30min]
+trajectory_steps: 6
+
+validation:
+  strategy: expanding
+  n_folds: 5
+  validation_size: 12h
+  test_size: 24h
+  min_train_size: 48h
+  purge: auto
+  nested:
+    enabled: true
+    validation_size: 12h
+    purge: 18
+    min_train_size: 48h
+    infeasible_policy: fail
+
+reference:                   # análise principal preservada da V2: só leitura
+  v2_dir: results/v2-full/main
+  expected_test_range: [2010, 2297]
+  expected_weights:
+    main: 386208
+    cohort: 386112
+
+comparisons:
+  pairs: [new_vs_persistence_A, new_vs_v2_xgboost_A, ablation_vs_A, d_vs_a, hybrid_vs_statespace]
+  d_contrast_models: [xgboost_delta, dlinear]
+  bootstrap:
+    primary_block_steps: 12  # 1 h; 30 min e 2 h são sensibilidade
+    sensitivity_blocks: [6, 24]
+    n_boot: 5000
+  peak_quantile: 0.9
+
+families:
+  residual:
+    models: [persistence, xgboost_delta, statespace, hybrid]
+    configs: [A, B, C]
+    xgboost:
+      grid:
+        max_depth: [3, 5]
+        n_estimators: [100, 300]
+        learning_rate: [0.05, 0.1]
+      fixed: {}
+      n_jobs: 1
+    statespace:
+      specifications: [local_level, local_linear_trend]
+      maxiter: 200
+
+  neural:
+    models: [dlinear, tcn, nbeatsx]
+    budget_hours: 12
+    window_candidates: [36, 72, 144]
+    window_selection:
+      linear: shared
+      learning_rate: 0.001
+    loop:
+      max_epochs: 50
+      patience: 5
+      grad_clip_norm: 1.0
+      batch_size: 64
+      mixed_precision: auto
+      finite_check_epochs: 2
+    dlinear:
+      linear: [shared, individual]
+      learning_rate: [0.001, 0.0001]
+      moving_average: 25
+    tcn:
+      channels: [16, 32]
+      dilations: [[1, 2, 4, 8], [1, 2, 4, 8, 16]]
+      kernel_size: 3
+      dropout: 0.1
+      learning_rate: 0.001
+    nbeatsx:
+      width: 64
+      layers: 4
+      trend_degree: 3
+      harmonics: 4
+      learning_rate: 0.001
+    d_carrier: dlinear
+    extra_path_configs: [B, C, D]   # só se o núcleo terminar dentro do orçamento
+    optional:
+      enabled: true
+      order: [nhits, patchtst]
+      patchtst_min_remaining_hours: 2
+      nhits:
+        pool_sizes: [4, 2, 1]
+        width: 64
+        layers: 2
+        learning_rate: 0.001
+      patchtst:
+        patch_length: 12
+        stride: 6
+        d_model: 32
+        heads: 2
+        layers: 2
+        dropout: 0.1
+        learning_rate: 0.001
+
+  quantile:
+    quantiles: [0.5, 0.9, 0.95]
+    configs: [A, B, C]
+    xgboost:
+      grid:
+        max_depth: [3, 5]
+        n_estimators: [100, 300]
+        learning_rate: [0.05, 0.1]
+      fixed: {}
+      n_jobs: 1
+    conformal:
+      upper_quantile: 0.95
+      auxiliary_quantile: 0.9
+      min_residuals: 200
+
+  energy:
+    substitute: config/specpower_substitute.yaml
+    exponents: [1.0, 1.4, 1.8]
+    unstable_mean_utilization: 0.05
+    trajectory_models: [persistence, statespace, ridge_v2, xgboost_v2, xgboost_delta, hybrid, dlinear, tcn, nbeatsx]
+    fleet_sum: true
+    ridge_v2:
+      alphas: [0.1, 1.0, 10.0, 100.0]
+    xgboost_v2:
+      grid:
+        max_depth: [3, 5]
+        n_estimators: [100, 300]
+        learning_rate: [0.05, 0.1]
+      fixed: {}
+      n_jobs: 1

@@ -1,0 +1,233 @@
+{
+  "seed": 42,
+  "statement": "Série de utilização de CPU do Alibaba Cluster Trace v2018 (machine_usage). Não há medição elétrica; potência, energia e PUE não foram calculados nesta versão.",
+  "elapsed_seconds": 888.0478752999998,
+  "analyses": [
+    "main",
+    "cohort"
+  ],
+  "granularity_detected": {
+    "step_seconds": 10.0,
+    "conformity": 0.11036122309979567,
+    "n_intervals": 1999706,
+    "sample_rows": 2000000,
+    "regular": false
+  },
+  "step_seconds": 300.0,
+  "n_machines": 4023,
+  "n_grid_points": 8389672,
+  "period_seconds": [
+    0.0,
+    691190.0
+  ],
+  "folds": {
+    "main": [
+      {
+        "split": "fold_0",
+        "train_range": [
+          12,
+          1253
+        ],
+        "evaluation_range": [
+          1272,
+          1415
+        ],
+        "n_train": 1163,
+        "n_evaluation": 144,
+        "train_target_mean": 37.767990975974655,
+        "train_target_std": 9.27406879554222,
+        "evaluation_target_mean": 35.201792936288655,
+        "evaluation_target_std": 8.213513378916424
+      },
+      {
+        "split": "fold_1",
+        "train_range": [
+          12,
+          1397
+        ],
+        "evaluation_range": [
+          1416,
+          1559
+        ],
+        "n_train": 1307,
+        "n_evaluation": 144,
+        "train_target_mean": 37.77753131111366,
+        "train_target_std": 9.275819103723467,
+        "evaluation_target_mean": 38.86341832934002,
+        "evaluation_target_std": 10.751658455135178
+      },
+      {
+        "split": "fold_2",
+        "train_range": [
+          12,
+          1541
+        ],
+        "evaluation_range": [
+          1560,
+          1703
+        ],
+        "n_train": 1451,
+        "n_evaluation": 144,
+        "train_target_mean": 37.7097344543374,
+        "train_target_std": 9.45325320693473,
+        "evaluation_target_mean": 30.65857800470139,
+        "evaluation_target_std": 5.737568242097818
+      },
+      {
+        "split": "fold_3",
+        "train_range": [
+          12,
+          1685
+        ],
+        "evaluation_range": [
+          1704,
+          1847
+        ],
+        "n_train": 1595,
+        "n_evaluation": 144,
+        "train_target_mean": 37.253518773047496,
+        "train_target_std": 9.376756462302533,
+        "evaluation_target_mean": 40.98696701780908,
+        "evaluation_target_std": 10.835540967634385
+      },
+      {
+        "split": "fold_4",
+        "train_range": [
+          12,
+          1829
+        ],
+        "evaluation_range": [
+          1848,
+          1991
+        ],
+        "n_train": 1739,
+        "n_evaluation": 144,
+        "train_target_mean": 37.357776203209376,
+        "train_target_std": 9.557127072675275,
+        "evaluation_target_mean": 38.933158188464034,
+        "evaluation_target_std": 6.219917488151136
+      },
+      {
+        "split": "test_final",
+        "train_range": [
+          12,
+          1991
+        ],
+        "evaluation_range": [
+          2010,
+          2297
+        ],
+        "n_train": 1901,
+        "n_evaluation": 288,
+        "train_target_mean": 37.57113521412281,
+        "train_target_std": 9.36649845792324,
+        "evaluation_target_mean": 42.08021560506094,
+        "evaluation_target_std": 7.821453874611203
+      }
+    ],
+    "cohort": [
+      {
+        "split": "fold_0",
+        "train_range": [
+          12,
+          1253
+        ],
+        "evaluation_range": [
+          1272,
+          1415
+        ],
+        "n_train": 1163,
+        "n_evaluation": 144,
+        "train_target_mean": 37.77744779619904,
+        "train_target_std": 9.276271963111997,
+        "evaluation_target_mean": 35.21056358076723,
+        "evaluation_target_std": 8.215562127580219
+      },
+      {
+        "split": "fold_1",
+        "train_range": [
+          12,
+          1397
+        ],
+        "evaluation_range": [
+          1416,
+          1559
+        ],
+        "n_train": 1307,
+        "n_evaluation": 144,
+        "train_target_mean": 37.78698536607841,
+        "train_target_std": 9.27803470883494,
+        "evaluation_target_mean": 38.873102868861594,
+        "evaluation_target_std": 10.754337238760222
+      },
+      {
+        "split": "fold_2",
+        "train_range": [
+          12,
+          1541
+        ],
+        "evaluation_range": [
+          1560,
+          1703
+        ],
+        "n_train": 1451,
+        "n_evaluation": 144,
+        "train_target_mean": 37.71916759324051,
+        "train_target_std": 9.455524403280199,
+        "evaluation_target_mean": 30.666217998056272,
+        "evaluation_target_std": 5.7389981897946605
+      },
+      {
+        "split": "fold_3",
+        "train_range": [
+          12,
+          1685
+        ],
+        "evaluation_range": [
+          1704,
+          1847
+        ],
+        "n_train": 1595,
+        "n_evaluation": 144,
+        "train_target_mean": 37.26283498399617,
+        "train_target_std": 9.379017190278994,
+        "evaluation_target_mean": 40.98883562807919,
+        "evaluation_target_std": 10.833545571746997
+      },
+      {
+        "split": "fold_4",
+        "train_range": [
+          12,
+          1829
+        ],
+        "evaluation_range": [
+          1848,
+          1991
+        ],
+        "n_train": 1739,
+        "n_evaluation": 144,
+        "train_target_mean": 37.36654661011872,
+        "train_target_std": 9.558868641491735,
+        "evaluation_target_mean": 38.933158188464034,
+        "evaluation_target_std": 6.219917488151136
+      },
+      {
+        "split": "test_final",
+        "train_range": [
+          12,
+          1991
+        ],
+        "evaluation_range": [
+          2010,
+          2297
+        ],
+        "n_train": 1901,
+        "n_evaluation": 288,
+        "train_target_mean": 37.579158221811056,
+        "train_target_std": 9.367941638697765,
+        "evaluation_target_mean": 42.08021560506094,
+        "evaluation_target_std": 7.821453874611203
+      }
+    ]
+  }
+}

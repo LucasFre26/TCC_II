@@ -1,0 +1,33 @@
+{
+  "tolerance_pp": 0.0001,
+  "max_abs_diff_pp": 1.1009383626969793e-07,
+  "bins_compared": 2243,
+  "bins_missing_mismatch": 0,
+  "passed": true,
+  "panel": {
+    "key": "3f8b24db7c0af36c3bb9-84ee9276b3e0",
+    "source_key": "3f8b24db7c0af36c3bb9",
+    "rebuilt": false,
+    "persisted": true,
+    "path": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/data/processed/panel_3f8b24db7c0af36c3bb9-84ee9276b3e0"
+  },
+  "panel_info": {
+    "key": "3f8b24db7c0af36c3bb9-84ee9276b3e0",
+    "shape": [
+      2304,
+      4023
+    ],
+    "first_bin": 0,
+    "variables": [
+      "cpu",
+      "mem",
+      "net_in",
+      "net_out",
+      "disk"
+    ],
+    "bytes": 185379840,
+    "present_cells_cpu": 8389672,
+    "grid_rows_used": 8389672,
+    "peak_rss_mb_after_build": 2605.16796875
+  }
+}

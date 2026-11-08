@@ -1,0 +1,397 @@
+model,config,mode,horizon_steps,horizon_min,grouping,group,n,mae_pp,bias_obs_minus_pred_pp,rmse_pp
+dlinear,A,direct,1,5,regime,subida,40,7.36585425584,7.36585425584,8.28454511956
+dlinear,A,direct,1,5,regime,queda,41,4.3857811536,-4.3857811536,4.99302733104
+dlinear,A,direct,1,5,regime,estável,207,2.25576552686,0.415340079131,2.79415606687
+dlinear,A,direct,3,15,regime,estável,195,3.42000434675,0.823393469724,4.22814290555
+dlinear,A,direct,3,15,regime,queda,45,4.70853347108,-4.44942166529,5.61226069742
+dlinear,A,direct,3,15,regime,subida,48,8.46898877859,8.46898877859,10.0060471572
+dlinear,A,direct,6,30,regime,estável,204,4.20567661079,1.59350833527,5.22430953058
+dlinear,A,direct,6,30,regime,subida,45,9.00466397434,8.97572625618,11.2162012576
+dlinear,A,direct,6,30,regime,queda,39,5.597937915,-4.9913799327,6.63928967144
+hybrid,A,direct,1,5,regime,subida,40,7.07893106296,7.07893106296,7.8811266102
+hybrid,A,direct,1,5,regime,queda,41,4.172035447,-4.16192603924,4.7543919406
+hybrid,A,direct,1,5,regime,estável,207,2.0149689027,0.223519882371,2.47873357553
+hybrid,A,direct,3,15,regime,estável,195,2.70169930703,0.770059373488,3.357699047
+hybrid,A,direct,3,15,regime,queda,45,5.07185773537,-5.07185773537,5.4586884763
+hybrid,A,direct,3,15,regime,subida,48,7.80905155974,7.76694165462,9.14283381133
+hybrid,A,direct,6,30,regime,estável,204,3.27423364231,1.41640209836,4.09125231322
+hybrid,A,direct,6,30,regime,subida,45,8.08807467386,8.05150186705,9.63178298151
+hybrid,A,direct,6,30,regime,queda,39,5.43259446302,-5.34877208147,6.03901278392
+persistence,-,direct,1,5,regime,subida,40,7.79180807235,7.79180807235,8.34449253628
+persistence,-,direct,1,5,regime,queda,41,6.49059606892,-6.49059606892,6.84059138938
+persistence,-,direct,1,5,regime,estável,207,1.87140226456,-0.147842965675,2.23852557281
+persistence,-,direct,3,15,regime,estável,195,2.56007389011,-0.294132811459,3.0644002683
+persistence,-,direct,3,15,regime,queda,45,8.54333483345,-8.54333483345,9.2373143238
+persistence,-,direct,3,15,regime,subida,48,9.80096748591,9.80096748591,10.5437301043
+persistence,-,direct,6,30,regime,estável,204,3.01762460302,-0.0992615209418,3.57641035798
+persistence,-,direct,6,30,regime,subida,45,11.1312797524,11.1312797524,12.6232416037
+persistence,-,direct,6,30,regime,queda,39,10.7333343116,-10.7333343116,11.2560518221
+statespace,A,direct,1,5,regime,subida,40,7.33150746442,7.33150746442,8.11272087264
+statespace,A,direct,1,5,regime,queda,41,5.4346988521,-5.4346988521,6.03685247738
+statespace,A,direct,1,5,regime,estável,207,2.04169343089,-0.220329022512,2.46849220671
+statespace,A,direct,3,15,regime,estável,195,2.46650398086,-0.281281755907,3.02951289679
+statespace,A,direct,3,15,regime,queda,45,7.73176610356,-7.73176610356,8.17889276552
+statespace,A,direct,3,15,regime,subida,48,9.19364663443,9.19364663443,10.1623883279
+statespace,A,direct,6,30,regime,estável,204,2.98540233883,-0.199859934217,3.62901863563
+statespace,A,direct,6,30,regime,subida,45,10.4767546755,10.4767546755,12.2075319415
+statespace,A,direct,6,30,regime,queda,39,9.19869706612,-9.19869706612,9.69940314089
+xgboost_delta,A,direct,1,5,regime,subida,40,7.29238356782,7.29238356782,8.02641054043
+xgboost_delta,A,direct,1,5,regime,queda,41,4.611656933,-4.59112870601,5.13064589996
+xgboost_delta,A,direct,1,5,regime,estável,207,1.97374514996,0.274765755499,2.37882176098
+xgboost_delta,A,direct,3,15,regime,estável,195,2.90249217103,0.915800936765,3.60608729779
+xgboost_delta,A,direct,3,15,regime,queda,45,4.69868559275,-4.59490048621,5.33043133991
+xgboost_delta,A,direct,3,15,regime,subida,48,7.49220814501,7.3515956257,8.83587006922
+xgboost_delta,A,direct,6,30,regime,estável,204,3.45656796806,1.71473277108,4.28590285924
+xgboost_delta,A,direct,6,30,regime,subida,45,8.21342103864,8.19832378384,9.64676255765
+xgboost_delta,A,direct,6,30,regime,queda,39,5.70192895819,-5.65958153545,6.27514722423
+xgboost_v2,A,direct,1,5,regime,subida,40,6.90419514719,6.90419514719,7.73154382679
+xgboost_v2,A,direct,1,5,regime,queda,41,3.87868115442,-3.77063995861,4.46441590184
+xgboost_v2,A,direct,1,5,regime,estável,207,2.16067015873,0.385851097738,2.73422619345
+xgboost_v2,A,direct,3,15,regime,estável,195,2.96063205127,0.911896875911,3.80641041083
+xgboost_v2,A,direct,3,15,regime,queda,45,4.5821879008,-4.12908828321,5.14931331528
+xgboost_v2,A,direct,3,15,regime,subida,48,6.81396940935,6.6398266906,8.09524639104
+xgboost_v2,A,direct,6,30,regime,estável,204,3.60800042431,1.16582346446,4.71421649695
+xgboost_v2,A,direct,6,30,regime,subida,45,7.43761511247,6.90724649742,9.08407580373
+xgboost_v2,A,direct,6,30,regime,queda,39,4.54735040891,-3.66662639591,5.30904512362
+dlinear,A,direct,1,5,cpu_band,Q3 [33.6; 38.5),48,2.98121357746,-0.383426783161,3.71972939863
+dlinear,A,direct,1,5,cpu_band,Q2 [29.2; 33.6),24,2.387593248,-1.68481204956,3.20637695071
+dlinear,A,direct,1,5,cpu_band,Q1 [mín; 29.2),11,4.21257954509,-4.21257954509,4.58753167788
+dlinear,A,direct,1,5,cpu_band,Q4 [38.5; 45.2),117,2.67570656425,0.253313220142,3.48409071924
+dlinear,A,direct,1,5,cpu_band,Q5 [45.2; máx),88,4.33634237396,3.1401504811,5.66184059426
+dlinear,A,direct,3,15,cpu_band,Q1 [mín; 29.2),11,5.70618704276,-5.60051701237,6.00662786766
+dlinear,A,direct,3,15,cpu_band,Q3 [33.6; 38.5),47,3.4574559817,-0.762362697173,4.35006735847
+dlinear,A,direct,3,15,cpu_band,Q2 [29.2; 33.6),23,3.81669749675,-3.52465010296,4.90975640902
+dlinear,A,direct,3,15,cpu_band,Q4 [38.5; 45.2),119,3.50281899917,0.745552665637,4.29246464838
+dlinear,A,direct,3,15,cpu_band,Q5 [45.2; máx),88,6.31145821875,5.18900150104,8.03115307807
+dlinear,A,direct,6,30,cpu_band,Q1 [mín; 29.2),8,8.0595121127,-8.0595121127,8.40312363625
+dlinear,A,direct,6,30,cpu_band,Q3 [33.6; 38.5),50,3.33794311119,-0.880387996227,4.39996100143
+dlinear,A,direct,6,30,cpu_band,Q2 [29.2; 33.6),23,3.59444302667,-2.71560478739,4.30458307642
+dlinear,A,direct,6,30,cpu_band,Q4 [38.5; 45.2),119,4.15808771277,1.07197039072,5.01041224437
+dlinear,A,direct,6,30,cpu_band,Q5 [45.2; máx),88,7.6435182527,6.56488062359,9.53561603395
+hybrid,A,direct,1,5,cpu_band,Q3 [33.6; 38.5),48,2.82768531661,-0.550427599774,3.70523814291
+hybrid,A,direct,1,5,cpu_band,Q2 [29.2; 33.6),24,2.07761028926,-1.44241722426,2.71383119226
+hybrid,A,direct,1,5,cpu_band,Q1 [mín; 29.2),11,3.70205672026,-3.70205672026,4.03081206518
+hybrid,A,direct,1,5,cpu_band,Q4 [38.5; 45.2),117,2.60258860441,0.18415675562,3.34713141744
+hybrid,A,direct,1,5,cpu_band,Q5 [45.2; máx),88,3.86922984007,2.71592854826,5.17626508605
+hybrid,A,direct,3,15,cpu_band,Q1 [mín; 29.2),11,4.68023486,-3.8269676001,4.91199931889
+hybrid,A,direct,3,15,cpu_band,Q3 [33.6; 38.5),47,3.14814390613,-1.1374080096,3.98470406279
+hybrid,A,direct,3,15,cpu_band,Q2 [29.2; 33.6),23,3.57997907468,-3.34282349294,4.40472556765
+hybrid,A,direct,3,15,cpu_band,Q4 [38.5; 45.2),119,3.13743424612,0.765343365595,3.96762152621
+hybrid,A,direct,3,15,cpu_band,Q5 [45.2; máx),88,5.39499882699,4.27392135278,6.92534942651
+hybrid,A,direct,6,30,cpu_band,Q1 [mín; 29.2),8,5.80721850752,-5.80721850752,6.48020973038
+hybrid,A,direct,6,30,cpu_band,Q3 [33.6; 38.5),50,2.92837468256,-0.693720514949,3.83826658539
+hybrid,A,direct,6,30,cpu_band,Q2 [29.2; 33.6),23,3.36949181743,-2.85220951449,4.01617247826
+hybrid,A,direct,6,30,cpu_band,Q4 [38.5; 45.2),119,3.37142227525,1.11803503876,4.11255349455
+hybrid,A,direct,6,30,cpu_band,Q5 [45.2; máx),88,6.50232003032,5.18590822652,7.94544330881
+persistence,-,direct,1,5,cpu_band,Q3 [33.6; 38.5),48,3.45845332909,-0.436725569213,4.48753929925
+persistence,-,direct,1,5,cpu_band,Q2 [29.2; 33.6),24,2.45305212639,-1.00008246548,3.27591686857
+persistence,-,direct,1,5,cpu_band,Q1 [mín; 29.2),11,2.93998100318,-2.93998100318,3.73515761028
+persistence,-,direct,1,5,cpu_band,Q4 [38.5; 45.2),117,3.06117986356,-0.286546873769,3.86311186951
+persistence,-,direct,1,5,cpu_band,Q5 [45.2; máx),88,3.97488846117,1.42937468106,5.45365365366
+persistence,-,direct,3,15,cpu_band,Q1 [mín; 29.2),11,4.8213605887,-3.94905651952,5.40788380326
+persistence,-,direct,3,15,cpu_band,Q3 [33.6; 38.5),47,4.97867510181,-1.06455889597,6.18368890415
+persistence,-,direct,3,15,cpu_band,Q2 [29.2; 33.6),23,4.84558673666,-3.64051574232,5.96150917884
+persistence,-,direct,3,15,cpu_band,Q4 [38.5; 45.2),119,3.67609894774,-0.177011229972,4.78349642178
+persistence,-,direct,3,15,cpu_band,Q5 [45.2; máx),88,5.88834033427,2.57852911193,7.79558055046
+persistence,-,direct,6,30,cpu_band,Q1 [mín; 29.2),8,7.25715689219,-7.23988399793,8.20201691526
+persistence,-,direct,6,30,cpu_band,Q3 [33.6; 38.5),50,5.24267854095,-1.38063168706,6.58438289072
+persistence,-,direct,6,30,cpu_band,Q2 [29.2; 33.6),23,5.25333882034,-2.92620505242,6.12620955041
+persistence,-,direct,6,30,cpu_band,Q4 [38.5; 45.2),119,4.34137897874,-0.437869072017,5.57922338408
+persistence,-,direct,6,30,cpu_band,Q5 [45.2; máx),88,6.56205650572,3.50474991528,9.19970645151
+statespace,A,direct,1,5,cpu_band,Q3 [33.6; 38.5),48,3.48178574602,-0.404990290722,4.42016808138
+statespace,A,direct,1,5,cpu_band,Q2 [29.2; 33.6),24,2.25731270941,-1.36773596892,3.0115555432
+statespace,A,direct,1,5,cpu_band,Q1 [mín; 29.2),11,3.42273937538,-3.42273937538,3.86974252113
+statespace,A,direct,1,5,cpu_band,Q4 [38.5; 45.2),117,2.79577673459,-0.353462998017,3.55763266073
+statespace,A,direct,1,5,cpu_band,Q5 [45.2; máx),88,4.00745749769,1.77386408053,5.42210559552
+statespace,A,direct,3,15,cpu_band,Q1 [mín; 29.2),11,4.96737392828,-3.98932087663,5.186953312
+statespace,A,direct,3,15,cpu_band,Q3 [33.6; 38.5),47,4.61507631004,-0.874046986669,5.61525126867
+statespace,A,direct,3,15,cpu_band,Q2 [29.2; 33.6),23,4.55212322824,-3.8245474727,5.58171818174
+statespace,A,direct,3,15,cpu_band,Q4 [38.5; 45.2),119,3.42506344247,-0.250526845347,4.57173921876
+statespace,A,direct,3,15,cpu_band,Q5 [45.2; máx),88,5.5268375647,2.7415414304,7.36655482419
+statespace,A,direct,6,30,cpu_band,Q1 [mín; 29.2),8,6.96263970756,-6.79996196239,8.11390480355
+statespace,A,direct,6,30,cpu_band,Q3 [33.6; 38.5),50,4.68941215248,-1.24956092256,5.83518798366
+statespace,A,direct,6,30,cpu_band,Q2 [29.2; 33.6),23,4.84988914271,-2.74076818813,5.81537200331
+statespace,A,direct,6,30,cpu_band,Q4 [38.5; 45.2),119,4.06013888587,-0.515339653127,5.13185458109
+statespace,A,direct,6,30,cpu_band,Q5 [45.2; máx),88,6.29942636493,3.55879746722,8.86823258955
+xgboost_delta,A,direct,1,5,cpu_band,Q3 [33.6; 38.5),48,2.74607738452,-0.441765405415,3.60196845797
+xgboost_delta,A,direct,1,5,cpu_band,Q2 [29.2; 33.6),24,2.16398674896,-1.508038067,2.8071456363
+xgboost_delta,A,direct,1,5,cpu_band,Q1 [mín; 29.2),11,3.50626117564,-3.50626117564,3.96516717924
+xgboost_delta,A,direct,1,5,cpu_band,Q4 [38.5; 45.2),117,2.80252956699,0.199731654308,3.55802561027
+xgboost_delta,A,direct,1,5,cpu_band,Q5 [45.2; máx),88,3.85370788983,2.64697158637,5.18034787352
+xgboost_delta,A,direct,3,15,cpu_band,Q1 [mín; 29.2),11,4.6108602969,-4.1346924249,4.89329935603
+xgboost_delta,A,direct,3,15,cpu_band,Q3 [33.6; 38.5),47,2.91189165756,-1.17808534316,3.79307237334
+xgboost_delta,A,direct,3,15,cpu_band,Q2 [29.2; 33.6),23,3.20336310013,-2.90202508955,4.11324268143
+xgboost_delta,A,direct,3,15,cpu_band,Q4 [38.5; 45.2),119,3.24342886143,0.778788773588,3.97641129772
+xgboost_delta,A,direct,3,15,cpu_band,Q5 [45.2; máx),88,5.56623930683,4.54101808669,7.03199567801
+xgboost_delta,A,direct,6,30,cpu_band,Q1 [mín; 29.2),8,5.98268289257,-5.98268289257,6.35193652169
+xgboost_delta,A,direct,6,30,cpu_band,Q3 [33.6; 38.5),50,3.05608510828,-0.753478627218,3.96902372581
+xgboost_delta,A,direct,6,30,cpu_band,Q2 [29.2; 33.6),23,3.13462903037,-2.84100823342,3.8907105563
+xgboost_delta,A,direct,6,30,cpu_band,Q4 [38.5; 45.2),119,3.56804751869,1.35854210398,4.29508672911
+xgboost_delta,A,direct,6,30,cpu_band,Q5 [45.2; máx),88,6.81544546153,5.53657328622,8.13019544908
+xgboost_v2,A,direct,1,5,cpu_band,Q3 [33.6; 38.5),48,2.69378950404,-0.375443390719,3.48439388745
+xgboost_v2,A,direct,1,5,cpu_band,Q2 [29.2; 33.6),24,2.08483159648,-1.73072793654,2.7015523866
+xgboost_v2,A,direct,1,5,cpu_band,Q1 [mín; 29.2),11,3.67383985355,-3.54821342266,4.14817588376
+xgboost_v2,A,direct,1,5,cpu_band,Q4 [38.5; 45.2),117,2.68578679133,0.203505724199,3.42126251908
+xgboost_v2,A,direct,1,5,cpu_band,Q5 [45.2; máx),88,3.95983305217,3.13888268143,5.26466897935
+xgboost_v2,A,direct,3,15,cpu_band,Q1 [mín; 29.2),11,4.4483522312,-3.97989583593,4.9481536151
+xgboost_v2,A,direct,3,15,cpu_band,Q3 [33.6; 38.5),47,2.88135928419,-1.16350696082,3.53890542581
+xgboost_v2,A,direct,3,15,cpu_band,Q2 [29.2; 33.6),23,3.37792079596,-3.08649927217,4.27562465419
+xgboost_v2,A,direct,3,15,cpu_band,Q4 [38.5; 45.2),119,3.09459920754,0.553834367215,3.88375911494
+xgboost_v2,A,direct,3,15,cpu_band,Q5 [45.2; máx),88,5.45780673042,4.70760766048,6.81803328275
+xgboost_v2,A,direct,6,30,cpu_band,Q1 [mín; 29.2),8,5.89241521233,-5.89241521233,6.52581848927
+xgboost_v2,A,direct,6,30,cpu_band,Q3 [33.6; 38.5),50,2.77952934815,-0.533596866647,3.44989431629
+xgboost_v2,A,direct,6,30,cpu_band,Q2 [29.2; 33.6),23,2.67689974658,-2.62226794694,3.4030237458
+xgboost_v2,A,direct,6,30,cpu_band,Q4 [38.5; 45.2),119,3.39584031053,0.816947148644,4.17925114393
+xgboost_v2,A,direct,6,30,cpu_band,Q5 [45.2; máx),88,6.77593127657,5.02920757746,8.30233532984
+dlinear,A,direct,1,5,recent_change_1_step_bin,[2; 4),41,3.60907705647,1.05987812497,5.41464506966
+dlinear,A,direct,1,5,recent_change_1_step_bin,[4; +∞),45,3.81047596722,0.590177415446,4.82161484833
+dlinear,A,direct,1,5,recent_change_1_step_bin,[-∞; -4),44,2.69518467994,0.323666405756,3.2469613799
+dlinear,A,direct,1,5,recent_change_1_step_bin,[-2; -1),26,4.83151485091,1.27404595004,5.75944422795
+dlinear,A,direct,1,5,recent_change_1_step_bin,[-4; -2),48,2.93581570761,0.9508781418,3.85424699618
+dlinear,A,direct,1,5,recent_change_1_step_bin,[-1; 1),68,3.00198361657,0.35228201022,3.76682895971
+dlinear,A,direct,1,5,recent_change_1_step_bin,[1; 2),16,2.04309573863,0.863481777604,2.86308550805
+dlinear,A,direct,3,15,recent_change_1_step_bin,[2; 4),41,4.48982175198,1.57161455565,5.60043847894
+dlinear,A,direct,3,15,recent_change_1_step_bin,[4; +∞),45,4.44840733097,1.24561909629,6.11370609241
+dlinear,A,direct,3,15,recent_change_1_step_bin,[-∞; -4),44,4.39461686139,1.71220179485,5.23743379122
+dlinear,A,direct,3,15,recent_change_1_step_bin,[-2; -1),26,4.49228799845,0.434990379826,5.37309490241
+dlinear,A,direct,3,15,recent_change_1_step_bin,[-4; -2),48,4.02313205876,0.271271883457,4.61722820549
+dlinear,A,direct,3,15,recent_change_1_step_bin,[-1; 1),68,4.916001852,1.97889302882,7.00288639763
+dlinear,A,direct,3,15,recent_change_1_step_bin,[1; 2),16,3.9671374278,0.757984481335,5.1579755093
+dlinear,A,direct,6,30,recent_change_1_step_bin,[2; 4),41,4.72084148903,2.02679401684,6.0181099473
+dlinear,A,direct,6,30,recent_change_1_step_bin,[4; +∞),45,6.26491436456,2.29449783616,9.38988127904
+dlinear,A,direct,6,30,recent_change_1_step_bin,[-∞; -4),44,5.00214129334,1.94508202018,6.07235835111
+dlinear,A,direct,6,30,recent_change_1_step_bin,[-2; -1),26,4.51467698486,1.61303973686,5.59975814144
+dlinear,A,direct,6,30,recent_change_1_step_bin,[-4; -2),48,4.31558507687,1.47771326524,5.26783716381
+dlinear,A,direct,6,30,recent_change_1_step_bin,[-1; 1),68,5.54523492663,1.82727735317,6.76161502684
+dlinear,A,direct,6,30,recent_change_1_step_bin,[1; 2),16,5.26949759143,1.57880427732,6.20939321225
+hybrid,A,direct,1,5,recent_change_1_step_bin,[2; 4),41,3.4137568808,0.840450106364,4.94858338264
+hybrid,A,direct,1,5,recent_change_1_step_bin,[4; +∞),45,3.41198580431,0.716605120121,4.36775491974
+hybrid,A,direct,1,5,recent_change_1_step_bin,[-∞; -4),44,2.34189235998,-0.144031147336,2.95560141855
+hybrid,A,direct,1,5,recent_change_1_step_bin,[-2; -1),26,4.55563085492,1.24045607847,5.59347171925
+hybrid,A,direct,1,5,recent_change_1_step_bin,[-4; -2),48,2.77539498761,0.939552661236,3.62908509292
+hybrid,A,direct,1,5,recent_change_1_step_bin,[-1; 1),68,2.69934853187,0.0658136044398,3.52040339657
+hybrid,A,direct,1,5,recent_change_1_step_bin,[1; 2),16,2.47134623491,1.03705408721,3.03983400271
+hybrid,A,direct,3,15,recent_change_1_step_bin,[2; 4),41,3.62845263846,1.06723858648,4.69433366314
+hybrid,A,direct,3,15,recent_change_1_step_bin,[4; +∞),45,3.72684663758,0.384144357222,5.15234851023
+hybrid,A,direct,3,15,recent_change_1_step_bin,[-∞; -4),44,4.06894574262,0.964182432781,5.05348159761
+hybrid,A,direct,3,15,recent_change_1_step_bin,[-2; -1),26,4.0625830918,0.987721896361,5.05325107537
+hybrid,A,direct,3,15,recent_change_1_step_bin,[-4; -2),48,3.54963052905,0.162859904989,4.12457807303
+hybrid,A,direct,3,15,recent_change_1_step_bin,[-1; 1),68,4.36919069385,1.94831154048,5.97557403161
+hybrid,A,direct,3,15,recent_change_1_step_bin,[1; 2),16,3.82979845773,1.58066528125,5.13167663748
+hybrid,A,direct,6,30,recent_change_1_step_bin,[2; 4),41,3.53936275564,1.34728042637,4.55122634453
+hybrid,A,direct,6,30,recent_change_1_step_bin,[4; +∞),45,5.4017524256,1.0380202491,7.68664770895
+hybrid,A,direct,6,30,recent_change_1_step_bin,[-∞; -4),44,3.83292521878,1.47318819634,4.60147149067
+hybrid,A,direct,6,30,recent_change_1_step_bin,[-2; -1),26,4.22714671334,1.95015431458,5.5529140334
+hybrid,A,direct,6,30,recent_change_1_step_bin,[-4; -2),48,3.85852579326,1.52434118475,4.92887582021
+hybrid,A,direct,6,30,recent_change_1_step_bin,[-1; 1),68,4.46899717078,1.64709516129,5.36153935764
+hybrid,A,direct,6,30,recent_change_1_step_bin,[1; 2),16,5.49561908852,2.50105947259,6.3708344843
+persistence,-,direct,1,5,recent_change_1_step_bin,[2; 4),41,3.72310828998,-0.416068247542,5.03569114766
+persistence,-,direct,1,5,recent_change_1_step_bin,[4; +∞),45,4.26956766193,-1.71054055728,5.03490214422
+persistence,-,direct,1,5,recent_change_1_step_bin,[-∞; -4),44,2.50637663686,0.623896671487,3.16730329119
+persistence,-,direct,1,5,recent_change_1_step_bin,[-2; -1),26,5.00374073668,1.65330381742,6.3385556615
+persistence,-,direct,1,5,recent_change_1_step_bin,[-4; -2),48,3.29374883549,1.02374401633,4.52151715161
+persistence,-,direct,1,5,recent_change_1_step_bin,[-1; 1),68,2.72504748883,-0.228360227192,3.65478629298
+persistence,-,direct,1,5,recent_change_1_step_bin,[1; 2),16,2.28800258053,0.308683954223,3.39999308268
+persistence,-,direct,3,15,recent_change_1_step_bin,[2; 4),41,4.39917688488,-1.1985920967,5.28292040283
+persistence,-,direct,3,15,recent_change_1_step_bin,[4; +∞),45,5.32028826366,-3.11249562472,7.50481653454
+persistence,-,direct,3,15,recent_change_1_step_bin,[-∞; -4),44,5.37211969893,2.20462484439,6.5601122741
+persistence,-,direct,3,15,recent_change_1_step_bin,[-2; -1),26,4.71669429962,1.28660769558,6.01949298274
+persistence,-,direct,3,15,recent_change_1_step_bin,[-4; -2),48,4.29947546806,0.0654721614699,5.54676425237
+persistence,-,direct,3,15,recent_change_1_step_bin,[-1; 1),68,4.54565290304,1.11303782808,6.19329753028
+persistence,-,direct,3,15,recent_change_1_step_bin,[1; 2),16,3.74032205241,0.535032710144,5.04729756842
+persistence,-,direct,6,30,recent_change_1_step_bin,[2; 4),41,4.21831607072,-1.49250256877,5.29965718817
+persistence,-,direct,6,30,recent_change_1_step_bin,[4; +∞),45,7.48966631553,-2.63123094352,10.8019175266
+persistence,-,direct,6,30,recent_change_1_step_bin,[-∞; -4),44,5.51362636094,2.3219408702,7.38265880102
+persistence,-,direct,6,30,recent_change_1_step_bin,[-2; -1),26,5.37424580561,2.49620064251,6.62661890315
+persistence,-,direct,6,30,recent_change_1_step_bin,[-4; -2),48,5.22431824384,0.98906723883,6.49765985521
+persistence,-,direct,6,30,recent_change_1_step_bin,[-1; 1),68,4.49929938805,0.187868808066,5.49458199218
+persistence,-,direct,6,30,recent_change_1_step_bin,[1; 2),16,5.37921987559,0.896204800244,6.61232613458
+statespace,A,direct,1,5,recent_change_1_step_bin,[2; 4),41,3.46776340377,0.624769483482,5.10303064928
+statespace,A,direct,1,5,recent_change_1_step_bin,[4; +∞),45,3.73777335577,0.563931693602,4.52772632556
+statespace,A,direct,1,5,recent_change_1_step_bin,[-∞; -4),44,2.91019671385,-1.17186412041,3.44497853038
+statespace,A,direct,1,5,recent_change_1_step_bin,[-2; -1),26,4.85111584828,1.15008294132,6.06236454618
+statespace,A,direct,1,5,recent_change_1_step_bin,[-4; -2),48,3.10946385516,0.171427582168,4.21550541655
+statespace,A,direct,1,5,recent_change_1_step_bin,[-1; 1),68,2.75694821456,-0.355234994253,3.63395519401
+statespace,A,direct,1,5,recent_change_1_step_bin,[1; 2),16,2.33943625255,0.71402396465,3.25267621297
+statespace,A,direct,3,15,recent_change_1_step_bin,[2; 4),41,4.10914928654,-0.157754365674,5.14513978408
+statespace,A,direct,3,15,recent_change_1_step_bin,[4; +∞),45,4.52337064899,-0.838023373833,6.44194131771
+statespace,A,direct,3,15,recent_change_1_step_bin,[-∞; -4),44,4.96681081158,0.408864052499,5.96950982868
+statespace,A,direct,3,15,recent_change_1_step_bin,[-2; -1),26,4.53086810689,0.783386819483,5.77022661735
+statespace,A,direct,3,15,recent_change_1_step_bin,[-4; -2),48,4.12036648337,-0.786844272689,5.39222997954
+statespace,A,direct,3,15,recent_change_1_step_bin,[-1; 1),68,4.5444178365,0.98616306102,6.18316158505
+statespace,A,direct,3,15,recent_change_1_step_bin,[1; 2),16,3.43910867846,0.940372720571,4.842981419
+statespace,A,direct,6,30,recent_change_1_step_bin,[2; 4),41,3.82582662005,-0.451664837747,4.96999435312
+statespace,A,direct,6,30,recent_change_1_step_bin,[4; +∞),45,6.48449210616,-0.356758692641,9.94207345735
+statespace,A,direct,6,30,recent_change_1_step_bin,[-∞; -4),44,5.24653832526,0.526180078307,6.75073572573
+statespace,A,direct,6,30,recent_change_1_step_bin,[-2; -1),26,5.10243332031,1.99297976642,6.34322182205
+statespace,A,direct,6,30,recent_change_1_step_bin,[-4; -2),48,4.99389950886,0.136750804672,6.24159717149
+statespace,A,direct,6,30,recent_change_1_step_bin,[-1; 1),68,4.48874731309,0.0609940410057,5.4472836363
+statespace,A,direct,6,30,recent_change_1_step_bin,[1; 2),16,5.13195253406,1.30154481067,6.43214483236
+xgboost_delta,A,direct,1,5,recent_change_1_step_bin,[2; 4),41,3.54179342683,0.457750458543,4.96425533046
+xgboost_delta,A,direct,1,5,recent_change_1_step_bin,[4; +∞),45,3.53211505157,-0.185800259354,4.50450524101
+xgboost_delta,A,direct,1,5,recent_change_1_step_bin,[-∞; -4),44,2.34293859456,0.655479006455,2.98781778561
+xgboost_delta,A,direct,1,5,recent_change_1_step_bin,[-2; -1),26,4.60760741712,1.42995059312,5.66356184909
+xgboost_delta,A,direct,1,5,recent_change_1_step_bin,[-4; -2),48,2.94580144826,1.35657093145,3.79699621416
+xgboost_delta,A,direct,1,5,recent_change_1_step_bin,[-1; 1),68,2.64442007102,0.0518074407975,3.47303662212
+xgboost_delta,A,direct,1,5,recent_change_1_step_bin,[1; 2),16,2.56710561466,0.954419852278,3.21217027582
+xgboost_delta,A,direct,3,15,recent_change_1_step_bin,[2; 4),41,3.76981975264,0.847212255404,4.70145649674
+xgboost_delta,A,direct,3,15,recent_change_1_step_bin,[4; +∞),45,3.91909592225,0.11901951479,5.24081064353
+xgboost_delta,A,direct,3,15,recent_change_1_step_bin,[-∞; -4),44,3.97410032315,1.45872399111,4.95258097106
+xgboost_delta,A,direct,3,15,recent_change_1_step_bin,[-2; -1),26,3.95656678506,0.955096199266,4.68286242986
+xgboost_delta,A,direct,3,15,recent_change_1_step_bin,[-4; -2),48,3.49748763214,0.671902196365,4.16046702569
+xgboost_delta,A,direct,3,15,recent_change_1_step_bin,[-1; 1),68,4.36608583343,1.98644257211,6.03388513397
+xgboost_delta,A,direct,3,15,recent_change_1_step_bin,[1; 2),16,3.97665599874,1.76561956675,5.38309164985
+xgboost_delta,A,direct,6,30,recent_change_1_step_bin,[2; 4),41,3.67047371115,1.05914532004,4.5423759206
+xgboost_delta,A,direct,6,30,recent_change_1_step_bin,[4; +∞),45,5.64419605756,0.442726999068,7.85212420173
+xgboost_delta,A,direct,6,30,recent_change_1_step_bin,[-∞; -4),44,4.21371683178,2.39022988454,4.98866791653
+xgboost_delta,A,direct,6,30,recent_change_1_step_bin,[-2; -1),26,4.32526797281,2.19729160851,5.55879171633
+xgboost_delta,A,direct,6,30,recent_change_1_step_bin,[-4; -2),48,3.93883852662,2.16672031309,4.97374728863
+xgboost_delta,A,direct,6,30,recent_change_1_step_bin,[-1; 1),68,4.64188903929,1.9451916358,5.55282535737
+xgboost_delta,A,direct,6,30,recent_change_1_step_bin,[1; 2),16,5.62922406273,2.25521247544,6.45977301508
+xgboost_v2,A,direct,1,5,recent_change_1_step_bin,[2; 4),41,3.49616212074,0.915059293005,4.98876450926
+xgboost_v2,A,direct,1,5,recent_change_1_step_bin,[4; +∞),45,3.55595308636,0.844901784496,4.81599648467
+xgboost_v2,A,direct,1,5,recent_change_1_step_bin,[-∞; -4),44,2.50210704534,0.0884763389889,3.01461300936
+xgboost_v2,A,direct,1,5,recent_change_1_step_bin,[-2; -1),26,4.47604675966,1.07960529595,5.34117335242
+xgboost_v2,A,direct,1,5,recent_change_1_step_bin,[-4; -2),48,2.62763340401,1.20419701532,3.29725455746
+xgboost_v2,A,direct,1,5,recent_change_1_step_bin,[-1; 1),68,2.77704560769,0.254916942714,3.60961942687
+xgboost_v2,A,direct,1,5,recent_change_1_step_bin,[1; 2),16,2.35353061106,1.17538925313,2.98126267172
+xgboost_v2,A,direct,3,15,recent_change_1_step_bin,[2; 4),41,3.9537658873,1.29276715042,4.83197559698
+xgboost_v2,A,direct,3,15,recent_change_1_step_bin,[4; +∞),45,4.02790478322,0.72666673354,5.07700721388
+xgboost_v2,A,direct,3,15,recent_change_1_step_bin,[-∞; -4),44,3.5809243239,1.0393067874,4.42575145615
+xgboost_v2,A,direct,3,15,recent_change_1_step_bin,[-2; -1),26,3.95385907902,0.489055255889,4.97857298789
+xgboost_v2,A,direct,3,15,recent_change_1_step_bin,[-4; -2),48,3.20715803003,0.375662934998,3.96418784896
+xgboost_v2,A,direct,3,15,recent_change_1_step_bin,[-1; 1),68,4.30283074699,1.8195349817,5.89788454698
+xgboost_v2,A,direct,3,15,recent_change_1_step_bin,[1; 2),16,3.77093987587,1.550875506,5.12911988047
+xgboost_v2,A,direct,6,30,recent_change_1_step_bin,[2; 4),41,3.8272026358,1.60019485554,5.02239412943
+xgboost_v2,A,direct,6,30,recent_change_1_step_bin,[4; +∞),45,5.47829762837,1.69591982314,7.70664225827
+xgboost_v2,A,direct,6,30,recent_change_1_step_bin,[-∞; -4),44,3.81034295693,1.12993627486,4.57588807122
+xgboost_v2,A,direct,6,30,recent_change_1_step_bin,[-2; -1),26,4.77320446815,1.49858985263,5.96324352365
+xgboost_v2,A,direct,6,30,recent_change_1_step_bin,[-4; -2),48,3.79807888372,1.40615715462,5.00463883765
+xgboost_v2,A,direct,6,30,recent_change_1_step_bin,[-1; 1),68,4.35462073869,1.12704100917,5.4973275098
+xgboost_v2,A,direct,6,30,recent_change_1_step_bin,[1; 2),16,4.65327051861,1.93227526677,5.78994917198
+dlinear,A,direct,1,5,realized_change_bin,[4; +∞),45,7.00945138412,7.00945138412,7.95587558445
+dlinear,A,direct,1,5,realized_change_bin,[-∞; -4),44,4.27611761403,-4.27611761403,4.89763814389
+dlinear,A,direct,1,5,realized_change_bin,[-2; -1),27,2.08873895458,-1.43575104688,2.44686594527
+dlinear,A,direct,1,5,realized_change_bin,[-4; -2),48,2.17478697455,-1.75314943444,2.76779730986
+dlinear,A,direct,1,5,realized_change_bin,[-1; 1),68,1.4768171512,0.483902900895,1.85591361713
+dlinear,A,direct,1,5,realized_change_bin,[2; 4),40,3.61219225708,3.55030036037,3.95601045501
+dlinear,A,direct,1,5,realized_change_bin,[1; 2),16,2.00769944822,1.34471509321,2.37533986013
+dlinear,A,direct,3,15,realized_change_bin,[4; +∞),68,7.46374687535,7.35143397994,8.97408517783
+dlinear,A,direct,3,15,realized_change_bin,[-∞; -4),75,4.25684246021,-3.85230718837,5.13854048838
+dlinear,A,direct,3,15,realized_change_bin,[-1; 1),48,3.0769024268,1.28554100667,3.83976306569
+dlinear,A,direct,3,15,realized_change_bin,[-4; -2),34,2.94424693811,-1.41229337454,3.70264468026
+dlinear,A,direct,3,15,realized_change_bin,[-2; -1),14,3.12990748265,-0.29802737591,3.84149894609
+dlinear,A,direct,3,15,realized_change_bin,[2; 4),31,3.82116739652,3.61904080425,4.74968637902
+dlinear,A,direct,3,15,realized_change_bin,[1; 2),18,2.69042981754,1.89827034822,3.09841416797
+dlinear,A,direct,6,30,realized_change_bin,[-1; 1),33,3.47836704166,1.90506569812,4.28482123479
+dlinear,A,direct,6,30,realized_change_bin,[4; +∞),78,7.4568124132,7.3665129314,9.5208059884
+dlinear,A,direct,6,30,realized_change_bin,[-∞; -4),76,5.11077428461,-4.4963365829,6.07348903224
+dlinear,A,direct,6,30,realized_change_bin,[2; 4),29,5.80857086695,5.40834134071,7.05121256588
+dlinear,A,direct,6,30,realized_change_bin,[1; 2),17,3.09825214163,1.57292712572,3.67992915279
+dlinear,A,direct,6,30,realized_change_bin,[-2; -1),27,3.12101258616,1.59919760101,3.87220415982
+dlinear,A,direct,6,30,realized_change_bin,[-4; -2),28,3.25946351863,0.422356175604,3.73944682538
+hybrid,A,direct,1,5,realized_change_bin,[4; +∞),45,6.68277554106,6.68277554106,7.53487612993
+hybrid,A,direct,1,5,realized_change_bin,[-∞; -4),44,4.1039461756,-4.09452604565,4.66695402501
+hybrid,A,direct,1,5,realized_change_bin,[-2; -1),27,1.59152311898,-1.12602323024,1.81459977389
+hybrid,A,direct,1,5,realized_change_bin,[-4; -2),48,2.18342765429,-1.96312839258,2.50721681339
+hybrid,A,direct,1,5,realized_change_bin,[-1; 1),68,1.23098787487,0.12160228168,1.61952596496
+hybrid,A,direct,1,5,realized_change_bin,[2; 4),40,3.27276188682,3.27276188682,3.60157342331
+hybrid,A,direct,1,5,realized_change_bin,[1; 2),16,1.72608906549,1.47965604092,2.26466497961
+hybrid,A,direct,3,15,realized_change_bin,[4; +∞),68,7.00132971847,6.97160507955,8.20596032383
+hybrid,A,direct,3,15,realized_change_bin,[-∞; -4),75,4.29961170934,-4.19380792848,4.85828059417
+hybrid,A,direct,3,15,realized_change_bin,[-1; 1),48,2.01490504527,0.873449025939,2.62599587382
+hybrid,A,direct,3,15,realized_change_bin,[-4; -2),34,1.83560942075,-1.14756863062,2.40181713554
+hybrid,A,direct,3,15,realized_change_bin,[-2; -1),14,1.99853879125,-0.276853777127,2.30680537302
+hybrid,A,direct,3,15,realized_change_bin,[2; 4),31,3.42964887127,3.39911801725,3.97821963141
+hybrid,A,direct,3,15,realized_change_bin,[1; 2),18,2.106295456,1.71126127378,2.47529160892
+hybrid,A,direct,6,30,realized_change_bin,[-1; 1),33,2.34794812088,1.55185140562,2.70123640967
+hybrid,A,direct,6,30,realized_change_bin,[4; +∞),78,6.99264194024,6.85087643796,8.35300688377
+hybrid,A,direct,6,30,realized_change_bin,[-∞; -4),76,4.45440546547,-4.38659735948,5.09971284226
+hybrid,A,direct,6,30,realized_change_bin,[2; 4),29,4.79741249196,4.61146703613,5.59581241239
+hybrid,A,direct,6,30,realized_change_bin,[1; 2),17,2.12015031555,1.7718038244,2.64333072472
+hybrid,A,direct,6,30,realized_change_bin,[-2; -1),27,2.27352211277,0.348055377788,2.77608695478
+hybrid,A,direct,6,30,realized_change_bin,[-4; -2),28,1.63508635829,0.614740622027,2.04505501216
+persistence,-,direct,1,5,realized_change_bin,[4; +∞),45,7.38382764926,7.38382764926,7.98627512767
+persistence,-,direct,1,5,realized_change_bin,[-∞; -4),44,6.33031749504,-6.33031749504,6.6912025895
+persistence,-,direct,1,5,realized_change_bin,[-2; -1),27,1.47381857154,-1.47381857154,1.50502561684
+persistence,-,direct,1,5,realized_change_bin,[-4; -2),48,2.8913660836,-2.8913660836,2.95188327937
+persistence,-,direct,1,5,realized_change_bin,[-1; 1),68,0.473229202889,-0.0559965891403,0.553197294438
+persistence,-,direct,1,5,realized_change_bin,[2; 4),40,2.93509726013,2.93509726013,2.9848378405
+persistence,-,direct,1,5,realized_change_bin,[1; 2),16,1.63741667747,1.63741667747,1.66480935024
+persistence,-,direct,3,15,realized_change_bin,[4; +∞),68,8.31191373357,8.31191373357,9.2281753868
+persistence,-,direct,3,15,realized_change_bin,[-∞; -4),75,7.08665970445,-7.08665970445,7.80549537688
+persistence,-,direct,3,15,realized_change_bin,[-1; 1),48,0.481276853187,-0.0204225806633,0.558747555945
+persistence,-,direct,3,15,realized_change_bin,[-4; -2),34,2.92558684013,-2.92558684013,2.9723531568
+persistence,-,direct,3,15,realized_change_bin,[-2; -1),14,1.40892886413,-1.40892886413,1.42925843458
+persistence,-,direct,3,15,realized_change_bin,[2; 4),31,2.85470781369,2.85470781369,2.9098217121
+persistence,-,direct,3,15,realized_change_bin,[1; 2),18,1.47828421358,1.47828421358,1.49776502757
+persistence,-,direct,6,30,realized_change_bin,[-1; 1),33,0.44235430492,0.117013160838,0.518088780624
+persistence,-,direct,6,30,realized_change_bin,[4; +∞),78,8.73791483667,8.73791483667,10.2365996795
+persistence,-,direct,6,30,realized_change_bin,[-∞; -4),76,8.00134713497,-8.00134713497,8.83666714906
+persistence,-,direct,6,30,realized_change_bin,[2; 4),29,2.88410493872,2.88410493872,2.94686042243
+persistence,-,direct,6,30,realized_change_bin,[1; 2),17,1.42086232716,1.42086232716,1.44556078934
+persistence,-,direct,6,30,realized_change_bin,[-2; -1),27,1.4623151258,-1.4623151258,1.4836383221
+persistence,-,direct,6,30,realized_change_bin,[-4; -2),28,2.9846215452,-2.9846215452,3.03218122745
+statespace,A,direct,1,5,realized_change_bin,[4; +∞),45,6.80854936713,6.80854936713,7.70517985994
+statespace,A,direct,1,5,realized_change_bin,[-∞; -4),44,5.37554415026,-5.37554415026,5.94911523799
+statespace,A,direct,1,5,realized_change_bin,[-2; -1),27,1.76875655938,-1.5613334668,1.96743604192
+statespace,A,direct,1,5,realized_change_bin,[-4; -2),48,2.68206698143,-2.55137802457,2.90947584749
+statespace,A,direct,1,5,realized_change_bin,[-1; 1),68,0.970097492884,-0.379794967664,1.25013059511
+statespace,A,direct,1,5,realized_change_bin,[2; 4),40,3.15007595208,3.15007595208,3.42018231105
+statespace,A,direct,1,5,realized_change_bin,[1; 2),16,1.70871986025,1.21337047326,2.15467245033
+statespace,A,direct,3,15,realized_change_bin,[4; +∞),68,7.72459475967,7.72459475967,8.8526382859
+statespace,A,direct,3,15,realized_change_bin,[-∞; -4),75,6.49028168968,-6.49028168968,7.0614367287
+statespace,A,direct,3,15,realized_change_bin,[-1; 1),48,1.07964602717,0.0850191513225,1.3850558899
+statespace,A,direct,3,15,realized_change_bin,[-4; -2),34,2.47700996839,-2.40620642968,2.78887358626
+statespace,A,direct,3,15,realized_change_bin,[-2; -1),14,1.76025330181,-1.3310181066,2.00062696195
+statespace,A,direct,3,15,realized_change_bin,[2; 4),31,2.50739996204,2.50739996204,2.74049579787
+statespace,A,direct,3,15,realized_change_bin,[1; 2),18,1.09638476213,1.03606991522,1.54238116346
+statespace,A,direct,6,30,realized_change_bin,[-1; 1),33,1.06989059487,-0.0348837056695,1.48850566815
+statespace,A,direct,6,30,realized_change_bin,[4; +∞),78,8.21697331834,8.21697331834,9.88492951232
+statespace,A,direct,6,30,realized_change_bin,[-∞; -4),76,7.30827297376,-7.30827297376,7.9244871833
+statespace,A,direct,6,30,realized_change_bin,[2; 4),29,2.6105856417,2.6105856417,2.83636946849
+statespace,A,direct,6,30,realized_change_bin,[1; 2),17,0.880982853848,0.880060663178,1.20734726515
+statespace,A,direct,6,30,realized_change_bin,[-2; -1),27,1.49561163357,-0.984359806701,1.79361921449
+statespace,A,direct,6,30,realized_change_bin,[-4; -2),28,2.7321772286,-2.7321772286,2.98550080213
+xgboost_delta,A,direct,1,5,realized_change_bin,[4; +∞),45,6.95796320902,6.95796320902,7.70846121756
+xgboost_delta,A,direct,1,5,realized_change_bin,[-∞; -4),44,4.4751917886,-4.45606321345,5.00237815122
+xgboost_delta,A,direct,1,5,realized_change_bin,[-2; -1),27,1.31911792553,-1.12223547069,1.65049847925
+xgboost_delta,A,direct,1,5,realized_change_bin,[-4; -2),48,2.10975842623,-2.03480547663,2.42787545321
+xgboost_delta,A,direct,1,5,realized_change_bin,[-1; 1),68,1.26787839562,0.222803325861,1.56217183794
+xgboost_delta,A,direct,1,5,realized_change_bin,[2; 4),40,3.12757338589,3.12757338589,3.35065970349
+xgboost_delta,A,direct,1,5,realized_change_bin,[1; 2),16,1.94490531985,1.9382170708,2.25121484704
+xgboost_delta,A,direct,3,15,realized_change_bin,[4; +∞),68,6.74808273345,6.64882683747,7.99761141262
+xgboost_delta,A,direct,3,15,realized_change_bin,[-∞; -4),75,4.08691428972,-3.88794248998,4.75832637589
+xgboost_delta,A,direct,3,15,realized_change_bin,[-1; 1),48,2.47646506771,1.20293411456,3.12893496481
+xgboost_delta,A,direct,3,15,realized_change_bin,[-4; -2),34,1.92782129627,-1.18687355092,2.52150289935
+xgboost_delta,A,direct,3,15,realized_change_bin,[-2; -1),14,2.49381600854,0.364209974027,3.01835741094
+xgboost_delta,A,direct,3,15,realized_change_bin,[2; 4),31,3.63468778112,3.51203756772,4.33284439071
+xgboost_delta,A,direct,3,15,realized_change_bin,[1; 2),18,2.20331254025,1.82241509007,2.56785922723
+xgboost_delta,A,direct,6,30,realized_change_bin,[-1; 1),33,2.60520492656,1.94946167338,3.01955552897
+xgboost_delta,A,direct,6,30,realized_change_bin,[4; +∞),78,7.13860707482,6.99784689952,8.41110462155
+xgboost_delta,A,direct,6,30,realized_change_bin,[-∞; -4),76,4.48255879131,-4.29396132218,5.19408260553
+xgboost_delta,A,direct,6,30,realized_change_bin,[2; 4),29,4.91624045957,4.78194188608,5.80986403459
+xgboost_delta,A,direct,6,30,realized_change_bin,[1; 2),17,2.46179832591,2.10501659398,2.99715875902
+xgboost_delta,A,direct,6,30,realized_change_bin,[-2; -1),27,2.67628658137,0.514457781351,3.28449775287
+xgboost_delta,A,direct,6,30,realized_change_bin,[-4; -2),28,2.03500630269,0.922542353663,2.52370561861
+xgboost_v2,A,direct,1,5,realized_change_bin,[4; +∞),45,6.56629629991,6.56629629991,7.41386453493
+xgboost_v2,A,direct,1,5,realized_change_bin,[-∞; -4),44,3.74281921532,-3.64214446469,4.34548935893
+xgboost_v2,A,direct,1,5,realized_change_bin,[-2; -1),27,1.59457517004,-1.00884479145,1.95208090591
+xgboost_v2,A,direct,1,5,realized_change_bin,[-4; -2),48,2.36593540217,-1.5801151032,3.14816737683
+xgboost_v2,A,direct,1,5,realized_change_bin,[-1; 1),68,1.68012070837,0.404103633044,2.11265547619
+xgboost_v2,A,direct,1,5,realized_change_bin,[2; 4),40,3.06742776061,3.03014744406,3.49385826245
+xgboost_v2,A,direct,1,5,realized_change_bin,[1; 2),16,1.79508310099,1.28832233001,2.25091959969
+xgboost_v2,A,direct,3,15,realized_change_bin,[4; +∞),68,6.19429167095,6.06339448669,7.38824518842
+xgboost_v2,A,direct,3,15,realized_change_bin,[-∞; -4),75,4.07886500686,-3.31980392387,4.70232845099
+xgboost_v2,A,direct,3,15,realized_change_bin,[-1; 1),48,2.39379514576,0.983158577091,3.15832774734
+xgboost_v2,A,direct,3,15,realized_change_bin,[-4; -2),34,2.18135030755,-1.11893969224,2.89924841356
+xgboost_v2,A,direct,3,15,realized_change_bin,[-2; -1),14,3.01348997018,0.0547559153627,3.78915271241
+xgboost_v2,A,direct,3,15,realized_change_bin,[2; 4),31,3.77989598487,3.50885267438,4.83434243889
+xgboost_v2,A,direct,3,15,realized_change_bin,[1; 2),18,1.94621197085,1.59491058429,2.40067157115
+xgboost_v2,A,direct,6,30,realized_change_bin,[-1; 1),33,2.85300836187,0.996735356641,3.46510907723
+xgboost_v2,A,direct,6,30,realized_change_bin,[4; +∞),78,6.64595048523,6.04538020852,8.2603756152
+xgboost_v2,A,direct,6,30,realized_change_bin,[-∞; -4),76,3.9572580987,-3.40588094219,4.66875163973
+xgboost_v2,A,direct,6,30,realized_change_bin,[2; 4),29,4.74034589811,4.39313929972,6.06528662497
+xgboost_v2,A,direct,6,30,realized_change_bin,[1; 2),17,2.33969581397,0.940876701546,2.84970916931
+xgboost_v2,A,direct,6,30,realized_change_bin,[-2; -1),27,3.54903278461,0.858809634754,4.46604693159
+xgboost_v2,A,direct,6,30,realized_change_bin,[-4; -2),28,2.20420207893,-0.232611624627,2.85262381688

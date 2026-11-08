@@ -1,0 +1,13 @@
+family,hypothesis,scope,horizon_steps,model_a,variant_a,model_b,variant_b,metric,day,n,loss_a,loss_b,mean_diff
+energy,H6,primary,1,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",3,288,2096.9062149393067,2256.8977924065284,-159.99157746722184
+energy,H6,primary,1,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",4,288,1921.4653264713206,2191.74978354487,-270.28445707354945
+energy,H6,primary,1,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",5,288,2067.291455646416,2349.815050348862,-282.52359470244585
+energy,H6,primary,1,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",6,288,2142.11993684164,2219.859572240841,-77.73963539920106
+energy,H6,primary,3,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",3,288,9512.690892785064,9809.139925873074,-296.44903308801287
+energy,H6,primary,3,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",4,288,9464.2775806506,9906.652246523645,-442.37466587304476
+energy,H6,primary,3,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",5,288,9557.083401157724,10135.524699359754,-578.4412982020287
+energy,H6,primary,3,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",6,288,9431.56358305619,9550.877244288895,-119.31366123270215
+energy,H6,primary,6,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",3,288,19488.59812120918,19779.464888428483,-290.86676721930377
+energy,H6,primary,6,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",4,288,22745.003599065705,23162.789071253257,-417.7854721875552
+energy,H6,primary,6,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",5,288,19902.403400186144,21920.799121362325,-2018.3957211761817
+energy,H6,primary,6,hierarchical,group_route,xgboost_v2,mean_route,"|diferença total de energia| (Wh), r = 1.4, substituto power_ssj2008-20170621-00759",6,288,19939.965890983836,19801.785337288955,138.1805536948824

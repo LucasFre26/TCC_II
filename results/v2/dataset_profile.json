@@ -1,0 +1,75 @@
+{
+  "step_seconds": 300.0,
+  "n_machines": 200,
+  "n_records_read": 246934820,
+  "n_records_in_window": 246934820,
+  "n_records_used": 12205925,
+  "n_grid_points": 414617,
+  "period_seconds": [
+    0.0,
+    691190.0
+  ],
+  "period_bins": [
+    0,
+    2303
+  ],
+  "duplicate_records": 0,
+  "invalid_values": {
+    "cpu_util_percent": 0,
+    "mem_util_percent": 0,
+    "mem_gps": 0,
+    "net_in": 0,
+    "net_out": 0,
+    "disk_io_percent": 3770
+  },
+  "missing_values": {
+    "cpu_util_percent": 1,
+    "mem_util_percent": 0,
+    "mem_gps": 9688759,
+    "net_in": 0,
+    "net_out": 0,
+    "disk_io_percent": 3770
+  },
+  "missing_fraction": {
+    "cpu_util_percent": 8.192742459092612e-08,
+    "mem_util_percent": 0.0,
+    "mem_gps": 0.7937750723521568,
+    "net_in": 0.0,
+    "net_out": 0.0,
+    "disk_io_percent": 0.0003088663907077915
+  },
+  "machine_coverage": {
+    "min": 0.1440972222222222,
+    "mean": 0.8997764756944444,
+    "max": 0.9466145833333334
+  },
+  "input_time_sorted_within_chunks": false,
+  "granularity": {
+    "step_seconds": 10.0,
+    "conformity": 0.11036122309979567,
+    "n_intervals": 1999706,
+    "sample_rows": 2000000,
+    "regular": false
+  },
+  "warnings": [
+    "Granularidade irregular ou não detectada; usado o passo configurado 300.0 s (conformidade 0.110)."
+  ],
+  "file_sha256": {
+    "machine_usage": "3e6ee87fd204bb85b9e234c5c75a5096580fdabc8f085b224033080090753a7a",
+    "machine_meta": "b5b1b786b22cd413a3674b8f2ebfb2f02fac991c95df537f363ef2797c8f6d55"
+  },
+  "machine_selection": {
+    "explicit_ids": false,
+    "sample_size": 200,
+    "seed": 42,
+    "n_selected": 200
+  },
+  "window_seconds": [
+    null,
+    null
+  ],
+  "cache": {
+    "hit": true,
+    "key": "e1263599187f5e6a029a"
+  }
+}

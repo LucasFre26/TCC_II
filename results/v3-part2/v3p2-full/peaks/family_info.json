@@ -1,0 +1,24 @@
+{
+  "lambdas": [
+    0.0,
+    1.0,
+    3.0
+  ],
+  "selection_rule": "menor subestimação média nos picos da validação interna com MAE interno até 5% acima de λ = 0",
+  "peak_definition": "alvo ≥ quantil 0.9 da CPU do treino do bloco",
+  "lambda0_reproduces_baseline_max_abs_diff": 7.105427357601002e-15,
+  "excluded_variants": [
+    {
+      "variant": "perda assimétrica",
+      "reason": "equivale, no limite, à regressão quantílica (pinball com τ > 0,5) já avaliada na família quantílica da V3"
+    },
+    {
+      "variant": "Huber",
+      "reason": "reduz a influência dos picos, direção oposta ao objetivo de H4; o descompasso MSE/MAE é outra pergunta"
+    },
+    {
+      "variant": "multitarefa (nível e variação)",
+      "reason": "exigiria nova arquitetura neural para eventos que, em 11 de 12 casos na V3, duraram um passo de 5 min"
+    }
+  ]
+}

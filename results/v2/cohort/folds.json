@@ -1,0 +1,104 @@
+[
+  {
+    "split": "fold_0",
+    "train_range": [
+      12,
+      1253
+    ],
+    "evaluation_range": [
+      1272,
+      1415
+    ],
+    "n_train": 1162,
+    "n_evaluation": 144,
+    "train_target_mean": 37.59566989859512,
+    "train_target_std": 9.18222442834585,
+    "evaluation_target_mean": 35.019755471414136,
+    "evaluation_target_std": 8.235503004469296
+  },
+  {
+    "split": "fold_1",
+    "train_range": [
+      12,
+      1397
+    ],
+    "evaluation_range": [
+      1416,
+      1559
+    ],
+    "n_train": 1306,
+    "n_evaluation": 144,
+    "train_target_mean": 37.603534680542374,
+    "train_target_std": 9.188663878802643,
+    "evaluation_target_mean": 38.48093709637354,
+    "evaluation_target_std": 10.695092570247931
+  },
+  {
+    "split": "fold_2",
+    "train_range": [
+      12,
+      1541
+    ],
+    "evaluation_range": [
+      1560,
+      1703
+    ],
+    "n_train": 1450,
+    "n_evaluation": 144,
+    "train_target_mean": 37.511570376800044,
+    "train_target_std": 9.369035000239974,
+    "evaluation_target_mean": 30.324618033839165,
+    "evaluation_target_std": 5.686527157312568
+  },
+  {
+    "split": "fold_3",
+    "train_range": [
+      12,
+      1685
+    ],
+    "evaluation_range": [
+      1704,
+      1847
+    ],
+    "n_train": 1594,
+    "n_evaluation": 144,
+    "train_target_mean": 37.04440137673107,
+    "train_target_std": 9.306167886640825,
+    "evaluation_target_mean": 40.61897155015289,
+    "evaluation_target_std": 10.854313488413068
+  },
+  {
+    "split": "fold_4",
+    "train_range": [
+      12,
+      1829
+    ],
+    "evaluation_range": [
+      1848,
+      1991
+    ],
+    "n_train": 1738,
+    "n_evaluation": 144,
+    "train_target_mean": 37.13629624483186,
+    "train_target_std": 9.491449974312149,
+    "evaluation_target_mean": 38.69625449426004,
+    "evaluation_target_std": 5.926680264348128
+  },
+  {
+    "split": "test_final",
+    "train_range": [
+      12,
+      1991
+    ],
+    "evaluation_range": [
+      2010,
+      2297
+    ],
+    "n_train": 1900,
+    "n_evaluation": 288,
+    "train_target_mean": 37.34768292022473,
+    "train_target_std": 9.289976321501547,
+    "evaluation_target_mean": 42.08619271832975,
+    "evaluation_target_std": 7.773614314262451
+  }
+]

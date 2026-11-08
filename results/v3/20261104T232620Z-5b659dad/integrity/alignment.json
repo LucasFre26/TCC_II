@@ -1,0 +1,62 @@
+{
+  "test_range": [
+    2010,
+    2297
+  ],
+  "fold_validation_ranges": [
+    [
+      1272,
+      1415
+    ],
+    [
+      1416,
+      1559
+    ],
+    [
+      1560,
+      1703
+    ],
+    [
+      1704,
+      1847
+    ],
+    [
+      1848,
+      1991
+    ]
+  ],
+  "checked_against_v2": true,
+  "checked_expected_test_range": true,
+  "neural_windows": [
+    {
+      "window_steps": 36,
+      "train_origins_without_history": 23,
+      "evaluation_origins_without_history": 0,
+      "test_range_unchanged": [
+        2010,
+        2297
+      ],
+      "first_eligible_origin": 35
+    },
+    {
+      "window_steps": 72,
+      "train_origins_without_history": 59,
+      "evaluation_origins_without_history": 0,
+      "test_range_unchanged": [
+        2010,
+        2297
+      ],
+      "first_eligible_origin": 71
+    },
+    {
+      "window_steps": 144,
+      "train_origins_without_history": 131,
+      "evaluation_origins_without_history": 0,
+      "test_range_unchanged": [
+        2010,
+        2297
+      ],
+      "first_eligible_origin": 143
+    }
+  ]
+}

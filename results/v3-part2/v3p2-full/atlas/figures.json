@@ -1,0 +1,104 @@
+[
+  {
+    "name": "07_ranking_desenvolvimento",
+    "caption": "MAE nos dias de desenvolvimento por modelo e horizonte; tracejado = XGBoost da V2; marcador cheio = variante nova da Parte 2, vazio = especificação herdada. Redes: MAE médio entre 3 sementes.",
+    "data": "figures/data/07_ranking_desenvolvimento.csv",
+    "sources": [
+      "baselines/metrics.csv",
+      "robustness/metrics.csv",
+      "robustness/seed_metrics.csv",
+      "hierarchical/metrics.csv",
+      "global_model/metrics.csv",
+      "regimes/metrics.csv",
+      "peaks/metrics.csv"
+    ]
+  },
+  {
+    "name": "08_diferenca_por_dia",
+    "caption": "Diferença de MAE contra o XGBoost da V2 em cada dia; abaixo de zero favorece o candidato. Dia 7 (vazio, faixa cinza) é o teste herdado, só continuidade.",
+    "data": "figures/data/08_diferenca_por_dia.csv",
+    "sources": [
+      "baselines/metrics.csv",
+      "hierarchical/metrics.csv",
+      "global_model/metrics.csv",
+      "regimes/metrics.csv",
+      "peaks/metrics.csv"
+    ]
+  },
+  {
+    "name": "09_grade_hierarquica",
+    "caption": "MAE de cada configuração hierárquica fixa contra o XGBoost da V2 nos dias 3–6 (azul favorece o hierárquico). Leitura descritiva: a grade inteira foi vista depois da avaliação.",
+    "data": "figures/data/09_grade_hierarquica.csv",
+    "sources": [
+      "hierarchical/metrics.csv"
+    ]
+  },
+  {
+    "name": "10_serie_real_prevista",
+    "caption": "CPU observada e prevista no dia 6 (desenvolvimento), horizonte de 30 min, no instante previsto.",
+    "data": "figures/data/10_serie_real_prevista.csv",
+    "sources": [
+      "baselines/predictions.csv",
+      "hierarchical/predictions.csv",
+      "global_model/predictions.csv",
+      "regimes/predictions.csv"
+    ]
+  },
+  {
+    "name": "11_mae_por_regime",
+    "caption": "MAE por regime detectado na origem (sem usar o alvo), dias 3–6, 15 min.",
+    "data": "figures/data/11_mae_por_regime.csv",
+    "sources": [
+      "regimes/metrics_by_regime.csv"
+    ]
+  },
+  {
+    "name": "12_picos_por_dia",
+    "caption": "Viés de subestimação nos instantes de pico (alvo ≥ P90 do treino) por dia, com o λ escolhido na validação interna; λ = 0 reproduz o XGBoost da V2.",
+    "data": "figures/data/12_picos_por_dia.csv",
+    "sources": [
+      "peaks/comparisons_by_day.csv",
+      "peaks/choices.csv"
+    ]
+  },
+  {
+    "name": "13_calibracao_regime_largura",
+    "caption": "Cobertura empírica do limite superior por regime (15 min) e compromisso cobertura × largura por método; nominal 0,95. Coberturas empíricas, sem garantia sob dependência temporal.",
+    "data": "figures/data/13_calibracao_regime_largura.csv",
+    "sources": [
+      "calibration/coverage_by_regime.csv",
+      "calibration/summary.csv"
+    ]
+  },
+  {
+    "name": "14_energia_sensibilidade",
+    "caption": "Energia de TI modelada (estimativa paramétrica, não medição): (a) parcela de agregação por rota e expoente r; (b) erro total por origem por modelo, rota e servidor substituto.",
+    "data": "figures/data/14_energia_sensibilidade.csv",
+    "sources": [
+      "energy/aggregation_summary.csv",
+      "energy/summary.csv",
+      "energy/energy_info.json"
+    ]
+  },
+  {
+    "name": "15_teste_herdado",
+    "caption": "Continuidade no dia 7 (teste herdado, quarta inspeção): diferença de MAE contra o XGBoost da V2 reajustado no protocolo por dia, com hiperparâmetros escolhidos de novo na validação interna (MAE 3,040 / 3,856 / 4,347). A previsão preservada da V2, reproduzida com diferença de 7 × 10⁻¹⁵ p.p., tem MAE 3,064 / 3,856 / 4,334. Sem inferência e sem valor de confirmação.",
+    "data": "figures/data/15_teste_herdado.csv",
+    "sources": [
+      "robustness/inherited_test.csv",
+      "hierarchical/inherited_test.csv",
+      "global_model/inherited_test.csv",
+      "regimes/inherited_test.csv",
+      "peaks/inherited_test.csv"
+    ]
+  },
+  {
+    "name": "16_global_por_maquina",
+    "caption": "Distribuição, entre máquinas e dias 3–6, da razão entre o MAE do XGBoost global e o da persistência por máquina (≥ 144 origens válidas por máquina-dia). A cauda acima de 1,6 (cerca de 5%) reúne máquinas quase constantes, em que a persistência erra perto de zero.",
+    "data": "figures/data/16_global_por_maquina.csv",
+    "sources": [
+      "global_model/machine_predictions/day_<d>.npz",
+      "data/processed/panel_<chave>/cpu.npy"
+    ]
+  }
+]

@@ -1,0 +1,546 @@
+[
+  {
+    "name": "01_serie_agregada_particoes",
+    "generated": true,
+    "section": "dataset",
+    "title": "Série agregada e partições",
+    "question": "Como a CPU agregada evolui e onde ficam validação e teste?",
+    "sources": [
+      "dataset_series"
+    ],
+    "caption": "Série agregada de CPU, memória e máquinas presentes da população principal do Alibaba Cluster Trace v2018, com os cinco folds de validação externa e o teste final de 24 h.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/01_serie_agregada_particoes.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/01_serie_agregada_particoes.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/01_serie_agregada_particoes.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/01_serie_agregada_particoes.csv"
+  },
+  {
+    "name": "02_distribuicao_dependencia",
+    "generated": true,
+    "section": "dataset",
+    "title": "Distribuição e dependência",
+    "question": "O teste tem o mesmo nível e a mesma dinâmica do desenvolvimento?",
+    "sources": [
+      "dataset_series",
+      "dataset_dependence"
+    ],
+    "caption": "Distribuição da CPU agregada no desenvolvimento e no teste, variações em 5, 15 e 30 min, autocorrelação e correlação defasada entre exógenas e CPU futura.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/02_distribuicao_dependencia.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/02_distribuicao_dependencia.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/02_distribuicao_dependencia.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/02_distribuicao_dependencia.csv"
+  },
+  {
+    "name": "03_frota_por_maquina",
+    "generated": true,
+    "section": "dataset",
+    "title": "CPU por máquina",
+    "question": "Quanto a CPU individual se dispersa em torno da média agregada?",
+    "sources": [
+      "fleet_distribution",
+      "machine_coverage"
+    ],
+    "caption": "Percentis da CPU individual das máquinas presentes em cada intervalo e cobertura temporal por máquina.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/03_frota_por_maquina.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/03_frota_por_maquina.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/03_frota_por_maquina.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/03_frota_por_maquina.csv"
+  },
+  {
+    "name": "04_populacoes_m2739",
+    "generated": true,
+    "section": "dataset",
+    "title": "Principal × coorte",
+    "question": "A máquina m_2739 altera a série e as métricas?",
+    "sources": [
+      "population_difference",
+      "cohort_comparison"
+    ],
+    "caption": "Diferença entre a série da população principal e a da coorte homogênea, causada por m_2739, e efeito no MAE de teste da V2.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/04_populacoes_m2739.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/04_populacoes_m2739.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/04_populacoes_m2739.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/04_populacoes_m2739.csv"
+  },
+  {
+    "name": "05_ranking_mae_rmse",
+    "generated": true,
+    "section": "comparacao",
+    "title": "Ranking por MAE e RMSE",
+    "question": "Qual a ordem dos modelos no teste em cada horizonte?",
+    "sources": [
+      "model_metrics"
+    ],
+    "caption": "MAE e RMSE no teste final, configuração A, por horizonte; cor por família e linha tracejada na persistência.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/05_ranking_mae_rmse.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/05_ranking_mae_rmse.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/05_ranking_mae_rmse.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/05_ranking_mae_rmse.csv"
+  },
+  {
+    "name": "06_heatmaps_mae_melhoria",
+    "generated": true,
+    "section": "comparacao",
+    "title": "MAE e melhoria",
+    "question": "Quanto cada modelo melhora sobre a persistência?",
+    "sources": [
+      "model_metrics"
+    ],
+    "caption": "MAE de teste e melhoria percentual de MAE contra a persistência, por modelo e horizonte (configuração A).",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/06_heatmaps_mae_melhoria.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/06_heatmaps_mae_melhoria.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/06_heatmaps_mae_melhoria.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/06_heatmaps_mae_melhoria.csv"
+  },
+  {
+    "name": "07_validacao_vs_teste",
+    "generated": true,
+    "section": "comparacao",
+    "title": "Validação × teste",
+    "question": "A ordem dos modelos se mantém da validação para o teste?",
+    "sources": [
+      "model_metrics"
+    ],
+    "caption": "MAE na validação externa agregada (círculo vazio) e no teste final (círculo cheio) para modelos da V2 e da V3.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/07_validacao_vs_teste.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/07_validacao_vs_teste.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/07_validacao_vs_teste.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/07_validacao_vs_teste.csv"
+  },
+  {
+    "name": "08_perfil_horizonte_folds",
+    "generated": true,
+    "section": "comparacao",
+    "title": "Horizonte e folds",
+    "question": "Como o erro cresce com o horizonte e varia entre folds?",
+    "sources": [
+      "model_metrics",
+      "model_metrics_by_fold"
+    ],
+    "caption": "MAE por horizonte na validação e no teste, e MAE por fold em 5 e 30 min.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/08_perfil_horizonte_folds.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/08_perfil_horizonte_folds.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/08_perfil_horizonte_folds.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/08_perfil_horizonte_folds.csv"
+  },
+  {
+    "name": "09_distribuicao_erros",
+    "generated": true,
+    "section": "comparacao",
+    "title": "Distribuição dos erros",
+    "question": "Os modelos diferem só na média ou também na cauda do erro?",
+    "sources": [
+      "errors_by_origin",
+      "model_metrics"
+    ],
+    "caption": "Distribuição do erro absoluto no teste por modelo e horizonte, e relação entre MAE e RMSE.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/09_distribuicao_erros.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/09_distribuicao_erros.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/09_distribuicao_erros.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/09_distribuicao_erros.csv"
+  },
+  {
+    "name": "10_series_teste",
+    "generated": true,
+    "section": "temporal",
+    "title": "Série de teste",
+    "question": "Como as previsões acompanham a CPU observada?",
+    "sources": [
+      "errors_by_origin",
+      "diagnostic_windows"
+    ],
+    "caption": "CPU observada e prevista no teste final para persistência, XGBoost da V2, Kalman + XGBoost e a rede com menor MAE interno, no instante previsto.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/10_series_teste.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/10_series_teste.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/10_series_teste.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/10_series_teste.csv"
+  },
+  {
+    "name": "11_janelas_objetivas",
+    "generated": true,
+    "section": "temporal",
+    "title": "Janelas objetivas",
+    "question": "Como os modelos reagem a volatilidade, subida, queda e estabilidade?",
+    "sources": [
+      "errors_by_origin",
+      "diagnostic_windows"
+    ],
+    "caption": "Janelas de 3 h escolhidas só pela série observada (maior volatilidade, maior subida, maior queda e maior estabilidade).",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/11_janelas_objetivas.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/11_janelas_objetivas.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/11_janelas_objetivas.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/11_janelas_objetivas.csv"
+  },
+  {
+    "name": "12_residuos",
+    "generated": true,
+    "section": "temporal",
+    "title": "Resíduos",
+    "question": "Os erros são independentes no tempo?",
+    "sources": [
+      "errors_by_origin",
+      "residual_autocorrelation"
+    ],
+    "caption": "Resíduo ao longo do teste e autocorrelação dos resíduos em 5 e 30 min.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/12_residuos.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/12_residuos.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/12_residuos.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/12_residuos.csv"
+  },
+  {
+    "name": "13_erro_faixa_cpu",
+    "generated": true,
+    "section": "temporal",
+    "title": "Erro por faixa de CPU",
+    "question": "O erro e o viés dependem do nível de CPU?",
+    "sources": [
+      "errors_by_regime"
+    ],
+    "caption": "MAE e viés por faixa de CPU observada (quintis do desenvolvimento), por modelo e horizonte.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/13_erro_faixa_cpu.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/13_erro_faixa_cpu.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/13_erro_faixa_cpu.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/13_erro_faixa_cpu.csv"
+  },
+  {
+    "name": "14_erro_variacao_regime",
+    "generated": true,
+    "section": "temporal",
+    "title": "Erro e variação",
+    "question": "Como o erro cresce com a variação da CPU e onde a previsão residual ajuda?",
+    "sources": [
+      "errors_by_regime"
+    ],
+    "caption": "MAE em 30 min por variação realizada, por variação recente e por regime, comparando previsão direta e residual.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/14_erro_variacao_regime.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/14_erro_variacao_regime.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/14_erro_variacao_regime.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/14_erro_variacao_regime.csv"
+  },
+  {
+    "name": "15_picos_eventos",
+    "generated": true,
+    "section": "picos",
+    "title": "Maiores picos",
+    "question": "Os modelos acompanham os maiores picos?",
+    "sources": [
+      "errors_by_origin",
+      "peak_events"
+    ],
+    "caption": "Três maiores picos do teste com previsões em 5 e 30 min e o limiar P90 do desenvolvimento.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/15_picos_eventos.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/15_picos_eventos.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/15_picos_eventos.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/15_picos_eventos.csv"
+  },
+  {
+    "name": "16_subestimacao_picos",
+    "generated": true,
+    "section": "picos",
+    "title": "Subestimação nos picos",
+    "question": "Quanto e com que frequência os modelos subestimam os picos?",
+    "sources": [
+      "peak_analysis",
+      "errors_by_origin"
+    ],
+    "caption": "Viés, frequência de subestimação e distribuição do erro nos instantes acima do P90 do desenvolvimento.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/16_subestimacao_picos.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/16_subestimacao_picos.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/16_subestimacao_picos.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/16_subestimacao_picos.csv"
+  },
+  {
+    "name": "17_alertas_picos",
+    "generated": true,
+    "section": "picos",
+    "title": "Antecipação de picos",
+    "question": "Algum sinal antecipa picos sem excesso de falsos alarmes?",
+    "sources": [
+      "peak_alerts"
+    ],
+    "caption": "Eventos de pico antecipados contra episódios de falso alarme para previsões pontuais e quantis.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/17_alertas_picos.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/17_alertas_picos.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/17_alertas_picos.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/17_alertas_picos.csv"
+  },
+  {
+    "name": "18_forest_preregistrado",
+    "generated": true,
+    "section": "estatistica",
+    "title": "Forest plot pré-registrado",
+    "question": "Quais diferenças pré-registradas têm intervalo sem zero e são estáveis ao bloco?",
+    "sources": [
+      "bootstrap_intervals"
+    ],
+    "caption": "Diferenças de MAE das comparações pré-registradas com IC 95% por block bootstrap em blocos de 30 min, 1 h e 2 h.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/18_forest_preregistrado.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/18_forest_preregistrado.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/18_forest_preregistrado.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/18_forest_preregistrado.csv"
+  },
+  {
+    "name": "19_matriz_pares",
+    "generated": true,
+    "section": "estatistica",
+    "title": "Matriz exploratória",
+    "question": "Como os modelos se comparam dois a dois?",
+    "sources": [
+      "statistical_comparisons"
+    ],
+    "caption": "Matriz exploratória de diferenças de MAE entre todos os pares de modelos (A), com significância antes e depois de Holm.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/19_matriz_pares.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/19_matriz_pares.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/19_matriz_pares.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/19_matriz_pares.csv"
+  },
+  {
+    "name": "20_curvas_loss",
+    "generated": true,
+    "section": "neural",
+    "title": "Loss das redes",
+    "question": "As redes ajustaram e pararam cedo ou tarde?",
+    "sources": [
+      "neural_training_history"
+    ],
+    "caption": "Loss de treino e de validação interna por época no ponto escolhido da grade, por fold, em 5 e 30 min.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/20_curvas_loss.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/20_curvas_loss.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/20_curvas_loss.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/20_curvas_loss.csv"
+  },
+  {
+    "name": "21_generalizacao_janela",
+    "generated": true,
+    "section": "neural",
+    "title": "Generalização e janela",
+    "question": "As redes perderam mais que os outros modelos ao passar para o teste?",
+    "sources": [
+      "generalization",
+      "neural_window_selection"
+    ],
+    "caption": "MAE de seleção contra teste, razão de generalização normalizada pela persistência e efeito da janela de entrada.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/21_generalizacao_janela.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/21_generalizacao_janela.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/21_generalizacao_janela.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/21_generalizacao_janela.csv"
+  },
+  {
+    "name": "22_custo_pareto",
+    "generated": true,
+    "section": "neural",
+    "title": "Custo × erro",
+    "question": "Mais parâmetros ou mais tempo compraram menos erro?",
+    "sources": [
+      "cost_tradeoff"
+    ],
+    "caption": "Tamanho, tempo de reajuste e memória CUDA contra MAE de teste, com fronteira de Pareto.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/22_custo_pareto.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/22_custo_pareto.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/22_custo_pareto.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/22_custo_pareto.csv"
+  },
+  {
+    "name": "23_ablacao",
+    "generated": true,
+    "section": "ablacao",
+    "title": "Ablação",
+    "question": "Memória, rede, disco e distribuição da frota reduzem o erro?",
+    "sources": [
+      "ablation_grid",
+      "ablation_results"
+    ],
+    "caption": "Variação percentual de MAE das configurações B, C e D contra A, só nas combinações executadas.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/23_ablacao.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/23_ablacao.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/23_ablacao.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/23_ablacao.csv"
+  },
+  {
+    "name": "24_importancia_shap",
+    "generated": true,
+    "section": "ablacao",
+    "title": "Importância TreeSHAP",
+    "question": "Quais grupos de atributos sustentam as previsões do XGBoost?",
+    "sources": [
+      "feature_importance"
+    ],
+    "caption": "Fração da importância TreeSHAP por grupo de atributos nos reajustes verificados do XGBoost.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/24_importancia_shap.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/24_importancia_shap.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/24_importancia_shap.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/24_importancia_shap.csv"
+  },
+  {
+    "name": "25_calibracao_quantis",
+    "generated": true,
+    "section": "probabilistico",
+    "title": "Calibração dos quantis",
+    "question": "Os quantis cobrem o que prometem, inclusive nos picos?",
+    "sources": [
+      "quantile_calibration"
+    ],
+    "caption": "Cobertura empírica contra nominal, diferença de cobertura, margem unilateral e cobertura nos picos dos quantis do XGBoost.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/25_calibracao_quantis.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/25_calibracao_quantis.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/25_calibracao_quantis.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/25_calibracao_quantis.csv"
+  },
+  {
+    "name": "26_faixas_quantis",
+    "generated": true,
+    "section": "probabilistico",
+    "title": "Faixas quantílicas",
+    "question": "Onde a CPU ultrapassa o teto previsto?",
+    "sources": [
+      "quantile_predictions"
+    ],
+    "caption": "CPU observada com a mediana e o teto Q95 ajustado no teste, com ultrapassagens marcadas.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/26_faixas_quantis.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/26_faixas_quantis.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/26_faixas_quantis.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/26_faixas_quantis.csv"
+  },
+  {
+    "name": "27_curvas_potencia",
+    "generated": true,
+    "section": "energia",
+    "title": "Modelo de potência",
+    "question": "Que potência o modelo de Fan atribui à CPU observada?",
+    "sources": [
+      "dataset_series",
+      "energy_timeseries"
+    ],
+    "caption": "Curvas de potência do servidor substituto para r = 1,0, 1,4 e 1,8, distribuição da CPU de teste e potência de referência.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/27_curvas_potencia.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/27_curvas_potencia.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/27_curvas_potencia.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/27_curvas_potencia.csv"
+  },
+  {
+    "name": "28_potencia_energia_acumulada",
+    "generated": true,
+    "section": "energia",
+    "title": "Potência e energia acumulada",
+    "question": "A energia projetada acompanha a de referência ao longo do teste?",
+    "sources": [
+      "energy_timeseries",
+      "energy_cumulative"
+    ],
+    "caption": "Potência de referência e projetada no passo de 30 min e diferença acumulada de energia com janelas sem sobreposição.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/28_potencia_energia_acumulada.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/28_potencia_energia_acumulada.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/28_potencia_energia_acumulada.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/28_potencia_energia_acumulada.csv"
+  },
+  {
+    "name": "29_erro_energia_sensibilidade",
+    "generated": true,
+    "section": "energia",
+    "title": "Erro de energia e sensibilidade",
+    "question": "Quanto erra a energia projetada e quanto isso depende dos parâmetros?",
+    "sources": [
+      "energy_metrics",
+      "energy_sensitivity"
+    ],
+    "caption": "Erro relativo e viés de energia por modelo e horizonte e sensibilidade a r, P_idle e P_busy.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/29_erro_energia_sensibilidade.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/29_erro_energia_sensibilidade.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/29_erro_energia_sensibilidade.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/29_erro_energia_sensibilidade.csv"
+  },
+  {
+    "name": "30_erro_cpu_energia",
+    "generated": true,
+    "section": "energia",
+    "title": "CPU × potência × energia",
+    "question": "Como o erro de CPU se converte em erro de potência e de energia?",
+    "sources": [
+      "energy_timeseries",
+      "energy_origin_errors"
+    ],
+    "caption": "Relação entre erro de CPU e erro de potência no passo de 30 min e entre erro médio de CPU e erro de energia em 30 min.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/30_erro_cpu_energia.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/30_erro_cpu_energia.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/30_erro_cpu_energia.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/30_erro_cpu_energia.csv"
+  },
+  {
+    "name": "31_jensen",
+    "generated": true,
+    "section": "energia",
+    "title": "Efeito de Jensen",
+    "question": "Quanto se erra ao aplicar a curva à CPU média em vez de máquina a máquina?",
+    "sources": [
+      "jensen_analysis",
+      "jensen_summary"
+    ],
+    "caption": "Diferença entre a média das potências por máquina e a potência da utilização média, por servidor e para a frota de servidores substitutos, e aproximação de segunda ordem.",
+    "files": {
+      "png": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/png/31_jensen.png",
+      "svg": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/svg/31_jensen.svg",
+      "pdf": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/pdf/31_jensen.pdf"
+    },
+    "data": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/results/v3/20261104T232620Z-5b659dad/.expanded-analysis.tmp/figures/data/31_jensen.csv"
+  }
+]

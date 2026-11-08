@@ -1,0 +1,23 @@
+\begin{table}[htb]
+\caption{Erro nos picos (CPU $\geq$ P90 do desenvolvimento, 50{,}4\%) e antecipação dos 12 eventos do teste}
+\label{tab:v3-picos}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{Sinal} & \textbf{Viés 5 min} & \textbf{Viés 30 min} & \textbf{Subest. 5 min} & \textbf{Subest. 30 min} & \textbf{Antec./falsos 5 min} & \textbf{Antec./falsos 30 min} \\
+\hline
+Persistência & $+$2{,}45 & $+$4{,}27 & 0{,}66 & 0{,}63 & 0/0 & 3/9 \\
+XGBoost (V2) & $+$4{,}37 & $+$4{,}41 & 0{,}74 & 0{,}71 & 1/0 & 2/0 \\
+Kalman + XGBoost & $+$3{,}76 & $+$4{,}79 & 0{,}71 & 0{,}77 & 1/0 & 2/0 \\
+DLinear & $+$4{,}10 & $+$7{,}47 & 0{,}80 & 0{,}77 & 0/0 & 1/0 \\
+XGBoost quantílico Q95 bruto & -- & -- & -- & -- & 8/6 & 9/9 \\
+XGBoost quantílico Q95 ajustado & -- & -- & -- & -- & 9/5 & 10/9 \\
+\hline
+\end{tabular}}\\
+\footnotesize Viés = observado $-$ previsto (p.p.); Subest. = fração dos picos subestimada; Antec./falsos = eventos antecipados/episódios de falso alarme.\\
+\textbf{\footnotesize Fonte: Autoria própria.}
+\end{table}

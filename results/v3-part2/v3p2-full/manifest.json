@@ -1,0 +1,972 @@
+{
+  "run_id": "v3p2-full",
+  "created_utc": "2026-11-07T22:02:05+00:00",
+  "seed": 42,
+  "config_path": "config/v3p2.yaml",
+  "config_sha256": "c9aaf94b957a18a7c2f54b606b91d012fea4fdc2f44fca3c2b835cca1f101593",
+  "versions": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "statsmodels": "0.15.0",
+    "torch": "2.14.1"
+  },
+  "git": {
+    "commit": "4c85fa973e029026ab5be44b2a282298e5b90afa",
+    "dirty": true
+  },
+  "families": {
+    "integrity": {
+      "completed_utc": "2026-11-07T22:02:11+00:00",
+      "elapsed_seconds": 6.326416796990088,
+      "summary": {
+        "n_blocks": 5,
+        "panel_max_abs_diff_pp": 1.1009383626969793e-07,
+        "reproduction_max_abs_diff_pp": 7.105427357601002e-15
+      }
+    },
+    "baselines": {
+      "completed_utc": "2026-11-07T22:02:48+00:00",
+      "elapsed_seconds": 36.33915860300476,
+      "summary": {
+        "development_mae": {
+          "persistence/h1": 3.116839095610648,
+          "xgboost_v2/h1": 2.9383138477724087,
+          "xgboost_delta/h1": 2.924734365790662,
+          "statespace/h1": 2.963149491723368,
+          "hybrid/h1": 2.8771207200358435,
+          "persistence/h3": 4.213403282791315,
+          "xgboost_v2/h3": 3.646444860346187,
+          "xgboost_delta/h3": 3.605374358693746,
+          "statespace/h3": 4.022077228944195,
+          "hybrid/h3": 3.532381944774536,
+          "persistence/h6": 4.805036098857699,
+          "xgboost_v2/h6": 3.958390144085074,
+          "xgboost_delta/h6": 3.9445621955639294,
+          "statespace/h6": 4.5992785622283385,
+          "hybrid/h6": 4.014455324476518
+        },
+        "n_predictions": 32400
+      }
+    },
+    "robustness": {
+      "completed_utc": "2026-11-07T22:13:09+00:00",
+      "elapsed_seconds": 621.2682922950044,
+      "summary": {
+        "primary_decisions": {
+          "H8b/h1": "não distinguível",
+          "H8c/h1": "não distinguível",
+          "H8a/h1": "não distinguível",
+          "H8b/h3": "pior",
+          "H8c/h3": "pior",
+          "H8a/h3": "não distinguível",
+          "H8b/h6": "não distinguível",
+          "H8c/h6": "pior",
+          "H8a/h6": "melhor"
+        }
+      }
+    },
+    "hierarchical": {
+      "completed_utc": "2026-11-07T22:20:20+00:00",
+      "elapsed_seconds": 431.0273157949996,
+      "summary": {
+        "primary_decisions": {
+          "H1/h1": "não distinguível",
+          "H1/h3": "não distinguível",
+          "H1/h6": "não distinguível"
+        },
+        "candidates": [
+          {
+            "block": "day_3",
+            "day": 3,
+            "role": "development",
+            "horizon_steps": 1,
+            "criterion": "profile",
+            "k": "4",
+            "method": "bottom_up",
+            "inner_aggregate_mae": 3.019561418373562
+          },
+          {
+            "block": "day_3",
+            "day": 3,
+            "role": "development",
+            "horizon_steps": 3,
+            "criterion": "failure_domain",
+            "k": "natural",
+            "method": "bottom_up",
+            "inner_aggregate_mae": 3.4755347319448413
+          },
+          {
+            "block": "day_3",
+            "day": 3,
+            "role": "development",
+            "horizon_steps": 6,
+            "criterion": "mean",
+            "k": "8",
+            "method": "mint_shrink",
+            "inner_aggregate_mae": 3.5634629696097573
+          },
+          {
+            "block": "day_4",
+            "day": 4,
+            "role": "development",
+            "horizon_steps": 1,
+            "criterion": "profile",
+            "k": "8",
+            "method": "mint_shrink",
+            "inner_aggregate_mae": 2.5061168844648463
+          },
+          {
+            "block": "day_4",
+            "day": 4,
+            "role": "development",
+            "horizon_steps": 3,
+            "criterion": "volatility",
+            "k": "16",
+            "method": "mint_shrink",
+            "inner_aggregate_mae": 3.0338895421563996
+          },
+          {
+            "block": "day_4",
+            "day": 4,
+            "role": "development",
+            "horizon_steps": 6,
+            "criterion": "volatility",
+            "k": "16",
+            "method": "bottom_up",
+            "inner_aggregate_mae": 3.208332301658412
+          },
+          {
+            "block": "day_5",
+            "day": 5,
+            "role": "development",
+            "horizon_steps": 1,
+            "criterion": "mean",
+            "k": "4",
+            "method": "bottom_up",
+            "inner_aggregate_mae": 2.1441250595078887
+          },
+          {
+            "block": "day_5",
+            "day": 5,
+            "role": "development",
+            "horizon_steps": 3,
+            "criterion": "mean",
+            "k": "8",
+            "method": "mint_shrink",
+            "inner_aggregate_mae": 2.84863161802654
+          },
+          {
+            "block": "day_5",
+            "day": 5,
+            "role": "development",
+            "horizon_steps": 6,
+            "criterion": "mean",
+            "k": "8",
+            "method": "bottom_up",
+            "inner_aggregate_mae": 3.350447770288635
+          },
+          {
+            "block": "day_6",
+            "day": 6,
+            "role": "development",
+            "horizon_steps": 1,
+            "criterion": "volatility",
+            "k": "8",
+            "method": "mint_shrink",
+            "inner_aggregate_mae": 2.075574687331396
+          },
+          {
+            "block": "day_6",
+            "day": 6,
+            "role": "development",
+            "horizon_steps": 3,
+            "criterion": "profile",
+            "k": "16",
+            "method": "mint_shrink",
+            "inner_aggregate_mae": 2.569445963694562
+          },
+          {
+            "block": "day_6",
+            "day": 6,
+            "role": "development",
+            "horizon_steps": 6,
+            "criterion": "mean",
+            "k": "8",
+            "method": "bottom_up",
+            "inner_aggregate_mae": 2.7482354870939307
+          },
+          {
+            "block": "day_7",
+            "day": 7,
+            "role": "inherited_test",
+            "horizon_steps": 1,
+            "criterion": "volatility",
+            "k": "4",
+            "method": "ols",
+            "inner_aggregate_mae": 2.4867365803962986
+          },
+          {
+            "block": "day_7",
+            "day": 7,
+            "role": "inherited_test",
+            "horizon_steps": 3,
+            "criterion": "mean",
+            "k": "8",
+            "method": "mint_shrink",
+            "inner_aggregate_mae": 3.4015691503845296
+          },
+          {
+            "block": "day_7",
+            "day": 7,
+            "role": "inherited_test",
+            "horizon_steps": 6,
+            "criterion": "mean",
+            "k": "4",
+            "method": "bottom_up",
+            "inner_aggregate_mae": 3.742207662831777
+          }
+        ],
+        "elapsed_seconds": 430.97981656200136
+      }
+    },
+    "global_model": {
+      "completed_utc": "2026-11-07T22:31:38+00:00",
+      "elapsed_seconds": 678.3847761210054,
+      "summary": {
+        "executed": true,
+        "primary_decisions": {
+          "H2/h1": "não distinguível",
+          "H2/h3": "não distinguível",
+          "H2/h6": "não distinguível"
+        },
+        "tcn_gate_passed": true,
+        "elapsed_seconds": 678.3779989589966
+      }
+    },
+    "regimes": {
+      "completed_utc": "2026-11-07T22:31:40+00:00",
+      "elapsed_seconds": 1.391926410011365,
+      "summary": {
+        "primary_decisions": {
+          "H3/h1": "não distinguível",
+          "H3/h3": "melhor",
+          "H3/h6": "não distinguível"
+        },
+        "cost_seconds": 0.30604668000887614
+      }
+    },
+    "peaks": {
+      "completed_utc": "2026-11-07T22:32:21+00:00",
+      "elapsed_seconds": 41.63578424000298,
+      "summary": {
+        "primary_decisions": {
+          "H4/h1": "não distinguível",
+          "H4/h3": "não distinguível",
+          "H4/h6": "não distinguível"
+        },
+        "lambda0_reproduces_baseline_max_abs_diff": 7.105427357601002e-15
+      }
+    },
+    "calibration": {
+      "completed_utc": "2026-11-07T22:33:39+00:00",
+      "elapsed_seconds": 77.69209220200719,
+      "summary": {
+        "primary_decisions": {
+          "H5/h1": "melhor",
+          "H5/h3": "não distinguível"
+        }
+      }
+    },
+    "energy": {
+      "completed_utc": "2026-11-07T22:34:17+00:00",
+      "elapsed_seconds": 37.885095855002874,
+      "summary": {
+        "primary_decisions": {
+          "H6/h1": "melhor",
+          "H6/h3": "melhor",
+          "H6/h6": "melhor"
+        },
+        "max_abs_closure_wh": 0.0
+      }
+    },
+    "report": {
+      "completed_utc": "2026-11-07T22:38:01+00:00",
+      "elapsed_seconds": 2.5203027769894106,
+      "summary": {
+        "n_primary": 27,
+        "html": true,
+        "figures": [
+          "01_comparacoes_primarias",
+          "02_deslocamento_vies",
+          "03_escala_global",
+          "04_cobertura_calibracao",
+          "05_decomposicao_energia",
+          "06_compromisso_picos"
+        ]
+      }
+    }
+  },
+  "excluded": [
+    {
+      "family": "pretrained",
+      "item": "modelo pré-treinado (H7)",
+      "reason": "Chronos-2 lista o Alibaba Cluster Trace 2018 (5 min) no corpus de treino (Tabela 6 do relatório técnico, arXiv 2510.15821); o LOTSA, corpus do Moirai, contém alibaba_cluster_trace_2018; o corpus do Chronos-Bolt não é público. Nenhum dos três satisfaz o portão de proveniência."
+    },
+    {
+      "family": "calibration",
+      "item": "comparação aci_g0.02 × static h1",
+      "reason": "limite infinito em parte das origens (nível efetivo α_t ≤ 0); interval score indefinido"
+    },
+    {
+      "family": "calibration",
+      "item": "comparação aci_g0.02 × static h3",
+      "reason": "limite infinito em parte das origens (nível efetivo α_t ≤ 0); interval score indefinido"
+    },
+    {
+      "family": "calibration",
+      "item": "comparação aci_g0.005 × static h6",
+      "reason": "limite infinito em parte das origens (nível efetivo α_t ≤ 0); interval score indefinido"
+    },
+    {
+      "family": "calibration",
+      "item": "comparação aci_g0.02 × static h6",
+      "reason": "limite infinito em parte das origens (nível efetivo α_t ≤ 0); interval score indefinido"
+    }
+  ],
+  "statement": "V3 Parte 2: previsão de CPU no Alibaba Cluster Trace v2018 no protocolo por dia (dias de desenvolvimento exploratórios; dia 7 como teste herdado, quarta inspeção) e energia de TI modelada num servidor substituto. O trace não tem medição elétrica; PUE não é calculado.",
+  "mode": "full",
+  "config": {
+    "seed": 42,
+    "mode": "full",
+    "run_root": "results/v3-part2",
+    "device": "auto",
+    "preregistration": "docs/v3p2-preregistro.md",
+    "data": {
+      "source": "alibaba",
+      "usage_archive": "data/alibaba-v2018/machine_usage.tar.gz",
+      "meta_archive": "data/alibaba-v2018/machine_meta.tar.gz",
+      "cache_dir": "data/processed",
+      "chunk_rows": 2000000,
+      "window": {
+        "start_seconds": null,
+        "end_seconds": null
+      },
+      "machines": {
+        "ids": null,
+        "sample_size": null
+      },
+      "granularity": {
+        "sample_rows": 2000000,
+        "min_conformity": 0.8
+      },
+      "grid_step": 300,
+      "synthetic": null,
+      "persist_panel": true
+    },
+    "aggregation": {
+      "strategy": "cluster_weighted_cpu_num",
+      "active_statuses": [
+        "USING"
+      ]
+    },
+    "features": {
+      "groups": {
+        "cpu": {
+          "columns": [
+            "cpu"
+          ],
+          "lags": [
+            "5min",
+            "10min",
+            "15min",
+            "30min",
+            "60min"
+          ],
+          "windows": [
+            "30min",
+            "60min"
+          ]
+        },
+        "mem": {
+          "columns": [
+            "mem"
+          ],
+          "lags": [
+            "5min",
+            "30min"
+          ],
+          "windows": [
+            "30min"
+          ]
+        },
+        "net": {
+          "columns": [
+            "net_in",
+            "net_out"
+          ],
+          "lags": [
+            "5min",
+            "30min"
+          ],
+          "windows": [
+            "30min"
+          ]
+        },
+        "disk": {
+          "columns": [
+            "disk"
+          ],
+          "lags": [
+            "5min",
+            "30min"
+          ],
+          "windows": [
+            "30min"
+          ]
+        }
+      },
+      "ablation": {
+        "A": [
+          "cpu"
+        ],
+        "B": [
+          "cpu",
+          "mem"
+        ],
+        "C": [
+          "cpu",
+          "mem",
+          "net",
+          "disk"
+        ]
+      }
+    },
+    "horizons": [
+      "5min",
+      "15min",
+      "30min"
+    ],
+    "trajectory_steps": 6,
+    "protocol": {
+      "steps_per_day": 288,
+      "development_days": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "inherited_test_day": 7,
+      "expected_inherited_range": [
+        2010,
+        2297
+      ],
+      "purge": 18,
+      "inner": {
+        "validation_size": "12h",
+        "purge": 18,
+        "min_train_size": "48h",
+        "infeasible_policy": "fail"
+      },
+      "min_favorable_days": 3
+    },
+    "reference": {
+      "v2_dir": "results/v2-full/main",
+      "v3_run": "results/v3/20261104T232620Z-5b659dad",
+      "reproduction_tolerance": 1e-06,
+      "check_hashes": true
+    },
+    "statistics": {
+      "n_boot": 5000,
+      "primary_block_steps": 12,
+      "sensitivity_blocks": [
+        6,
+        24
+      ],
+      "practical_relevance": 0.05,
+      "alpha": 0.05
+    },
+    "panel": {
+      "tolerance_pp": 0.0001,
+      "min_train_coverage": 0.5
+    },
+    "families": {
+      "baselines": {
+        "xgboost": {
+          "grid": {
+            "max_depth": [
+              3,
+              5
+            ],
+            "n_estimators": [
+              100,
+              300
+            ],
+            "learning_rate": [
+              0.05,
+              0.1
+            ]
+          },
+          "fixed": {},
+          "n_jobs": 1
+        },
+        "statespace": {
+          "specification": "local_level",
+          "maxiter": 200
+        }
+      },
+      "robustness": {
+        "networks": [
+          "dlinear",
+          "tcn",
+          "patchtst"
+        ],
+        "primary_network": "dlinear",
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "window": 36,
+        "loop": {
+          "max_epochs": 50,
+          "patience": 5,
+          "grad_clip_norm": 1.0,
+          "batch_size": 64,
+          "mixed_precision": "auto",
+          "finite_check_epochs": 2
+        },
+        "dlinear": {
+          "linear": [
+            "shared",
+            "individual"
+          ],
+          "learning_rate": [
+            0.001,
+            0.0001
+          ],
+          "moving_average": 25
+        },
+        "tcn": {
+          "channels": [
+            16,
+            32
+          ],
+          "dilations": [
+            [
+              1,
+              2,
+              4,
+              8
+            ],
+            [
+              1,
+              2,
+              4,
+              8,
+              16
+            ]
+          ],
+          "kernel_size": 3,
+          "dropout": 0.1,
+          "learning_rate": 0.001
+        },
+        "patchtst": {
+          "patch_length": 12,
+          "stride": 6,
+          "d_model": 32,
+          "heads": 2,
+          "layers": 2,
+          "dropout": 0.1,
+          "learning_rate": 0.001
+        },
+        "recency_half_lives": [
+          144,
+          288,
+          576
+        ]
+      },
+      "hierarchical": {
+        "criteria": [
+          "mean",
+          "volatility",
+          "profile",
+          "failure_domain"
+        ],
+        "k_values": [
+          4,
+          8,
+          16
+        ],
+        "reconciliation": [
+          "bottom_up",
+          "ols",
+          "mint_shrink"
+        ],
+        "min_group_size": 20,
+        "profile_n_init": 10,
+        "shrinkage": "auto",
+        "n_jobs": 8
+      },
+      "global_model": {
+        "enabled": true,
+        "n_machines": 1024,
+        "origin_stride": 2,
+        "scale_machines": [
+          256,
+          1024,
+          4023
+        ],
+        "scale_day": 6,
+        "grid": [
+          {
+            "max_depth": 5,
+            "n_estimators": 300,
+            "learning_rate": 0.05
+          },
+          {
+            "max_depth": 7,
+            "n_estimators": 300,
+            "learning_rate": 0.05
+          }
+        ],
+        "n_jobs": 8,
+        "device": "auto",
+        "tcn": {
+          "enabled": true,
+          "gate_ratio": 1.05,
+          "window": 36,
+          "channels": 16,
+          "dilations": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "kernel_size": 3,
+          "dropout": 0.1,
+          "learning_rate": 0.001,
+          "batch_size": 512,
+          "examples_per_epoch": 200000,
+          "max_epochs": 20,
+          "patience": 3,
+          "seeds": [
+            42,
+            43,
+            44
+          ]
+        }
+      },
+      "regimes": {
+        "slope_steps": 6,
+        "volatility_steps": 12,
+        "volatility_quantile": 0.8,
+        "rise_quantile": 0.75,
+        "fall_quantile": 0.25,
+        "min_regime_origins": 20,
+        "experts": [
+          "persistence",
+          "xgboost_v2",
+          "xgboost_delta",
+          "hybrid"
+        ]
+      },
+      "peaks": {
+        "lambdas": [
+          0,
+          1,
+          3
+        ],
+        "max_mae_increase": 0.05,
+        "peak_quantile": 0.9,
+        "merge_gap": 1,
+        "tolerance": 1
+      },
+      "calibration": {
+        "quantiles": [
+          0.05,
+          0.5,
+          0.9,
+          0.95
+        ],
+        "methods": [
+          "static",
+          "rolling",
+          "aci",
+          "spci"
+        ],
+        "primary_method": "aci",
+        "rolling_windows": [
+          288,
+          144
+        ],
+        "aci_gammas": [
+          0.005,
+          0.02
+        ],
+        "window_hours": 6,
+        "spci": {
+          "enabled": true,
+          "budget_minutes": 30,
+          "lags": 12,
+          "n_estimators": 100
+        }
+      },
+      "energy": {
+        "substitutes": "config/specpower_substitutes.yaml",
+        "exponents": [
+          1.0,
+          1.4,
+          1.8
+        ],
+        "models": [
+          "persistence",
+          "xgboost_v2",
+          "hybrid",
+          "hierarchical",
+          "global"
+        ],
+        "group_k_sensitivity": [
+          4,
+          8,
+          16
+        ],
+        "heterogeneous": true,
+        "bootstrap_window_steps": 6
+      }
+    },
+    "pretrained": {
+      "enabled": false,
+      "model": null,
+      "version": null,
+      "corpus_source": null,
+      "excludes_alibaba_2018": null,
+      "assessment": {
+        "decision": "não executado",
+        "reason": "Chronos-2 lista o Alibaba Cluster Trace 2018 (5 min) no corpus de treino (Tabela 6 do relatório técnico, arXiv 2510.15821); o LOTSA, corpus do Moirai, contém alibaba_cluster_trace_2018; o corpus do Chronos-Bolt não é público. Nenhum dos três satisfaz o portão de proveniência.",
+        "sources": [
+          "https://arxiv.org/html/2510.15821",
+          "https://huggingface.co/datasets/Salesforce/lotsa_data",
+          "https://huggingface.co/datasets/autogluon/chronos_datasets/discussions/4"
+        ]
+      }
+    }
+  },
+  "preregistration": {
+    "path": "/home/moscoso/Documents/Tcc/Tcc-sourcecode/docs/v3p2-preregistro.md",
+    "sha256": "814a78fc8d805f8c7bd1dec816f520f048d903a11441853abdb9e2cbe62a0f24"
+  },
+  "reference_hashes": {
+    "before": {
+      "v2_dir": 13,
+      "v3_run": 298
+    },
+    "digest_before": "c8e5860e9a396a9753ed95998ca6693ef01452a0ab29559e7119fea8f2deec5a",
+    "digest_after": "c8e5860e9a396a9753ed95998ca6693ef01452a0ab29559e7119fea8f2deec5a",
+    "unchanged": true
+  },
+  "data": {
+    "source": "alibaba",
+    "file_sha256": {
+      "machine_usage": "3e6ee87fd204bb85b9e234c5c75a5096580fdabc8f085b224033080090753a7a",
+      "machine_meta": "b5b1b786b22cd413a3674b8f2ebfb2f02fac991c95df537f363ef2797c8f6d55"
+    },
+    "cache": {
+      "hit": true,
+      "key": "3f8b24db7c0af36c3bb9"
+    },
+    "synthetic": null
+  },
+  "device": {
+    "requested": "auto",
+    "effective": "cuda",
+    "torch_installed": true,
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "total_memory_bytes": 6053232640,
+    "note": null
+  },
+  "determinism": {
+    "seed": 42,
+    "torch": true,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": "warn_only",
+    "notes": [
+      "Resultados em CUDA podem diferir em bits dos da CPU; a referência dos testes é a CPU."
+    ]
+  },
+  "protocol": [
+    {
+      "block": "day_3",
+      "day": 3,
+      "role": "development",
+      "inspection_number": null,
+      "evaluation_range": [
+        858,
+        1145
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        839
+      ],
+      "n_train": 749,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        677
+      ],
+      "inner_inner_validation_range": [
+        696,
+        839
+      ],
+      "inner_n_inner_train": 587,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 666,
+      "inner_required_train_steps": 576
+    },
+    {
+      "block": "day_4",
+      "day": 4,
+      "role": "development",
+      "inspection_number": null,
+      "evaluation_range": [
+        1146,
+        1433
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        1127
+      ],
+      "n_train": 1037,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        965
+      ],
+      "inner_inner_validation_range": [
+        984,
+        1127
+      ],
+      "inner_n_inner_train": 875,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 954,
+      "inner_required_train_steps": 576
+    },
+    {
+      "block": "day_5",
+      "day": 5,
+      "role": "development",
+      "inspection_number": null,
+      "evaluation_range": [
+        1434,
+        1721
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        1415
+      ],
+      "n_train": 1325,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        1253
+      ],
+      "inner_inner_validation_range": [
+        1272,
+        1415
+      ],
+      "inner_n_inner_train": 1163,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 1242,
+      "inner_required_train_steps": 576
+    },
+    {
+      "block": "day_6",
+      "day": 6,
+      "role": "development",
+      "inspection_number": null,
+      "evaluation_range": [
+        1722,
+        2009
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        1703
+      ],
+      "n_train": 1613,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        1541
+      ],
+      "inner_inner_validation_range": [
+        1560,
+        1703
+      ],
+      "inner_n_inner_train": 1451,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 1530,
+      "inner_required_train_steps": 576
+    },
+    {
+      "block": "day_7",
+      "day": 7,
+      "role": "inherited_test",
+      "inspection_number": 4,
+      "evaluation_range": [
+        2010,
+        2297
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        1991
+      ],
+      "n_train": 1901,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        1829
+      ],
+      "inner_inner_validation_range": [
+        1848,
+        1991
+      ],
+      "inner_n_inner_train": 1739,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 1818,
+      "inner_required_train_steps": 576
+    }
+  ],
+  "no_amp": false,
+  "gates": [
+    {
+      "family": "global_model",
+      "gate": "tcn_global",
+      "threshold_ratio": 1.05,
+      "observed_ratios": [
+        1.072092,
+        1.016504,
+        1.030182
+      ],
+      "passed": true
+    },
+    {
+      "family": "calibration",
+      "gate": "spci_budget",
+      "threshold_seconds": 1800.0,
+      "observed_seconds": 18.213885987963295,
+      "passed": true
+    }
+  ],
+  "panel": null
+}

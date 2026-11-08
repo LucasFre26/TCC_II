@@ -1,0 +1,75 @@
+model,config,mode,horizon,measurement_source,device,device_name,precision,n_fits,train_seconds_total_with_selection,train_seconds_test_refit,inference_seconds_test,peak_cuda_memory_mib
+xgboost_v2,A,direct,1,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0601657680018,0.000333736999892,0
+xgboost_v2,A,direct,3,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0327241279992,0.000327085999743,0
+xgboost_v2,A,direct,6,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0753419799985,0.000422011002229,0
+xgboost_v2,B,direct,1,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0417136540018,0.000308643997414,0
+xgboost_v2,B,direct,3,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0447262760026,0.000335595999786,0
+xgboost_v2,B,direct,6,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.115493759,0.000407372001064,0
+xgboost_v2,C,direct,1,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0729012250013,0.00032646499676,0
+xgboost_v2,C,direct,3,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.225317134998,0.000406978997489,0
+xgboost_v2,C,direct,6,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.217596242997,0.000407332998293,0
+xgboost_delta,A,direct,1,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0324936309989,0.00032451700099,0
+xgboost_delta,A,direct,3,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0785144850015,0.000611993000348,0
+xgboost_delta,A,direct,6,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0312705040014,0.000327654001012,0
+xgboost_delta,C,direct,1,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0718636679994,0.000389049997466,0
+xgboost_delta,C,direct,3,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0769059150007,0.000351528000465,0
+xgboost_delta,C,direct,6,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.217864274,0.00045669100291,0
+ridge_v2,A,direct,1,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.00123720600095,0.00017722100165,0
+ridge_v2,A,direct,3,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.00109133599835,0.000166626999999,0
+ridge_v2,A,direct,6,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.00109322400021,0.000168606999068,0
+statespace,A,direct,1,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0376650639992,0.00475310500042,0
+statespace,A,direct,3,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.0382622710022,0.00495971300188,0
+statespace,A,direct,6,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.038573681999,0.00504644899775,0
+hybrid,A,direct,1,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.105609195998,0.000369356999727,0
+hybrid,A,direct,3,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.113185123002,0.000556196002435,0
+hybrid,A,direct,6,reajuste de teste medido na análise expandida,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,1,,0.117675146001,0.000391325000237,0
+persistence,-,direct,todos,sem ajuste,cpu,12th Gen Intel(R) Core(TM) i7-12650HX,fp64,0,0,0,,0
+dlinear,A,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,29.984884936,0.756464116,0.00116650799919,64.9213867188
+dlinear,A,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,24.5201743,0.623623862,0.000218416999814,64.9213867188
+dlinear,A,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,20.723622517,0.812845874,0.000221009000597,64.9213867188
+dlinear,B,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,30.526626796,1.201063565,0.000228866000725,65.2143554688
+dlinear,B,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,24.333670538,0.548619777001,0.000343714000337,65.2456054688
+dlinear,B,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,23.430645866,0.552789050001,0.000217996999709,65.2143554688
+dlinear,C,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,31.931064433,1.684681415,0.000433998000517,66.162109375
+dlinear,C,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,24.303840097,1.035937289,0.000463475999822,66.162109375
+dlinear,C,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,19.302062293,0.589204288,0.000472724999781,66.162109375
+dlinear,D,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,48.97549193,1.186503255,0.000220748000174,68.4296875
+dlinear,D,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,46.588249598,0.77243182,0.000190139000551,68.4296875
+dlinear,D,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,43.224276923,0.548298361,0.000184177999472,68.4296875
+dlinear,A_on_D,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,27.678116732,0.742800663,0.000226299000133,64.9213867188
+dlinear,A_on_D,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,22.879489465,0.726503336,0.000214059999962,64.9213867188
+dlinear,A_on_D,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,22.489703217,0.812430178,0.000200387999939,64.9213867188
+dlinear,A,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,27.360129493,0.728655891,0.000316143999953,64.9985351562
+tcn,A,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,8.412599472,0.555117516,0.00107124399983,67.4243164062
+tcn,A,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,8.60189881,0.308649041,0.000460971999928,67.4243164062
+tcn,A,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,11.203981449,0.500508313,0.00106708400017,67.5004882812
+tcn,B,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,11.337536383,0.51829306,0.000895373000276,67.7758789062
+tcn,B,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,6.531028312,0.388941816,0.000460410000414,67.7758789062
+tcn,B,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,9.560388547,0.417587512,0.000890375000381,67.6748046875
+tcn,C,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,12.838726054,1.420412385,0.000989989999653,68.4384765625
+tcn,C,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,10.331517612,0.613463215,0.000410936000662,68.4384765625
+tcn,C,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,6.815499366,0.230048885001,0.000680448999447,68.6137695312
+tcn,A,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,13.997114167,0.818883583,0.000480644999698,67.5419921875
+nbeatsx,A,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,6.119084282,0.543982089,0.000516691000485,65.9189453125
+nbeatsx,A,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,4.604187106,0.471508494,0.000434032000157,65.9189453125
+nbeatsx,A,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,4.6675573,0.269484409,0.000385597999411,65.9189453125
+nbeatsx,B,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,6.792945955,0.743506931,0.000479007000649,66.30859375
+nbeatsx,B,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,3.06307429,0.206183859999,0.00044887399963,66.30859375
+nbeatsx,B,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,3.435919691,0.234509047001,0.000396663000174,66.30859375
+nbeatsx,C,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,6.018361046,0.349100842,0.000392595999983,67.4780273438
+nbeatsx,C,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,2.899579402,0.20096024,0.000408908000281,67.4780273438
+nbeatsx,C,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,3.14753229,0.201283699999,0.000427299999501,67.4780273438
+nbeatsx,A,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,5.167644481,0.476538316,0.000458759000139,65.9575195312
+dlinear,B,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,25.246424241,0.558111032,0.000334296999426,65.3095703125
+dlinear,C,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,34.266622737,1.356517034,0.000280080000266,66.1513671875
+dlinear,D,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,26,53.384158157,1.226152917,0.00027566100016,68.5004882812
+tcn,B,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,15.657542529,0.905291419999,0.000399780000407,67.7119140625
+tcn,C,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,16,11.055743007,0.498783775,0.000382965999961,68.4755859375
+nbeatsx,B,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,3.100620937,0.216476693,0.00038247700013,66.3471679688
+nbeatsx,C,path,path,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,3.915636647,0.31505198,0.000399149999794,67.5166015625
+nhits,A,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,6.995132435,0.752647434,0.000464543000817,65.7426757812
+nhits,A,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,4.50304858,0.306153042,0.000422476000494,65.7426757812
+nhits,A,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,4.460106387,0.304625978,0.000478934999592,65.7426757812
+patchtst,A,direct,1,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,7.993910872,0.756641277,0.00136157900033,73.1904296875
+patchtst,A,direct,3,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,5.322962234,0.331492009,0.00131951500043,73.1904296875
+patchtst,A,direct,6,corrida original (training_profile.csv),cuda,NVIDIA GeForce RTX 4050 Laptop GPU,bf16-mixed,11,6.230326306,0.37332576,0.00126100199941,73.1904296875

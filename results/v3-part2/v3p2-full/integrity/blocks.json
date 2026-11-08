@@ -1,0 +1,151 @@
+{
+  "blocks": [
+    {
+      "block": "day_3",
+      "day": 3,
+      "role": "development",
+      "inspection_number": null,
+      "evaluation_range": [
+        858,
+        1145
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        839
+      ],
+      "n_train": 749,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        677
+      ],
+      "inner_inner_validation_range": [
+        696,
+        839
+      ],
+      "inner_n_inner_train": 587,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 666,
+      "inner_required_train_steps": 576
+    },
+    {
+      "block": "day_4",
+      "day": 4,
+      "role": "development",
+      "inspection_number": null,
+      "evaluation_range": [
+        1146,
+        1433
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        1127
+      ],
+      "n_train": 1037,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        965
+      ],
+      "inner_inner_validation_range": [
+        984,
+        1127
+      ],
+      "inner_n_inner_train": 875,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 954,
+      "inner_required_train_steps": 576
+    },
+    {
+      "block": "day_5",
+      "day": 5,
+      "role": "development",
+      "inspection_number": null,
+      "evaluation_range": [
+        1434,
+        1721
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        1415
+      ],
+      "n_train": 1325,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        1253
+      ],
+      "inner_inner_validation_range": [
+        1272,
+        1415
+      ],
+      "inner_n_inner_train": 1163,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 1242,
+      "inner_required_train_steps": 576
+    },
+    {
+      "block": "day_6",
+      "day": 6,
+      "role": "development",
+      "inspection_number": null,
+      "evaluation_range": [
+        1722,
+        2009
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        1703
+      ],
+      "n_train": 1613,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        1541
+      ],
+      "inner_inner_validation_range": [
+        1560,
+        1703
+      ],
+      "inner_n_inner_train": 1451,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 1530,
+      "inner_required_train_steps": 576
+    },
+    {
+      "block": "day_7",
+      "day": 7,
+      "role": "inherited_test",
+      "inspection_number": 4,
+      "evaluation_range": [
+        2010,
+        2297
+      ],
+      "n_evaluation": 288,
+      "train_range": [
+        12,
+        1991
+      ],
+      "n_train": 1901,
+      "purge_steps": 18,
+      "inner_inner_train_range": [
+        12,
+        1829
+      ],
+      "inner_inner_validation_range": [
+        1848,
+        1991
+      ],
+      "inner_n_inner_train": 1739,
+      "inner_n_inner_validation": 144,
+      "inner_available_train_steps": 1818,
+      "inner_required_train_steps": 576
+    }
+  ],
+  "dropped_blocks": [],
+  "inherited_note": "dia 7 = teste herdado da V3 (inspecionado na V2, na V3 e na análise expandida); nunca confirmação independente"
+}

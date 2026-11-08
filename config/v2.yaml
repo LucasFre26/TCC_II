@@ -1,0 +1,86 @@
+# V2: previsão de utilização futura de CPU no Alibaba Cluster Trace v2018 (machine_usage).
+# Valores marcados como PROVISÓRIO dependem de números reais do trace (ver design.md, decisões pendentes)
+# e devem ser revistos depois do primeiro ETL. Nenhum parâmetro experimental fica fixo no código.
+seed: 42
+output_dir: results/v2
+
+data:
+  usage_archive: data/alibaba-v2018/machine_usage.tar.gz
+  meta_archive: data/alibaba-v2018/machine_meta.tar.gz
+  cache_dir: data/processed
+  chunk_rows: 2000000
+  window:                  # segundos desde o início do trace; null = sem corte
+    start_seconds: null
+    end_seconds: null
+  machines:                # lista explícita OU amostra reprodutível; ambos null = todas
+    ids: null
+    sample_size: 200       # subconjunto de desenvolvimento (a leitura do arquivo custa o mesmo, ~200 s, com ou sem amostra)
+  granularity:
+    sample_rows: 2000000
+    min_conformity: 0.8
+  # Medido no v2018 (2026-09-23): timestamps em múltiplos de 10 s, sem passo predominante (o mais comum
+  # cobre 11% dos intervalos; mediana 60 s, p95 270 s). 'auto' falha por desenho; passo explícito de 300 s.
+  grid_step: 300           # 'auto' = passo detectado; ou segundos
+
+aggregation:
+  strategy: cluster_weighted_cpu_num
+  active_statuses: [USING]  # confirmado em machine_meta (USING; 5 registros IMPORT_INSTALLING)
+
+cohort:                    # análise de sensibilidade
+  enabled: true
+  # ATENÇÃO: no v2018 todas as máquinas têm cpu_num = 96; esta coorte coincide com a população ativa
+  # e a ponderação por cpu_num equivale à média simples. Limitação registrada, decisão pendente.
+  cpu_num: null            # null = cpu_num mais comum entre máquinas ativas
+  min_machines: 10
+
+features:
+  groups:                  # lags e janelas em tempo; convertidos em passos pela grade detectada
+    cpu:
+      columns: [cpu]
+      lags: [5min, 10min, 15min, 30min, 60min]      # PROVISÓRIO
+      windows: [30min, 60min]                        # PROVISÓRIO
+    mem:
+      columns: [mem]                                 # mem_gps tem valor em só 20,7% das linhas (ausente nos dias 0 a 1): fora
+      lags: [5min, 30min]
+      windows: [30min]
+    net:
+      columns: [net_in, net_out]
+      lags: [5min, 30min]
+      windows: [30min]
+    disk:
+      columns: [disk]
+      lags: [5min, 30min]
+      windows: [30min]
+  ablation:                # listas ordenadas e aninhadas de grupos
+    A: [cpu]
+    B: [cpu, mem]
+    C: [cpu, mem, net, disk]
+
+horizons: [5min, 15min, 30min]   # PROVISÓRIO: valores do artigo, sujeitos à granularidade real
+
+validation:
+  strategy: expanding
+  n_folds: 5                     # PROVISÓRIO
+  validation_size: 12h           # PROVISÓRIO
+  test_size: 24h                 # PROVISÓRIO
+  min_train_size: 48h            # PROVISÓRIO
+  purge: auto                    # auto = maior horizonte + maior janela; ou duração maior que isso
+
+models:
+  names: [persistence, ridge, xgboost]
+  ridge:
+    alphas: [0.1, 1.0, 10.0, 100.0]
+  xgboost:
+    grid:
+      max_depth: [3, 5]
+      n_estimators: [100, 300]
+      learning_rate: [0.05, 0.1]
+    fixed: {}
+    n_jobs: 1
+
+error_analysis:                  # análises sobre predictions.csv; não alteram a seleção de modelos
+  peak_quantile: 0.9             # picos = origens com CPU real >= P90 do bloco avaliado
+  bootstrap:                     # IC 95% da diferença de erro absoluto entre pares de modelos
+    block_steps: 12              # 12 passos de 300 s = 1 h, preserva a dependência temporal dos erros
+    n_boot: 5000
+    sensitivity_blocks: [6, 24]  # 30 min e 2 h

@@ -1,0 +1,5 @@
+threshold_kind,source,quantile,threshold_cpu_pct,n_reference
+desenvolvimento_p90,CPU observada antes da primeira origem do teste,0.9,50.3981290195,1949
+teste_p90,y_true do teste em cada horizonte (como nos artefatos da V2 e V3),0.9,,21600
+desenvolvimento_p95,CPU observada antes da primeira origem do teste,0.95,54.3820530354,1949
+teste_p95,y_true do teste em cada horizonte (como nos artefatos da V2 e V3),0.95,,21600

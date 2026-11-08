@@ -1,0 +1,9 @@
+{
+  "fan_linear_P0_P05_P1": [
+    100.0,
+    150.0,
+    200.0
+  ],
+  "trapezoid_constant_150w_6_steps_joules": 270000.0,
+  "expected_constant_joules": 270000.0
+}

@@ -1,0 +1,249 @@
+{
+  "n_points": 2304,
+  "cpu_missing_points": 61,
+  "aggregation": {
+    "machines_without_metadata_excluded": 0,
+    "machines_aggregated": 4023,
+    "total_weight": 386208.0,
+    "coverage_min": 0.0,
+    "coverage_mean": 0.9051331579528821,
+    "cpu_num_conflicts": 0
+  },
+  "resolved": {
+    "step_seconds": 300.0,
+    "horizon_steps": [
+      1,
+      3,
+      6
+    ],
+    "trajectory_steps": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "max_window_steps": 12,
+    "purge_steps": 18,
+    "required_purge_steps": 18,
+    "nested": {
+      "validation_steps": 144,
+      "purge_steps": 18,
+      "min_train_steps": 576,
+      "infeasible_policy": "fail"
+    },
+    "feature_columns": {
+      "A": [
+        "cpu_t",
+        "cpu_lag_1",
+        "cpu_lag_2",
+        "cpu_lag_3",
+        "cpu_lag_6",
+        "cpu_lag_12",
+        "cpu_roll_mean_6",
+        "cpu_roll_std_6",
+        "cpu_roll_mean_12",
+        "cpu_roll_std_12",
+        "sin_day",
+        "cos_day"
+      ],
+      "B": [
+        "cpu_t",
+        "cpu_lag_1",
+        "cpu_lag_2",
+        "cpu_lag_3",
+        "cpu_lag_6",
+        "cpu_lag_12",
+        "cpu_roll_mean_6",
+        "cpu_roll_std_6",
+        "cpu_roll_mean_12",
+        "cpu_roll_std_12",
+        "mem_t",
+        "mem_lag_1",
+        "mem_lag_6",
+        "mem_roll_mean_6",
+        "mem_roll_std_6",
+        "sin_day",
+        "cos_day"
+      ],
+      "C": [
+        "cpu_t",
+        "cpu_lag_1",
+        "cpu_lag_2",
+        "cpu_lag_3",
+        "cpu_lag_6",
+        "cpu_lag_12",
+        "cpu_roll_mean_6",
+        "cpu_roll_std_6",
+        "cpu_roll_mean_12",
+        "cpu_roll_std_12",
+        "mem_t",
+        "mem_lag_1",
+        "mem_lag_6",
+        "mem_roll_mean_6",
+        "mem_roll_std_6",
+        "net_in_t",
+        "net_in_lag_1",
+        "net_in_lag_6",
+        "net_in_roll_mean_6",
+        "net_in_roll_std_6",
+        "net_out_t",
+        "net_out_lag_1",
+        "net_out_lag_6",
+        "net_out_roll_mean_6",
+        "net_out_roll_std_6",
+        "disk_t",
+        "disk_lag_1",
+        "disk_lag_6",
+        "disk_roll_mean_6",
+        "disk_roll_std_6",
+        "sin_day",
+        "cos_day"
+      ],
+      "D": [
+        "cpu_t",
+        "cpu_lag_1",
+        "cpu_lag_2",
+        "cpu_lag_3",
+        "cpu_lag_6",
+        "cpu_lag_12",
+        "cpu_roll_mean_6",
+        "cpu_roll_std_6",
+        "cpu_roll_mean_12",
+        "cpu_roll_std_12",
+        "mem_t",
+        "mem_lag_1",
+        "mem_lag_6",
+        "mem_roll_mean_6",
+        "mem_roll_std_6",
+        "net_in_t",
+        "net_in_lag_1",
+        "net_in_lag_6",
+        "net_in_roll_mean_6",
+        "net_in_roll_std_6",
+        "net_out_t",
+        "net_out_lag_1",
+        "net_out_lag_6",
+        "net_out_roll_mean_6",
+        "net_out_roll_std_6",
+        "disk_t",
+        "disk_lag_1",
+        "disk_lag_6",
+        "disk_roll_mean_6",
+        "disk_roll_std_6",
+        "dist_std_t",
+        "dist_p50_t",
+        "dist_p90_t",
+        "dist_p95_t",
+        "dist_valid_frac_t",
+        "dist_high_frac_t",
+        "dist_std_change_t",
+        "dist_skew_t",
+        "sin_day",
+        "cos_day"
+      ]
+    },
+    "n_origins_abc": 2207,
+    "n_origins_d": 2207,
+    "test_range": [
+      2010,
+      2297
+    ],
+    "development_range": [
+      12,
+      1991
+    ]
+  },
+  "distribution_features": {
+    "population_size": 4023,
+    "elevated_threshold": 80.0,
+    "change_steps": 6,
+    "weighting": "cada máquina conta uma vez",
+    "bins_without_machines": 61,
+    "skewness": {
+      "requested": true,
+      "included": true,
+      "undefined_fraction": 0.026475694444444444,
+      "limit": 0.5
+    },
+    "columns": [
+      "dist_std",
+      "dist_p50",
+      "dist_p90",
+      "dist_p95",
+      "dist_valid_frac",
+      "dist_high_frac",
+      "dist_std_change",
+      "dist_skew"
+    ]
+  },
+  "data_profile": {
+    "step_seconds": 300.0,
+    "n_machines": 4023,
+    "n_records_read": 246934820,
+    "n_records_in_window": 246934820,
+    "n_records_used": 246934820,
+    "n_grid_points": 8389672,
+    "period_seconds": [
+      0.0,
+      691190.0
+    ],
+    "period_bins": [
+      0,
+      2303
+    ],
+    "duplicate_records": 0,
+    "invalid_values": {
+      "cpu_util_percent": 0,
+      "mem_util_percent": 0,
+      "mem_gps": 0,
+      "net_in": 0,
+      "net_out": 0,
+      "disk_io_percent": 297568
+    },
+    "missing_fraction": {
+      "cpu_util_percent": 2.4297909869495117e-08,
+      "mem_util_percent": 0.0,
+      "mem_gps": 0.7933788681563824,
+      "net_in": 0.0,
+      "net_out": 0.0,
+      "disk_io_percent": 0.0012050467406743205
+    },
+    "machine_coverage": {
+      "min": 0.05772569444444445,
+      "mean": 0.905133157952882,
+      "max": 0.9578993055555556
+    },
+    "input_time_sorted_within_chunks": false,
+    "granularity": {
+      "step_seconds": 10.0,
+      "conformity": 0.11036122309979567,
+      "n_intervals": 1999706,
+      "sample_rows": 2000000,
+      "regular": false
+    },
+    "warnings": [
+      "Granularidade irregular ou não detectada; usado o passo configurado 300.0 s (conformidade 0.110)."
+    ],
+    "file_sha256": {
+      "machine_usage": "3e6ee87fd204bb85b9e234c5c75a5096580fdabc8f085b224033080090753a7a",
+      "machine_meta": "b5b1b786b22cd413a3674b8f2ebfb2f02fac991c95df537f363ef2797c8f6d55"
+    },
+    "machine_selection": {
+      "explicit_ids": false,
+      "sample_size": null,
+      "seed": 42,
+      "n_selected": null
+    },
+    "window_seconds": [
+      null,
+      null
+    ],
+    "cache": {
+      "hit": true,
+      "key": "3f8b24db7c0af36c3bb9"
+    },
+    "source": "alibaba"
+  }
+}

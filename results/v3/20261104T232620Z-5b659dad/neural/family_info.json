@@ -1,0 +1,93 @@
+{
+  "models": [
+    "dlinear",
+    "tcn",
+    "nbeatsx"
+  ],
+  "device": {
+    "requested": "auto",
+    "effective": "cuda",
+    "torch_installed": true,
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "total_memory_bytes": 6053232640,
+    "note": null
+  },
+  "budget_hours": 12.0,
+  "elapsed_seconds": 834.0112013009993,
+  "window_steps": 36,
+  "channels": {
+    "A": [
+      "cpu",
+      "sin_day",
+      "cos_day"
+    ],
+    "B": [
+      "cpu",
+      "mem",
+      "sin_day",
+      "cos_day"
+    ],
+    "C": [
+      "cpu",
+      "mem",
+      "net_in",
+      "net_out",
+      "disk",
+      "sin_day",
+      "cos_day"
+    ],
+    "D": [
+      "cpu",
+      "mem",
+      "net_in",
+      "net_out",
+      "disk",
+      "dist_std",
+      "dist_p50",
+      "dist_p90",
+      "dist_p95",
+      "dist_valid_frac",
+      "dist_high_frac",
+      "dist_std_change",
+      "dist_skew",
+      "sin_day",
+      "cos_day"
+    ],
+    "A_on_D": [
+      "cpu",
+      "sin_day",
+      "cos_day"
+    ]
+  },
+  "completed_units": [
+    "dlinear/direct/A",
+    "dlinear/direct/A_on_D",
+    "dlinear/direct/B",
+    "dlinear/direct/C",
+    "dlinear/direct/D",
+    "dlinear/path/A",
+    "dlinear/path/B",
+    "dlinear/path/C",
+    "dlinear/path/D",
+    "nbeatsx/direct/A",
+    "nbeatsx/direct/B",
+    "nbeatsx/direct/C",
+    "nbeatsx/path/A",
+    "nbeatsx/path/B",
+    "nbeatsx/path/C",
+    "nhits/direct/A",
+    "patchtst/direct/A",
+    "tcn/direct/A",
+    "tcn/direct/B",
+    "tcn/direct/C",
+    "tcn/path/A",
+    "tcn/path/B",
+    "tcn/path/C"
+  ],
+  "infeasible": [],
+  "core_completed": true,
+  "skipped_comparisons": [],
+  "statement": "Tabela principal: modo direto (um modelo por horizonte). A trajetória de seis passos é secundária, alimenta a energia e não substitui o modo direto, mesmo com MAE menor no teste.",
+  "early_stopping": "seleção: melhor época na validação interna; reajustes: número de épocas do melhor estado (mediana entre folds no teste)"
+}

@@ -1,0 +1,22 @@
+{
+  "networks": [
+    "dlinear",
+    "tcn",
+    "patchtst"
+  ],
+  "primary_network": "dlinear",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "window": 36,
+  "mixed_precision": "auto",
+  "device": "cuda",
+  "recency_half_lives": [
+    144,
+    288,
+    576
+  ],
+  "statement": "Comparações primárias nos dias de desenvolvimento (exploratórias); o dia 7 é teste herdado."
+}

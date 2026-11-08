@@ -1,0 +1,67 @@
+{
+  "quantity": "energia de TI modelada (Wh), estimativa paramétrica em servidor substituto; não é consumo medido",
+  "substitutes": [
+    {
+      "result_id": "power_ssj2008-20170621-00759",
+      "role": "servidor da V3",
+      "source": "https://www.spec.org/power_ssj2008/results/res2017q3/power_ssj2008-20170621-00759.html",
+      "system": "Huawei Technologies Co., Ltd Fusion Server 2288H V5",
+      "processor": "Intel Xeon Platinum 8176 (2 chips, 56 núcleos, 112 threads)",
+      "threads": 112,
+      "published": "2017-07-11",
+      "p_idle_w": 49.6,
+      "p_busy_w": 461
+    },
+    {
+      "result_id": "power_ssj2008-20170807-00775",
+      "role": "fallback, mais próximo de 96 threads em 2017-2018",
+      "source": "https://www.spec.org/power_ssj2008/results/res2017q3/power_ssj2008-20170807-00775.html",
+      "system": "Inspur Corporation NF5280 M4",
+      "processor": "Intel Xeon E5-2699 v4 (2 chips, 44 núcleos, 88 threads)",
+      "threads": 88,
+      "published": "2017-08-30",
+      "p_idle_w": 45.7,
+      "p_busy_w": 245
+    },
+    {
+      "result_id": "power_ssj2008-20190730-00995",
+      "role": "extensão fora do período do critério (2019), única correspondência de 96 threads encontrada",
+      "source": "https://www.spec.org/power_ssj2008/results/res2019q3/power_ssj2008-20190730-00995.html",
+      "system": "Fujitsu FUJITSU Server PRIMERGY TX2550 M5",
+      "processor": "Intel Xeon Gold 6252 (2 chips, 48 núcleos, 96 threads)",
+      "threads": 96,
+      "published": "2019-09-19",
+      "p_idle_w": 54.8,
+      "p_busy_w": 342
+    }
+  ],
+  "primary_substitute": "power_ssj2008-20170621-00759",
+  "primary_r": 1.4,
+  "exponents": [
+    1.0,
+    1.4,
+    1.8
+  ],
+  "scenarios": [
+    "power_ssj2008-20170621-00759",
+    "power_ssj2008-20170807-00775",
+    "power_ssj2008-20190730-00995",
+    "heterogeneo_sintetico"
+  ],
+  "synthetic_scenario": {
+    "scenario": "heterogeneo_sintetico",
+    "label": "hardware sintético: atribuição por hash; não é o hardware do cluster do Alibaba",
+    "proportions": {
+      "power_ssj2008-20170621-00759": 0.33233905045985584,
+      "power_ssj2008-20170807-00775": 0.3233905045985583,
+      "power_ssj2008-20190730-00995": 0.3442704449415859
+    }
+  },
+  "max_abs_decomposition_closure_wh": 0.0,
+  "fixed_set_rule": "máquinas presentes na origem com CPU observada nos passos 1 a 6",
+  "machine_route_fallback": "máquina de F_t sem previsão do modelo global usa a própria CPU na origem",
+  "power_bounds_note": "Limites por passo P(Q05) e P(Q95) valem por passo (P é monotônica em [0, 1] para r ≤ 2); somar limites por passo não produz um limite da energia somada.",
+  "v3_energy_sha256_before": "d904be9325e87834747ca91a2dcd92a99c3b55e0ce308cb8063dcfa1903b6f08",
+  "v3_energy_sha256_after": "d904be9325e87834747ca91a2dcd92a99c3b55e0ce308cb8063dcfa1903b6f08",
+  "statement": "Estimativa paramétrica em servidores substitutos; sem medição elétrica; a eficiência da instalação não foi calculada."
+}

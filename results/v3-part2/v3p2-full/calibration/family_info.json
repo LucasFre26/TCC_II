@@ -1,0 +1,22 @@
+{
+  "quantiles": [
+    0.05,
+    0.5,
+    0.9,
+    0.95
+  ],
+  "methods": [
+    "static",
+    "rolling_n288",
+    "rolling_n144",
+    "aci_g0.005",
+    "aci_g0.02",
+    "spci"
+  ],
+  "primary_method": "aci_g0.005",
+  "nominal": {
+    "upper": 0.95,
+    "bilateral": 0.8999999999999999
+  },
+  "statement": "Coberturas empíricas no protocolo por dia; sob dependência temporal nenhum método tem garantia teórica de cobertura."
+}

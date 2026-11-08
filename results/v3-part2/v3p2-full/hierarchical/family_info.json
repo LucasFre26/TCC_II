@@ -1,0 +1,24 @@
+{
+  "criteria": [
+    "mean",
+    "volatility",
+    "profile",
+    "failure_domain"
+  ],
+  "k_values": [
+    4,
+    8,
+    16
+  ],
+  "reconciliation": [
+    "bottom_up",
+    "ols",
+    "mint_shrink"
+  ],
+  "candidate_rule": "menor MAE agregado na validação interna, por bloco e horizonte",
+  "limitations": [
+    "A covariância da MinT e a escolha do candidato usam a mesma validação interna; isso favorece a MinT na escolha.",
+    "Grupos e estatísticas são recalculados em cada bloco só com o treino do bloco."
+  ],
+  "elapsed_seconds": 426.6795304480038
+}

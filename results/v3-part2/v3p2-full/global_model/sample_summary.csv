@@ -1,0 +1,6 @@
+block,n_machines_sampled,n_examples_train_h1,n_distinct_origins_train,origin_stride,design_n_machines,design_mean_correlation,design_effective_per_instant,effective_sample_estimate,note
+day_3,1024,245664,375,2,1024,0.5809858680068408,1.7200008500732706,645.0003187774765,n efetivo = efeito de desenho por instante × origens distintas; sem correção da autocorrelação temporal
+day_4,1024,393211,519,2,1024,0.5888465983328153,1.6970779778322784,880.7834704949526,n efetivo = efeito de desenho por instante × origens distintas; sem correção da autocorrelação temporal
+day_5,1024,539835,663,2,1024,0.6322710227740375,1.5807024478813738,1048.005722945351,n efetivo = efeito de desenho por instante × origens distintas; sem correção da autocorrelação temporal
+day_6,1024,686987,807,2,1024,0.6597782368733628,1.514897919658495,1222.5226211644056,n efetivo = efeito de desenho por instante × origens distintas; sem correção da autocorrelação temporal
+day_7,1024,834099,951,2,1024,0.6628255623192316,1.5079434671686656,1434.054237277401,n efetivo = efeito de desenho por instante × origens distintas; sem correção da autocorrelação temporal

@@ -1,0 +1,44 @@
+# Conjunto de servidores substitutos da V3 Parte 2 (sensibilidade da energia de TI modelada).
+# Fonte: resultados publicados do SPECpower_ssj2008 (P_idle = potência média em ociosidade ativa,
+# P_busy = potência média a 100% da carga-alvo), transcritos dos relatórios em 2026-11-07.
+# Critério pré-registrado: 1 nó, 2 chips, 96 threads de hardware (como o cpu_num do trace),
+# publicação em 2017-2018, o mais antigo, empate pelo nome do sistema. Nenhum resultado da lista
+# "All SPECpower_ssj2008 Results" satisfez as 96 threads em 2017-2018 (resultados de 2 chips nesse
+# período têm 112 ou 88 threads). Fallback declarado: servidor da V3 + o mais próximo em threads
+# no período (88 threads). Extensão rotulada: o resultado mais antigo com 2 chips e 96 threads
+# encontrado na lista (2019, fora do período do critério).
+# Nenhum r e nenhum substituto é escolhido pelo erro. O hardware do cluster do Alibaba não é
+# conhecido; potência e energia são estimativas paramétricas, não medições.
+primary: power_ssj2008-20170621-00759
+limitation: >-
+  Servidores substitutos: a carga do benchmark SPECpower_ssj2008 (ssj_ops) não é a utilização de CPU
+  do trace do Alibaba, e o hardware não é o do cluster; potência e energia são estimativas
+  paramétricas, não medições.
+substitutes:
+  - result_id: power_ssj2008-20170621-00759
+    role: servidor da V3
+    source: https://www.spec.org/power_ssj2008/results/res2017q3/power_ssj2008-20170621-00759.html
+    system: Huawei Technologies Co., Ltd Fusion Server 2288H V5
+    processor: Intel Xeon Platinum 8176 (2 chips, 56 núcleos, 112 threads)
+    threads: 112
+    published: "2017-07-11"
+    p_idle_w: 49.6
+    p_busy_w: 461
+  - result_id: power_ssj2008-20170807-00775
+    role: fallback, mais próximo de 96 threads em 2017-2018
+    source: https://www.spec.org/power_ssj2008/results/res2017q3/power_ssj2008-20170807-00775.html
+    system: Inspur Corporation NF5280 M4
+    processor: Intel Xeon E5-2699 v4 (2 chips, 44 núcleos, 88 threads)
+    threads: 88
+    published: "2017-08-30"
+    p_idle_w: 45.7
+    p_busy_w: 245
+  - result_id: power_ssj2008-20190730-00995
+    role: extensão fora do período do critério (2019), única correspondência de 96 threads encontrada
+    source: https://www.spec.org/power_ssj2008/results/res2019q3/power_ssj2008-20190730-00995.html
+    system: Fujitsu FUJITSU Server PRIMERGY TX2550 M5
+    processor: Intel Xeon Gold 6252 (2 chips, 48 núcleos, 96 threads)
+    threads: 96
+    published: "2019-09-19"
+    p_idle_w: 54.8
+    p_busy_w: 342

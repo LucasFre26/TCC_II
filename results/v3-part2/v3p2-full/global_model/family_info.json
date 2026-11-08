@@ -1,0 +1,9 @@
+{
+  "n_machines": 1024,
+  "origin_stride": 2,
+  "xgb_device": "cuda",
+  "aggregation": "média ponderada por cpu_num das máquinas presentes na origem com todos os atributos",
+  "machine_predictions": "machine_predictions/<bloco>.npz (origens × máquinas × passos 1–6)",
+  "statement": "O número de janelas não é o número de observações independentes; ver sample_summary.csv.",
+  "elapsed_seconds": 678.2890799259912
+}

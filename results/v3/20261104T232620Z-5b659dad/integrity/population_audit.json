@@ -1,0 +1,42 @@
+{
+  "rule_main": "máquinas da grade com metadado, sem filtro de status (aggregate_weighted)",
+  "rule_cohort": "máquinas ativas com o mesmo cpu_num (select_homogeneous_cohort)",
+  "n_machines_metadata": 4034,
+  "n_machines_grid": 4023,
+  "n_machines_grid_without_metadata": 0,
+  "n_machines_main": 4023,
+  "n_machines_cohort": 4022,
+  "n_inactive_in_main": 1,
+  "cohort_cpu_num": 96.0,
+  "weight_main": 386208.0,
+  "weight_cohort": 386112.0,
+  "weight_difference": 96.0,
+  "only_in_main": [
+    {
+      "machine_id": "m_2739",
+      "cpu_num": 96.0,
+      "active": false,
+      "status_counts": {
+        "IMPORT_INSTALLING": 5
+      },
+      "reason": "inativa (status fora dos ativos)"
+    }
+  ],
+  "only_in_cohort": [],
+  "series_comparison": {
+    "n_common_bins": 2304,
+    "max_abs_cpu_difference": 0.02576557765172538,
+    "mean_abs_cpu_difference": 0.006858499195309126,
+    "series_identical": false
+  },
+  "statement": "Principal e coorte são populações distintas; métricas são reportadas em separado.",
+  "expected_weights_check": {
+    "expected_main": 386208.0,
+    "expected_cohort": 386112.0,
+    "main_matches": true,
+    "cohort_matches": true,
+    "expected_gap": 96.0,
+    "listed_cpu_num_sum": 96.0,
+    "difference_explained_by_listed_ids": true
+  }
+}

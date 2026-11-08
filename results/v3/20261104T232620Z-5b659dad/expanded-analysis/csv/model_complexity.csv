@@ -1,0 +1,75 @@
+model,config,mode,horizon,complexity_kind,n_trainable_parameters,n_trees,n_leaves,n_coefficients,final_epochs
+xgboost_v2,A,direct,1,árvores e folhas,,100,793,,
+xgboost_v2,A,direct,3,árvores e folhas,,100,794,,
+xgboost_v2,A,direct,6,árvores e folhas,,100,2789,,
+xgboost_v2,B,direct,1,árvores e folhas,,100,787,,
+xgboost_v2,B,direct,3,árvores e folhas,,100,799,,
+xgboost_v2,B,direct,6,árvores e folhas,,100,2785,,
+xgboost_v2,C,direct,1,árvores e folhas,,100,784,,
+xgboost_v2,C,direct,3,árvores e folhas,,100,3060,,
+xgboost_v2,C,direct,6,árvores e folhas,,100,2961,,
+xgboost_delta,A,direct,1,árvores e folhas,,100,752,,
+xgboost_delta,A,direct,3,árvores e folhas,,300,2371,,
+xgboost_delta,A,direct,6,árvores e folhas,,100,794,,
+xgboost_delta,C,direct,1,árvores e folhas,,100,768,,
+xgboost_delta,C,direct,3,árvores e folhas,,100,789,,
+xgboost_delta,C,direct,6,árvores e folhas,,100,2810,,
+ridge_v2,A,direct,1,coeficientes,13,,,13,
+ridge_v2,A,direct,3,coeficientes,13,,,13,
+ridge_v2,A,direct,6,coeficientes,13,,,13,
+statespace,A,direct,1,parâmetros do modelo de estados,2,,,,
+statespace,A,direct,3,parâmetros do modelo de estados,2,,,,
+statespace,A,direct,6,parâmetros do modelo de estados,2,,,,
+hybrid,A,direct,1,árvores e folhas,,100,760,,
+hybrid,A,direct,3,árvores e folhas,,100,796,,
+hybrid,A,direct,6,árvores e folhas,,100,793,,
+persistence,-,direct,todos,sem parâmetros,0,,,,
+dlinear,A,direct,1,parâmetros treináveis,78,,,,24
+dlinear,A,direct,3,parâmetros treináveis,78,,,,20
+dlinear,A,direct,6,parâmetros treináveis,78,,,,24
+dlinear,B,direct,1,parâmetros treináveis,79,,,,38
+dlinear,B,direct,3,parâmetros treináveis,296,,,,11
+dlinear,B,direct,6,parâmetros treináveis,79,,,,16
+dlinear,C,direct,1,parâmetros treináveis,518,,,,22
+dlinear,C,direct,3,parâmetros treináveis,518,,,,14
+dlinear,C,direct,6,parâmetros treináveis,518,,,,8
+dlinear,D,direct,1,parâmetros treináveis,90,,,,23
+dlinear,D,direct,3,parâmetros treináveis,90,,,,22
+dlinear,D,direct,6,parâmetros treináveis,90,,,,15
+dlinear,A_on_D,direct,1,parâmetros treináveis,78,,,,24
+dlinear,A_on_D,direct,3,parâmetros treináveis,78,,,,20
+dlinear,A_on_D,direct,6,parâmetros treináveis,78,,,,24
+dlinear,A,path,path,parâmetros treináveis,1332,,,,16
+tcn,A,direct,1,parâmetros treináveis,2593,,,,9
+tcn,A,direct,3,parâmetros treináveis,2593,,,,5
+tcn,A,direct,6,parâmetros treináveis,9793,,,,7
+tcn,B,direct,1,parâmetros treináveis,9921,,,,8
+tcn,B,direct,3,parâmetros treináveis,9921,,,,6
+tcn,B,direct,6,parâmetros treináveis,2657,,,,7
+tcn,C,direct,1,parâmetros treináveis,2849,,,,20
+tcn,C,direct,3,parâmetros treináveis,2849,,,,9
+tcn,C,direct,6,parâmetros treináveis,10305,,,,3
+tcn,A,path,path,parâmetros treináveis,9958,,,,13
+nbeatsx,A,direct,1,parâmetros treináveis,40576,,,,8
+nbeatsx,A,direct,3,parâmetros treináveis,40576,,,,7
+nbeatsx,A,direct,6,parâmetros treináveis,40576,,,,4
+nbeatsx,B,direct,1,parâmetros treináveis,45184,,,,11
+nbeatsx,B,direct,3,parâmetros treináveis,45184,,,,3
+nbeatsx,B,direct,6,parâmetros treináveis,45184,,,,3
+nbeatsx,C,direct,1,parâmetros treináveis,59008,,,,5
+nbeatsx,C,direct,3,parâmetros treináveis,59008,,,,3
+nbeatsx,C,direct,6,parâmetros treináveis,59008,,,,3
+nbeatsx,A,path,path,parâmetros treináveis,40576,,,,7
+dlinear,B,path,path,parâmetros treináveis,1776,,,,11
+dlinear,C,path,path,parâmetros treináveis,452,,,,41
+dlinear,D,path,path,parâmetros treináveis,460,,,,37
+tcn,B,path,path,parâmetros treináveis,2742,,,,14
+tcn,C,path,path,parâmetros treináveis,2934,,,,8
+nbeatsx,B,path,path,parâmetros treináveis,45184,,,,3
+nbeatsx,C,path,path,parâmetros treináveis,59008,,,,4
+nhits,A,direct,1,parâmetros treináveis,31983,,,,10
+nhits,A,direct,3,parâmetros treináveis,31983,,,,4
+nhits,A,direct,6,parâmetros treináveis,31983,,,,4
+patchtst,A,direct,1,parâmetros treináveis,18145,,,,7
+patchtst,A,direct,3,parâmetros treináveis,18145,,,,3
+patchtst,A,direct,6,parâmetros treináveis,18145,,,,3

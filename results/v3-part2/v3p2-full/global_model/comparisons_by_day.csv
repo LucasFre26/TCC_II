@@ -1,0 +1,25 @@
+family,hypothesis,scope,horizon_steps,model_a,variant_a,model_b,variant_b,metric,day,n,loss_a,loss_b,mean_diff
+global_model,H2,primary,1,global_xgb,main,xgboost_v2,A,erro absoluto,3,288,3.1690747048152006,2.9633732930508034,0.20570141176439705
+global_model,H2,primary,1,global_xgb,main,xgboost_v2,A,erro absoluto,4,288,2.7649398972682024,3.0269818577160814,-0.2620419604478792
+global_model,H2,primary,1,global_xgb,main,xgboost_v2,A,erro absoluto,5,288,2.9670931154378346,2.7805915995672486,0.18650151587058605
+global_model,H2,primary,1,global_xgb,main,xgboost_v2,A,erro absoluto,6,288,3.0978500145637335,2.9823086407555013,0.11554137380823229
+global_model,H2,exploratory,1,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),3,288,2.866809417520522,2.9633732930508034,-0.096563875530282
+global_model,H2,exploratory,1,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),4,288,2.6059385703370994,3.0269818577160814,-0.4210432873789821
+global_model,H2,exploratory,1,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),5,288,2.761822228829253,2.7805915995672486,-0.0187693707379956
+global_model,H2,exploratory,1,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),6,288,3.1981322183025527,2.9823086407555013,0.2158235775470514
+global_model,H2,primary,3,global_xgb,main,xgboost_v2,A,erro absoluto,3,288,3.7629642408170585,3.6756807205600888,0.08728352025696993
+global_model,H2,primary,3,global_xgb,main,xgboost_v2,A,erro absoluto,4,288,3.4522361895315368,3.5773405391454784,-0.12510434961394143
+global_model,H2,primary,3,global_xgb,main,xgboost_v2,A,erro absoluto,5,288,3.4981253214614623,3.4821586236342337,0.015966697827228333
+global_model,H2,primary,3,global_xgb,main,xgboost_v2,A,erro absoluto,6,288,3.8531708214988916,3.850599558044946,0.0025712634539452666
+global_model,H2,exploratory,3,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),3,288,3.5282865398263223,3.6756807205600888,-0.14739418073376567
+global_model,H2,exploratory,3,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),4,288,3.6028058569276644,3.5773405391454784,0.0254653177821854
+global_model,H2,exploratory,3,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),5,288,3.5873068641969814,3.4821586236342337,0.1051482405627473
+global_model,H2,exploratory,3,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),6,288,3.9615069202099895,3.850599558044946,0.11090736216504335
+global_model,H2,primary,6,global_xgb,main,xgboost_v2,A,erro absoluto,3,288,3.8938859283603855,3.6802473032489664,0.21363862511141862
+global_model,H2,primary,6,global_xgb,main,xgboost_v2,A,erro absoluto,4,288,4.133542840993349,4.198245445335199,-0.06470260434184892
+global_model,H2,primary,6,global_xgb,main,xgboost_v2,A,erro absoluto,5,288,3.748109284011859,3.905610318399326,-0.1575010343874675
+global_model,H2,primary,6,global_xgb,main,xgboost_v2,A,erro absoluto,6,288,4.050486158069867,4.049457509356805,0.0010286487130615936
+global_model,H2,exploratory,6,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),3,288,3.946803814036866,3.6802473032489664,0.2665565107878997
+global_model,H2,exploratory,6,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),4,288,4.2442798219569005,4.198245445335199,0.04603437662170224
+global_model,H2,exploratory,6,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),5,288,3.8292662041372747,3.905610318399326,-0.07634411426205151
+global_model,H2,exploratory,6,global_tcn,window,xgboost_v2,A,erro absoluto (média das sementes),6,288,4.285159151281672,4.049457509356805,0.23570164192486576

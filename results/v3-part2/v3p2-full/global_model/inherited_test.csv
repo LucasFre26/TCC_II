@@ -1,0 +1,7 @@
+model_a,variant_a,model_b,variant_b,horizon_steps,mae_a,mae_b,role,inspection_number,note,mae_diff
+global_xgb,main,xgboost_v2,A,1,3.335036984048764,3.039698827550568,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.29533815649819584
+global_xgb,main,xgboost_v2,A,3,3.9407527327649015,3.8562230457684317,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.08452968699646979
+global_xgb,main,xgboost_v2,A,6,4.669179744459694,4.347210475707771,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.3219692687519222
+global_tcn,window,xgboost_v2,A,1,3.145266656597163,3.039698827550568,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.10556782904659512
+global_tcn,window,xgboost_v2,A,3,4.125841608736997,3.8562230457684317,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.26961856296856546
+global_tcn,window,xgboost_v2,A,6,4.533108853198566,4.347210475707771,inherited_test,4,"teste herdado da V3 (quarta inspeção); continuidade, não confirmação",0.18589837749079496

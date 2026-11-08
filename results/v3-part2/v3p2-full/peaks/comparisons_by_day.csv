@@ -1,0 +1,13 @@
+family,hypothesis,scope,horizon_steps,model_a,variant_a,model_b,variant_b,metric,day,n,loss_a,loss_b,mean_diff
+peaks,H4,primary,1,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,3,25,3.5723169771271914,3.661978384597895,-0.08966140747070313
+peaks,H4,primary,1,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,4,53,4.935550445835403,4.935550445835403,0.0
+peaks,H4,primary,1,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,5,21,3.5451953998872416,3.5451953998872416,0.0
+peaks,H4,primary,1,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,6,29,3.089487404499365,3.089487404499365,0.0
+peaks,H4,primary,3,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,3,25,5.508648153885003,6.645533835037347,-1.1368856811523438
+peaks,H4,primary,3,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,4,53,4.6648208050906375,5.362281051626604,-0.6974602465359669
+peaks,H4,primary,3,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,5,21,4.622156735568974,4.622156735568974,0.0
+peaks,H4,primary,3,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,6,29,3.231186176008996,3.231186176008996,0.0
+peaks,H4,primary,6,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,3,25,4.239379812820551,5.956232992752191,-1.7168531799316407
+peaks,H4,primary,6,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,4,53,6.314783464242685,6.783338554805038,-0.4685550905623526
+peaks,H4,primary,6,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,5,21,4.823313533432163,4.823313533432163,0.0
+peaks,H4,primary,6,xgboost_rise,candidate,xgboost_v2,A,erro (obs − prev) nos instantes de pico; negativo = menos subestimação,6,29,5.032057926413091,5.032057926413091,0.0
