@@ -86,7 +86,7 @@ O modo *smoke* da V3 Parte 2 usa dados sintéticos e uma família pequena, sem e
 Alibaba v2018:
 
 ```bash
-python -m energy_prediction.experiments.run_v3p2 --config config/v3p2-smoke.yaml
+python -m energy_prediction.experiments.run_v3p2 --config config/v3p2-smoke.yaml --family integrity
 ```
 
 ### Experimentos
@@ -119,9 +119,9 @@ de iniciar uma corrida.
 # Análise expandida da V3
 python -m energy_prediction.analysis.run --config config/v3-analysis.yaml
 
-# Relatório de uma execução já existente
-python -m energy_prediction.experiments.v3_report --run results/v3/<run_id>
-python -m energy_prediction.experiments.v3p2_report --run results/v3-part2/<run_id>
+# Relatório de uma execução já existente (substitua RUN_ID pelo identificador da corrida)
+python -m energy_prediction.experiments.v3_report --run results/v3/RUN_ID
+python -m energy_prediction.experiments.v3p2_report --run results/v3-part2/RUN_ID
 ```
 
 O relatório da análise expandida é gravado em
