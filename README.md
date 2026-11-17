@@ -1,4 +1,4 @@
-# TCC — predição de carga e estimativa de energia em datacenters
+# TCC — Previsão de Carga Computacional de Curto Prazo para Estimativada Demanda Energética de TI em Datacenters
 
 Implementação experimental do TCC **Predição Energética em Datacenters utilizando
 Inteligência Artificial: Uma Abordagem Baseada em Modelagem de Consumo**. O projeto
